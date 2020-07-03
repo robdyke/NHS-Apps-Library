@@ -1,0 +1,27 @@
+{
+  "name": "Untire",
+  "version": "3.3.0",
+  "securityscore": 10,
+  "avg_cvss": 6.3,
+  "trackers_found": 3,
+  "privacy_url": "https://www.untire.me/privacy",
+  "manifest_high": 8,
+  "manifest_medium": 2,
+  "code_good": 1,
+  "code_high": 7,
+  "code_info": 1,
+  "code_warning": 2,
+  "trackers": [
+    "Google AdMob",
+    "Google Firebase Analytics",
+    "OneSignal"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "NHS Apps Library",
+  "category": "Cancer"
+}

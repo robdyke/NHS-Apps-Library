@@ -1,0 +1,25 @@
+{
+  "name": "MyHouseOfMemories",
+  "version": "6.06",
+  "securityscore": 10,
+  "avg_cvss": 5.9,
+  "trackers_found": 2,
+  "privacy_url": "http://www.liverpoolmuseums.org.uk/about/corporate/policies/data-protection-policy.aspx",
+  "manifest_high": 3,
+  "manifest_medium": 1,
+  "code_high": 6,
+  "code_info": 1,
+  "code_warning": 2,
+  "trackers": [
+    "Google AdMob",
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": false,
+  "prominantTracking": true,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "NHS Apps Library",
+  "category": "Social Care"
+}

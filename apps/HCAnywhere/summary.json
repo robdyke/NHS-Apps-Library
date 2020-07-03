@@ -1,0 +1,19 @@
+{
+  "name": "HCAnywhere",
+  "version": "2.30",
+  "securityscore": 60,
+  "avg_cvss": 5.2,
+  "trackers_found": 0,
+  "privacy_url": "https://healthcareanywhere.co.uk/privacy-policy",
+  "code_high": 2,
+  "code_info": 1,
+  "code_warning": 1,
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": true,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

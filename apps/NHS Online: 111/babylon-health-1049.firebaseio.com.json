@@ -1,0 +1,1395 @@
+{
+  "jenkins": {
+    "apkSize": {
+      "ascensionDebug": -1,
+      "ascensionQa": -1,
+      "ascensionRelease": -1,
+      "babylonDebug": -1,
+      "babylonRelease": -1,
+      "einsteinDebug": -1,
+      "einsteinQa": -1,
+      "einsteinRelease": -1,
+      "ksaDebug": -1,
+      "ksaQa": -1,
+      "ksaRelease": -1,
+      "nhsDebug": -1,
+      "nhsQa": -1,
+      "nhsRelease": -1,
+      "telusDebug": -1,
+      "telusQa": -1,
+      "telusRelease": -1,
+      "usDebug": -1,
+      "usQa": -1,
+      "usRelease": -1
+    },
+    "jenkinsPrTestCount": {
+      "0": 4,
+      "10": 8956,
+      "11": 8956,
+      "12": 8956,
+      "13": 8956,
+      "14": 8956,
+      "15": 8956,
+      "16": 8956,
+      "17": 8956,
+      "18": 8956,
+      "19": 8956,
+      "20": 8956,
+      "21": 8956,
+      "22": 8956,
+      "23": 8956,
+      "24": 8956,
+      "25": 8956,
+      "26": 8956,
+      "27": 8956,
+      "28": 8956,
+      "29": 8956,
+      "3": 8956,
+      "30": 8956,
+      "31": 8956,
+      "32": 8956,
+      "34": 8667,
+      "4": 8956,
+      "5": 8956,
+      "6": 9811,
+      "7": 8956,
+      "8": 8956,
+      "9": 8956,
+      "firebase_work_around_for_map_do_not_remove": 0
+    }
+  },
+  "testing": {
+    "uiTestFlakiness": {
+      "accessGettingStartedFAQ": {
+        "successRate": 100,
+        "timesRun": 169,
+        "timesSuccessful": 169
+      },
+      "accountLockedInLogin": {
+        "successRate": 95,
+        "timesRun": 160,
+        "timesSuccessful": 152
+      },
+      "actionList": {
+        "successRate": 8.333333333333332,
+        "timesRun": 12,
+        "timesSuccessful": 1
+      },
+      "addAppointmentDetailsToPhoneCalendar": {
+        "successRate": 75.65217391304347,
+        "timesRun": 115,
+        "timesSuccessful": 87
+      },
+      "addAppointmentReminder": {
+        "successRate": 51.08695652173913,
+        "timesRun": 276,
+        "timesSuccessful": 141
+      },
+      "addChildPayAsYouGo": {
+        "successRate": 89.65517241379311,
+        "timesRun": 145,
+        "timesSuccessful": 130
+      },
+      "addChildUkp25Promotion": {
+        "successRate": 90.51094890510949,
+        "timesRun": 137,
+        "timesSuccessful": 124
+      },
+      "addEditAndDeleteAllergies": {
+        "successRate": 88.48920863309353,
+        "timesRun": 139,
+        "timesSuccessful": 123
+      },
+      "addEditAndDeleteMedications": {
+        "successRate": 84.32835820895522,
+        "timesRun": 134,
+        "timesSuccessful": 113
+      },
+      "addFamilyMemberHappyPath": {
+        "successRate": 99.6462055545728,
+        "timesRun": 5653,
+        "timesSuccessful": 5633
+      },
+      "addMedicationReminder": {
+        "successRate": 51.26353790613718,
+        "timesRun": 277,
+        "timesSuccessful": 142
+      },
+      "addMembership": {
+        "successRate": 91.7910447761194,
+        "timesRun": 134,
+        "timesSuccessful": 123
+      },
+      "addProgrammeHappyPath": {
+        "successRate": 91.49797570850203,
+        "timesRun": 247,
+        "timesSuccessful": 226
+      },
+      "addWaistCircumference": {
+        "successRate": 75.1131221719457,
+        "timesRun": 221,
+        "timesSuccessful": 166
+      },
+      "addWeight": {
+        "successRate": 69.01960784313725,
+        "timesRun": 255,
+        "timesSuccessful": 176
+      },
+      "adultBookAppointmentNVL": {
+        "successRate": 38.73873873873874,
+        "timesRun": 111,
+        "timesSuccessful": 43
+      },
+      "adultBookAppointmentNVLInAMonth": {
+        "successRate": 17.582417582417584,
+        "timesRun": 91,
+        "timesSuccessful": 16
+      },
+      "adultUserClinicalRecords": {
+        "successRate": 100,
+        "timesRun": 139,
+        "timesSuccessful": 139
+      },
+      "appliesMembershipType": {
+        "successRate": 99.73864750081673,
+        "timesRun": 6122,
+        "timesSuccessful": 6106
+      },
+      "applyInvalidPromotion": {
+        "successRate": 91.58878504672897,
+        "timesRun": 107,
+        "timesSuccessful": 98
+      },
+      "applyPromotion": {
+        "successRate": 86.08695652173914,
+        "timesRun": 115,
+        "timesSuccessful": 99
+      },
+      "appointmentDetailsCancelAppointment": {
+        "successRate": 72.22222222222221,
+        "timesRun": 144,
+        "timesSuccessful": 104
+      },
+      "appointmentDetailsConsultationNotes": {
+        "successRate": 60.13986013986013,
+        "timesRun": 143,
+        "timesSuccessful": 86
+      },
+      "appointmentDetailsPatientNotes": {
+        "successRate": 86.66666666666667,
+        "timesRun": 135,
+        "timesSuccessful": 117
+      },
+      "appointmentDetailsPrescription": {
+        "successRate": 99.14584395716471,
+        "timesRun": 7844,
+        "timesSuccessful": 7777
+      },
+      "appointmentDetailsReferrals": {
+        "successRate": 69.6969696969697,
+        "timesRun": 132,
+        "timesSuccessful": 92
+      },
+      "assessmentExistingChild": {
+        "successRate": 54.123711340206185,
+        "timesRun": 194,
+        "timesSuccessful": 105
+      },
+      "assessmentNewChild": {
+        "successRate": 53.84615384615385,
+        "timesRun": 195,
+        "timesSuccessful": 105
+      },
+      "assessmentPaediatricChestFlow": {
+        "successRate": 53.84615384615385,
+        "timesRun": 195,
+        "timesSuccessful": 105
+      },
+      "attemptToLoginWithEmptyEmail": {
+        "successRate": 100,
+        "timesRun": 151,
+        "timesSuccessful": 151
+      },
+      "attemptToLoginWithEmptyFields": {
+        "successRate": 100,
+        "timesRun": 151,
+        "timesSuccessful": 151
+      },
+      "attemptToLoginWithEmptyPassword": {
+        "successRate": 100,
+        "timesRun": 151,
+        "timesSuccessful": 151
+      },
+      "attemptToLoginWithInvalidEmailUnitedKingdom": {
+        "successRate": 100,
+        "timesRun": 152,
+        "timesSuccessful": 152
+      },
+      "attemptToLoginWithInvalidPasswordUnitedKingdom": {
+        "successRate": 100,
+        "timesRun": 154,
+        "timesSuccessful": 154
+      },
+      "babylonCnVisibleForNhsUser": {
+        "successRate": 98.59154929577466,
+        "timesRun": 71,
+        "timesSuccessful": 70
+      },
+      "billingHistory": {
+        "successRate": 100,
+        "timesRun": 105,
+        "timesSuccessful": 105
+      },
+      "bookAppointmentFromRegistrationHappyPath": {
+        "successRate": 94.5514584479912,
+        "timesRun": 5451,
+        "timesSuccessful": 5154
+      },
+      "bookNewAppointmentHubButton": {
+        "successRate": 91.22807017543859,
+        "timesRun": 171,
+        "timesSuccessful": 156
+      },
+      "bothPharmacyTypesAreDisplayed": {
+        "successRate": 97.2972972972973,
+        "timesRun": 74,
+        "timesSuccessful": 72
+      },
+      "bridgeScreenCompareLink": {
+        "successRate": 89.937106918239,
+        "timesRun": 159,
+        "timesSuccessful": 143
+      },
+      "bupaUserShowDiagnosticTestUnderReferralSection": {
+        "successRate": 0,
+        "timesRun": 1,
+        "timesSuccessful": 0
+      },
+      "bupaUserWithMultipleReferralsCanDownloadReferralLetter": {
+        "successRate": 100,
+        "timesRun": 2,
+        "timesSuccessful": 2
+      },
+      "bupaUserWithReferralCanDownloadReferralLetter": {
+        "successRate": 100,
+        "timesRun": 1,
+        "timesSuccessful": 1
+      },
+      "bupaUserWithoutReferral": {
+        "successRate": 100,
+        "timesRun": 11,
+        "timesSuccessful": 11
+      },
+      "callCustomerService": {
+        "successRate": 86.75496688741721,
+        "timesRun": 151,
+        "timesSuccessful": 131
+      },
+      "canSubmitMoodAfterSelectingOneFromWheel": {
+        "successRate": 99.60474308300395,
+        "timesRun": 253,
+        "timesSuccessful": 252
+      },
+      "canSubmitMoodAfterSelectingOneFromWheelAndSelectingATrigger": {
+        "successRate": 100,
+        "timesRun": 252,
+        "timesSuccessful": 252
+      },
+      "cancelAppointmentFromBookAppointmentFlowNVL": {
+        "successRate": 21.49532710280374,
+        "timesRun": 107,
+        "timesSuccessful": 23
+      },
+      "childBookGpPayAsYouGoNVL": {
+        "successRate": 32.142857142857146,
+        "timesRun": 112,
+        "timesSuccessful": 36
+      },
+      "childDowngradeMembership": {
+        "successRate": 80.98591549295774,
+        "timesRun": 142,
+        "timesSuccessful": 115
+      },
+      "chooseClinicFromListOfClinics": {
+        "successRate": 68.14159292035397,
+        "timesRun": 113,
+        "timesSuccessful": 77
+      },
+      "chooseDateAndTimeFromListOfAvailableDatesAndTimes": {
+        "successRate": 62.28070175438597,
+        "timesRun": 114,
+        "timesSuccessful": 71
+      },
+      "clickOnAppointmentOpensAppointmentPage": {
+        "successRate": 100,
+        "timesRun": 250,
+        "timesSuccessful": 250
+      },
+      "clickOnSamaritanOpensPhoneDial": {
+        "successRate": 43.65079365079365,
+        "timesRun": 252,
+        "timesSuccessful": 110
+      },
+      "clickOnUrgentHelpDisplayDialog": {
+        "successRate": 100,
+        "timesRun": 253,
+        "timesSuccessful": 253
+      },
+      "clinicalRecordsAreAccessibleFromProfileScreen": {
+        "successRate": 99.77371908841118,
+        "timesRun": 6187,
+        "timesSuccessful": 6173
+      },
+      "clinicalRecordsChatHistoryNewChat": {
+        "successRate": 79.03225806451613,
+        "timesRun": 124,
+        "timesSuccessful": 98
+      },
+      "clinicalRecordsChatHistoryPreview": {
+        "successRate": 91.7910447761194,
+        "timesRun": 134,
+        "timesSuccessful": 123
+      },
+      "clinicalRecordsGpDetails": {
+        "successRate": 76.92307692307693,
+        "timesRun": 130,
+        "timesSuccessful": 100
+      },
+      "clinicalRecordsSendingNotesToGp": {
+        "successRate": 78.35820895522389,
+        "timesRun": 134,
+        "timesSuccessful": 105
+      },
+      "clinicalRecordsUpdateAndVerifyPersonalDetails": {
+        "successRate": 99.70456005138087,
+        "timesRun": 7785,
+        "timesSuccessful": 7762
+      },
+      "collectPharmacyDisplaysMap": {
+        "successRate": 96.36363636363636,
+        "timesRun": 55,
+        "timesSuccessful": 53
+      },
+      "collectionPharmacyForReorderWithPreviousPharmacy": {
+        "successRate": 0,
+        "timesRun": 122,
+        "timesSuccessful": 0
+      },
+      "completeMiniFlow": {
+        "successRate": 84.67153284671532,
+        "timesRun": 137,
+        "timesSuccessful": 116
+      },
+      "completeOnboardingForMoodLeadsToAddMoodScreen": {
+        "successRate": 92.99610894941634,
+        "timesRun": 257,
+        "timesSuccessful": 239
+      },
+      "conditionDashboardWellnessCoachingDisplayed": {
+        "successRate": 100,
+        "timesRun": 233,
+        "timesSuccessful": 233
+      },
+      "consultationComplete": {
+        "successRate": 98.96496815286623,
+        "timesRun": 7536,
+        "timesSuccessful": 7458
+      },
+      "consultationRatingAudioQualityIssueFeedback": {
+        "successRate": 59.541984732824424,
+        "timesRun": 131,
+        "timesSuccessful": 78
+      },
+      "consultationRatingCompleteFeedback": {
+        "successRate": 61.5819209039548,
+        "timesRun": 177,
+        "timesSuccessful": 109
+      },
+      "consultationRatingFirstQuestionFiveStarsAudioQualityIssuesFeedback": {
+        "successRate": 52.352941176470594,
+        "timesRun": 170,
+        "timesSuccessful": 89
+      },
+      "consultationRatingFirstQuestionFiveStarsQualityIssuesFeedback": {
+        "successRate": 64.49704142011834,
+        "timesRun": 169,
+        "timesSuccessful": 109
+      },
+      "consultationRatingFirstQuestionFiveStarsVideoQualityIssuesFeedback": {
+        "successRate": 50.588235294117645,
+        "timesRun": 170,
+        "timesSuccessful": 86
+      },
+      "consultationRatingQualityIssueFeedback": {
+        "successRate": 58.82352941176471,
+        "timesRun": 170,
+        "timesSuccessful": 100
+      },
+      "consultationRatingVideoQualityIssueFeedback": {
+        "successRate": 46.74556213017752,
+        "timesRun": 169,
+        "timesSuccessful": 79
+      },
+      "containerEmptyStateAppointmentHub": {
+        "successRate": 96.35416666666666,
+        "timesRun": 192,
+        "timesSuccessful": 185
+      },
+      "defaultClinicalRecordsScreen": {
+        "successRate": 88.96103896103897,
+        "timesRun": 154,
+        "timesSuccessful": 137
+      },
+      "defaultProfileScreen": {
+        "successRate": 99.29257875066739,
+        "timesRun": 7492,
+        "timesSuccessful": 7439
+      },
+      "deleteMedicationReminder": {
+        "successRate": 50.36231884057971,
+        "timesRun": 276,
+        "timesSuccessful": 139
+      },
+      "dermatologyFlowMultipleAnswers": {
+        "successRate": 78.3132530120482,
+        "timesRun": 83,
+        "timesSuccessful": 65
+      },
+      "digitalTwinTooltips": {
+        "successRate": 54.71698113207547,
+        "timesRun": 53,
+        "timesSuccessful": 29
+      },
+      "discardDialogPositiveButtonClosesScreen": {
+        "successRate": 92.46031746031747,
+        "timesRun": 252,
+        "timesSuccessful": 233
+      },
+      "discardDialogShownAfterSelectingOneMood": {
+        "successRate": 92.43027888446214,
+        "timesRun": 251,
+        "timesSuccessful": 232
+      },
+      "dismissCardFunctionality": {
+        "successRate": 0,
+        "timesRun": 9,
+        "timesSuccessful": 0
+      },
+      "displayPassword": {
+        "successRate": 100,
+        "timesRun": 158,
+        "timesSuccessful": 158
+      },
+      "downgradeMembership": {
+        "successRate": 84.67741935483872,
+        "timesRun": 124,
+        "timesSuccessful": 105
+      },
+      "dragOnWheelSelectAMood": {
+        "successRate": 100,
+        "timesRun": 252,
+        "timesSuccessful": 252
+      },
+      "earlyExitForPregnancy": {
+        "successRate": 100,
+        "timesRun": 4,
+        "timesSuccessful": 4
+      },
+      "editAReminder": {
+        "successRate": 39.721254355400696,
+        "timesRun": 287,
+        "timesSuccessful": 114
+      },
+      "editMedicalHistory": {
+        "successRate": 87.5,
+        "timesRun": 120,
+        "timesSuccessful": 105
+      },
+      "existingUserLoginUnitedKingdom": {
+        "successRate": 95.48387096774194,
+        "timesRun": 155,
+        "timesSuccessful": 148
+      },
+      "existingUserLoginUnitedStates": {
+        "successRate": 99.73149857358618,
+        "timesRun": 5959,
+        "timesSuccessful": 5943
+      },
+      "existingUserLoginWithInvalidPasswordIreland": {
+        "successRate": 100,
+        "timesRun": 154,
+        "timesSuccessful": 154
+      },
+      "familyAddEditAllergies": {
+        "successRate": 91.33333333333333,
+        "timesRun": 150,
+        "timesSuccessful": 137
+      },
+      "familyAddEditMedicalHistory": {
+        "successRate": 91.3907284768212,
+        "timesRun": 151,
+        "timesSuccessful": 138
+      },
+      "familyAddEditMedication": {
+        "successRate": 88.46153846153845,
+        "timesRun": 156,
+        "timesSuccessful": 138
+      },
+      "familyAddMembership": {
+        "successRate": 83.21167883211679,
+        "timesRun": 137,
+        "timesSuccessful": 114
+      },
+      "familyUpdateAndVerifyPersonalDetails": {
+        "successRate": 90.66666666666666,
+        "timesRun": 150,
+        "timesSuccessful": 136
+      },
+      "familyVerifyGpDetails": {
+        "successRate": 76.31578947368422,
+        "timesRun": 152,
+        "timesSuccessful": 116
+      },
+      "faqFromAppointmentHub": {
+        "successRate": 100,
+        "timesRun": 146,
+        "timesSuccessful": 146
+      },
+      "faqLinkCheckOnAllScreens": {
+        "successRate": 98.47328244274809,
+        "timesRun": 131,
+        "timesSuccessful": 129
+      },
+      "fieldValidationGpAtHand": {
+        "successRate": 3.592814371257485,
+        "timesRun": 167,
+        "timesSuccessful": 6
+      },
+      "findNearestHospital": {
+        "successRate": 83.47107438016529,
+        "timesRun": 121,
+        "timesSuccessful": 101
+      },
+      "firstAccess": {
+        "successRate": 86.27450980392157,
+        "timesRun": 255,
+        "timesSuccessful": 220
+      },
+      "firstTimeUserSeeInfoRequiredScreen": {
+        "successRate": 0,
+        "timesRun": 29,
+        "timesSuccessful": 0
+      },
+      "firstTimeUserSeeInfoRequiredScreenDashnoard": {
+        "successRate": 0,
+        "timesRun": 32,
+        "timesSuccessful": 0
+      },
+      "firstTimeUserSeeInfoRequiredScreenFromHomeScreen": {
+        "successRate": 0,
+        "timesRun": 29,
+        "timesSuccessful": 0
+      },
+      "followUpStateWithGP": {
+        "successRate": 96.82539682539682,
+        "timesRun": 126,
+        "timesSuccessful": 122
+      },
+      "goToOverview": {
+        "successRate": 100,
+        "timesRun": 56,
+        "timesSuccessful": 56
+      },
+      "goalCardIsAvailableWhenFourteenDaysOfConsecutiveDashboardActivity": {
+        "successRate": 21.224489795918366,
+        "timesRun": 245,
+        "timesSuccessful": 52
+      },
+      "goalCardNotAvailableWhenNoDashboardActivity": {
+        "successRate": 100,
+        "timesRun": 227,
+        "timesSuccessful": 227
+      },
+      "goalCardNotAvailableWhenThirteenDaysOfConsecutiveDashboardActivity": {
+        "successRate": 100,
+        "timesRun": 248,
+        "timesSuccessful": 248
+      },
+      "gpAndPharmacist": {
+        "successRate": 15.09433962264151,
+        "timesRun": 53,
+        "timesSuccessful": 8
+      },
+      "gpAtHandRegistration": {
+        "successRate": 33.14285714285714,
+        "timesRun": 175,
+        "timesSuccessful": 58
+      },
+      "gpahApplication": {
+        "successRate": 99.761620977354,
+        "timesRun": 7551,
+        "timesSuccessful": 7533
+      },
+      "gpahDiscover": {
+        "successRate": 98.59345415201514,
+        "timesRun": 7394,
+        "timesSuccessful": 7290
+      },
+      "healthPlanArticlesDiabetes": {
+        "successRate": 98.88475836431226,
+        "timesRun": 269,
+        "timesSuccessful": 266
+      },
+      "healthPlanFoodSwapsDiabetes": {
+        "successRate": 98.9090909090909,
+        "timesRun": 275,
+        "timesSuccessful": 272
+      },
+      "healthPlanGuidanceDiabetes": {
+        "successRate": 94.44444444444444,
+        "timesRun": 270,
+        "timesSuccessful": 255
+      },
+      "healthPlanMetricsEmptyDiabetes": {
+        "successRate": 100,
+        "timesRun": 267,
+        "timesSuccessful": 267
+      },
+      "homeScreenLoadHub": {
+        "successRate": 98.47858000800748,
+        "timesRun": 7493,
+        "timesSuccessful": 7379
+      },
+      "initialFlows": {
+        "successRate": 86.86131386861314,
+        "timesRun": 137,
+        "timesSuccessful": 119
+      },
+      "insuranceDetails": {
+        "successRate": 94.6969696969697,
+        "timesRun": 132,
+        "timesSuccessful": 125
+      },
+      "interactWithPastAppointmentsFromAppointmentHub": {
+        "successRate": 99.38650306748467,
+        "timesRun": 163,
+        "timesSuccessful": 162
+      },
+      "invalidPostcode": {
+        "successRate": 95.95375722543352,
+        "timesRun": 173,
+        "timesSuccessful": 166
+      },
+      "invalidRegistration": {
+        "successRate": 60,
+        "timesRun": 150,
+        "timesSuccessful": 90
+      },
+      "inviteFriends": {
+        "successRate": 87.26114649681529,
+        "timesRun": 157,
+        "timesSuccessful": 137
+      },
+      "leaveInAppFeedbackDiabetes": {
+        "successRate": 100,
+        "timesRun": 268,
+        "timesSuccessful": 268
+      },
+      "loginAsExistingNhsUser": {
+        "successRate": 88.77551020408163,
+        "timesRun": 98,
+        "timesSuccessful": 87
+      },
+      "loginForceUpdate": {
+        "successRate": 100,
+        "timesRun": 7,
+        "timesSuccessful": 7
+      },
+      "mandatoryCheckBoxRegistration": {
+        "successRate": 96.06299212598425,
+        "timesRun": 127,
+        "timesSuccessful": 122
+      },
+      "markAsCollectedCollectionPharmacyJourney": {
+        "successRate": 90,
+        "timesRun": 30,
+        "timesSuccessful": 27
+      },
+      "markAsCollectedNoPharmacy": {
+        "successRate": 97.22222222222221,
+        "timesRun": 72,
+        "timesSuccessful": 70
+      },
+      "markAsDeliveredDeliveryPharmacyJourney": {
+        "successRate": 91.66666666666666,
+        "timesRun": 24,
+        "timesSuccessful": 22
+      },
+      "membershipCodePrivacyFlow": {
+        "successRate": 94.35483870967742,
+        "timesRun": 124,
+        "timesSuccessful": 117
+      },
+      "membershipValidationWithInvalidDob": {
+        "successRate": 87.4074074074074,
+        "timesRun": 135,
+        "timesSuccessful": 118
+      },
+      "membershipValidationWithValidDob": {
+        "successRate": 74.82014388489209,
+        "timesRun": 139,
+        "timesSuccessful": 104
+      },
+      "monitorDashboardStepsForWeek": {
+        "successRate": 99.20318725099602,
+        "timesRun": 251,
+        "timesSuccessful": 249
+      },
+      "monitorDetailsBarTouchLabels": {
+        "successRate": 0,
+        "timesRun": 227,
+        "timesSuccessful": 0
+      },
+      "monitorDetailsStepsForWeek": {
+        "successRate": 16.867469879518072,
+        "timesRun": 249,
+        "timesSuccessful": 42
+      },
+      "monitorDeviceSyncNavigation": {
+        "successRate": 92.15686274509804,
+        "timesRun": 255,
+        "timesSuccessful": 235
+      },
+      "monitorMoodCardClickLeadsToOnboarding": {
+        "successRate": 99.57805907172997,
+        "timesRun": 237,
+        "timesSuccessful": 236
+      },
+      "monitorMoodCardClickLeadsToOnboardingButNotTwice": {
+        "successRate": 93.65079365079364,
+        "timesRun": 252,
+        "timesSuccessful": 236
+      },
+      "monitorMoodCardIsDisplayed": {
+        "successRate": 100,
+        "timesRun": 254,
+        "timesSuccessful": 254
+      },
+      "monitorMoodTrendsCardIsDisplayed": {
+        "successRate": 100,
+        "timesRun": 252,
+        "timesSuccessful": 252
+      },
+      "monthlySubscription": {
+        "successRate": 89.68253968253968,
+        "timesRun": 126,
+        "timesSuccessful": 113
+      },
+      "newBookAppointmentFromRegistrationHappyPath": {
+        "successRate": 82.97872340425532,
+        "timesRun": 141,
+        "timesSuccessful": 117
+      },
+      "newIntroScreens": {
+        "successRate": 99.94697773064686,
+        "timesRun": 7544,
+        "timesSuccessful": 7540
+      },
+      "newUserShouldSeeEmptyPrescriptionList": {
+        "successRate": 98.50746268656717,
+        "timesRun": 134,
+        "timesSuccessful": 132
+      },
+      "nextButtonIsDisplayed": {
+        "successRate": 95.16129032258065,
+        "timesRun": 62,
+        "timesSuccessful": 59
+      },
+      "nhsUserCanNotEditFirstNameLastNameAndDOB": {
+        "successRate": 97.27272727272728,
+        "timesRun": 110,
+        "timesSuccessful": 107
+      },
+      "nhsUserCompleteBabylonPrescription": {
+        "successRate": 88.95027624309392,
+        "timesRun": 181,
+        "timesSuccessful": 161
+      },
+      "noDiscardDialogWithoutAddingAtLeastMood": {
+        "successRate": 92.5,
+        "timesRun": 240,
+        "timesSuccessful": 222
+      },
+      "noMenuWhenNoAppointmentFeature": {
+        "successRate": 100,
+        "timesRun": 104,
+        "timesSuccessful": 104
+      },
+      "onboardingAnimation": {
+        "successRate": 93.63636363636364,
+        "timesRun": 110,
+        "timesSuccessful": 103
+      },
+      "onboardingCarouselNotDisplayed": {
+        "successRate": 100,
+        "timesRun": 140,
+        "timesSuccessful": 140
+      },
+      "onboardingHasCorrectStructure": {
+        "successRate": 99.96829925503249,
+        "timesRun": 6309,
+        "timesSuccessful": 6307
+      },
+      "openAppointmentConfirmationAfterSelectingTimeSlot": {
+        "successRate": 67.24137931034483,
+        "timesRun": 116,
+        "timesSuccessful": 78
+      },
+      "openAppointmentConfirmedAfterConfirmingAppointment": {
+        "successRate": 99.52741020793951,
+        "timesRun": 6348,
+        "timesSuccessful": 6318
+      },
+      "openAppointmentDetailsFromClinicalRecords": {
+        "successRate": 99.60790464240903,
+        "timesRun": 6376,
+        "timesSuccessful": 6351
+      },
+      "openAppointmentDetailsFromHomeCard": {
+        "successRate": 76.66666666666667,
+        "timesRun": 120,
+        "timesSuccessful": 92
+      },
+      "openFaceToFaceInviteAndBookFromHomeCard": {
+        "successRate": 99.63578780680919,
+        "timesRun": 6315,
+        "timesSuccessful": 6292
+      },
+      "openFaqWhenMemberTapsTheHelpButton": {
+        "successRate": 68.10344827586206,
+        "timesRun": 116,
+        "timesSuccessful": 79
+      },
+      "openPasswordVerificationBeforeStartingFaceToFaceFlow": {
+        "successRate": 67.82608695652173,
+        "timesRun": 115,
+        "timesSuccessful": 78
+      },
+      "orderReviewEmptyOrderReviewScreen": {
+        "successRate": 93.75,
+        "timesRun": 96,
+        "timesSuccessful": 90
+      },
+      "orderReviewScreenIsLaunchedWithNoPharmacy": {
+        "successRate": 0,
+        "timesRun": 24,
+        "timesSuccessful": 0
+      },
+      "orderReviewScreenIsLaunchedWithPharmacy": {
+        "successRate": 100,
+        "timesRun": 28,
+        "timesSuccessful": 28
+      },
+      "pastAppointmentsFromAppointmentHub": {
+        "successRate": 100,
+        "timesRun": 31,
+        "timesSuccessful": 31
+      },
+      "patientSelector": {
+        "successRate": 97.84172661870504,
+        "timesRun": 139,
+        "timesSuccessful": 136
+      },
+      "paymentDetail": {
+        "successRate": 92.53731343283582,
+        "timesRun": 134,
+        "timesSuccessful": 124
+      },
+      "pharmacyDisabled": {
+        "successRate": 98.91304347826086,
+        "timesRun": 92,
+        "timesSuccessful": 91
+      },
+      "phoneEmergencyService": {
+        "successRate": 57.77777777777777,
+        "timesRun": 180,
+        "timesSuccessful": 104
+      },
+      "prescriptionFromAppointmentHub": {
+        "successRate": 100,
+        "timesRun": 143,
+        "timesSuccessful": 143
+      },
+      "prescriptionNotificationsAndCollectPharmacy": {
+        "successRate": 88.31168831168831,
+        "timesRun": 154,
+        "timesSuccessful": 136
+      },
+      "prescriptionReady": {
+        "successRate": 85.14285714285714,
+        "timesRun": 175,
+        "timesSuccessful": 149
+      },
+      "preventDeleteCardInSubscription": {
+        "successRate": 84.02777777777779,
+        "timesRun": 144,
+        "timesSuccessful": 121
+      },
+      "previousAppointmentStateIcons": {
+        "successRate": 99.32432432432432,
+        "timesRun": 148,
+        "timesSuccessful": 147
+      },
+      "previousPastAppointmentsFromAppointmentHub": {
+        "successRate": 100,
+        "timesRun": 143,
+        "timesSuccessful": 143
+      },
+      "privateReferralAndTestReferral": {
+        "successRate": 100,
+        "timesRun": 9,
+        "timesSuccessful": 9
+      },
+      "privateReferralMultiple": {
+        "successRate": 90.9090909090909,
+        "timesRun": 11,
+        "timesSuccessful": 10
+      },
+      "privateReferralSingle": {
+        "successRate": 100,
+        "timesRun": 4,
+        "timesSuccessful": 4
+      },
+      "profileFaqRegulatoryTermsAndConditions": {
+        "successRate": 96.34146341463415,
+        "timesRun": 164,
+        "timesSuccessful": 158
+      },
+      "profileScreenHasCorrectItems": {
+        "successRate": 99.66210780370074,
+        "timesRun": 6215,
+        "timesSuccessful": 6194
+      },
+      "purchaseTestAndKit": {
+        "successRate": 0,
+        "timesRun": 29,
+        "timesSuccessful": 0
+      },
+      "queuedUser": {
+        "successRate": 11.594202898550725,
+        "timesRun": 69,
+        "timesSuccessful": 8
+      },
+      "queuedUserBookChildAppointment": {
+        "successRate": 6.299212598425196,
+        "timesRun": 127,
+        "timesSuccessful": 8
+      },
+      "queuedUserBookChildSpecialistAppointment": {
+        "successRate": 4.545454545454546,
+        "timesRun": 176,
+        "timesSuccessful": 8
+      },
+      "reenterCompleteFlow": {
+        "successRate": 64,
+        "timesRun": 175,
+        "timesSuccessful": 112
+      },
+      "reenterIncompleteFlow": {
+        "successRate": 52.54237288135594,
+        "timesRun": 177,
+        "timesSuccessful": 93
+      },
+      "referFriendAndGpDetails": {
+        "successRate": 100,
+        "timesRun": 187,
+        "timesSuccessful": 187
+      },
+      "referralFromAppointmentHub": {
+        "successRate": 100,
+        "timesRun": 145,
+        "timesSuccessful": 145
+      },
+      "regionsPicker": {
+        "successRate": 94.23076923076923,
+        "timesRun": 156,
+        "timesSuccessful": 147
+      },
+      "registerDTCUser": {
+        "successRate": 99.83539094650206,
+        "timesRun": 6075,
+        "timesSuccessful": 6065
+      },
+      "registerUSWithMembershipCodes": {
+        "successRate": 99.72002635046113,
+        "timesRun": 6072,
+        "timesSuccessful": 6055
+      },
+      "registerWithEmailRegisteredViaFacebook": {
+        "successRate": 100,
+        "timesRun": 123,
+        "timesSuccessful": 123
+      },
+      "registerWithMembershipCodeAndCheckAppointmentTab": {
+        "successRate": 0,
+        "timesRun": 87,
+        "timesSuccessful": 0
+      },
+      "registerWithMembershipCodes": {
+        "successRate": 85.8974358974359,
+        "timesRun": 156,
+        "timesSuccessful": 134
+      },
+      "registerWithMembershipValidationCodes": {
+        "successRate": 83.1081081081081,
+        "timesRun": 148,
+        "timesSuccessful": 123
+      },
+      "registerWithMembershipValidationInValidDob": {
+        "successRate": 92.41379310344827,
+        "timesRun": 145,
+        "timesSuccessful": 134
+      },
+      "registerWithPromoCodes": {
+        "successRate": 93.95973154362416,
+        "timesRun": 149,
+        "timesSuccessful": 140
+      },
+      "registerWithPromoValidationCodes": {
+        "successRate": 90.47619047619048,
+        "timesRun": 147,
+        "timesSuccessful": 133
+      },
+      "registerWithValidPostcode": {
+        "successRate": 99.5315862767439,
+        "timesRun": 7899,
+        "timesSuccessful": 7862
+      },
+      "registerWithValidZipCode": {
+        "successRate": 0,
+        "timesRun": 606,
+        "timesSuccessful": 599
+      },
+      "registerWithoutCodes": {
+        "successRate": 97.33333333333334,
+        "timesRun": 150,
+        "timesSuccessful": 146
+      },
+      "registrationViaBridgeScreen": {
+        "successRate": 99.33774834437085,
+        "timesRun": 151,
+        "timesSuccessful": 150
+      },
+      "registrationWithInvalidPromo": {
+        "successRate": 95.51282051282051,
+        "timesRun": 156,
+        "timesSuccessful": 149
+      },
+      "registrationWithSubscription": {
+        "successRate": 96.73202614379085,
+        "timesRun": 153,
+        "timesSuccessful": 148
+      },
+      "reminderSetupMedication": {
+        "successRate": 51.07913669064749,
+        "timesRun": 278,
+        "timesSuccessful": 142
+      },
+      "removeProgrammeHappyPath": {
+        "successRate": 92.56198347107438,
+        "timesRun": 242,
+        "timesSuccessful": 224
+      },
+      "reorderNowStateUseDeliveryPharmacyForReorderWithPreviousPharmacy": {
+        "successRate": 93.13725490196079,
+        "timesRun": 102,
+        "timesSuccessful": 95
+      },
+      "reorderSoonStateUseCollectionPharmacyForReorderWithPreviousPharmacy": {
+        "successRate": 56.00000000000001,
+        "timesRun": 125,
+        "timesSuccessful": 70
+      },
+      "repeatPrescriptionVisible": {
+        "successRate": 60,
+        "timesRun": 70,
+        "timesSuccessful": 42
+      },
+      "repeatPrescriptionsHiddenBehindAdditionalAuth": {
+        "successRate": 95.83333333333334,
+        "timesRun": 72,
+        "timesSuccessful": 69
+      },
+      "reportIssue": {
+        "successRate": 87.5,
+        "timesRun": 144,
+        "timesSuccessful": 126
+      },
+      "resetInvalidEmail": {
+        "successRate": 100,
+        "timesRun": 128,
+        "timesSuccessful": 128
+      },
+      "resetPassword": {
+        "successRate": 99.92008949976027,
+        "timesRun": 6257,
+        "timesSuccessful": 6252
+      },
+      "resetValidEmail": {
+        "successRate": 99.16666666666667,
+        "timesRun": 120,
+        "timesSuccessful": 119
+      },
+      "resetValidEmailPrePopulated": {
+        "successRate": 99.00990099009901,
+        "timesRun": 101,
+        "timesSuccessful": 100
+      },
+      "returnToBodyMeasures": {
+        "successRate": 85.16949152542372,
+        "timesRun": 236,
+        "timesSuccessful": 201
+      },
+      "securityCheck": {
+        "successRate": 94.4055944055944,
+        "timesRun": 143,
+        "timesSuccessful": 135
+      },
+      "seeCategoriesWhenOpeningFoodSwaps": {
+        "successRate": 68.43971631205675,
+        "timesRun": 282,
+        "timesSuccessful": 193
+      },
+      "seeMoodDetailsWhenClickingOnAMoodFromHistoryList": {
+        "successRate": 66.49746192893402,
+        "timesRun": 197,
+        "timesSuccessful": 131
+      },
+      "seeMoodHistoryAfterSubmittingAMood": {
+        "successRate": 71.23893805309734,
+        "timesRun": 226,
+        "timesSuccessful": 161
+      },
+      "seeMoodHistoryLoadingAfterSubmittingAMood": {
+        "successRate": 74.10358565737052,
+        "timesRun": 251,
+        "timesSuccessful": 186
+      },
+      "selectAndDeselectPastMoodsInTheMoodHistoryWheel": {
+        "successRate": 73.4126984126984,
+        "timesRun": 252,
+        "timesSuccessful": 185
+      },
+      "selectPastMoodInMoodHistoryWheel": {
+        "successRate": 74.03100775193798,
+        "timesRun": 258,
+        "timesSuccessful": 191
+      },
+      "selectedProfilePictureImageIsDisplayed": {
+        "successRate": 84.21052631578947,
+        "timesRun": 133,
+        "timesSuccessful": 112
+      },
+      "setBmi": {
+        "successRate": 75.91836734693878,
+        "timesRun": 245,
+        "timesSuccessful": 186
+      },
+      "setHbA1c": {
+        "successRate": 70.6896551724138,
+        "timesRun": 232,
+        "timesSuccessful": 164
+      },
+      "setWaistCircumference": {
+        "successRate": 0,
+        "timesRun": 24,
+        "timesSuccessful": 0
+      },
+      "shareOverviewAvailable": {
+        "successRate": 100,
+        "timesRun": 57,
+        "timesSuccessful": 57
+      },
+      "showCancelDialogBoxAndCancelAppointment": {
+        "successRate": 100,
+        "timesRun": 119,
+        "timesSuccessful": 119
+      },
+      "showChaperoneInfoInConfirmAppointmentIfChaperoneIsRequired": {
+        "successRate": 68.42105263157895,
+        "timesRun": 114,
+        "timesSuccessful": 78
+      },
+      "showDiseaseRiskAndValidate": {
+        "successRate": 40.909090909090914,
+        "timesRun": 22,
+        "timesSuccessful": 9
+      },
+      "showDiseaseRisks": {
+        "successRate": 100,
+        "timesRun": 52,
+        "timesSuccessful": 52
+      },
+      "showErrorWhenTimeSlotIsNoLongerAvailable": {
+        "successRate": 67.54385964912281,
+        "timesRun": 114,
+        "timesSuccessful": 77
+      },
+      "showGenericErrorWhenConfirmAppointmentFails": {
+        "successRate": 67.24137931034483,
+        "timesRun": 116,
+        "timesSuccessful": 78
+      },
+      "showNutritionWhatIf": {
+        "successRate": 84.31372549019608,
+        "timesRun": 51,
+        "timesSuccessful": 43
+      },
+      "showRepeatPrescriptionsWhenChangeMembershipType": {
+        "successRate": 91.6030534351145,
+        "timesRun": 131,
+        "timesSuccessful": 120
+      },
+      "signUpForceUpdate": {
+        "successRate": 100,
+        "timesRun": 7,
+        "timesSuccessful": 7
+      },
+      "someoneElseAdultMultipleAnswers": {
+        "successRate": 73.40425531914893,
+        "timesRun": 94,
+        "timesSuccessful": 69
+      },
+      "starRating": {
+        "successRate": 88.07339449541286,
+        "timesRun": 109,
+        "timesSuccessful": 96
+      },
+      "summaryFromAppointmentHub": {
+        "successRate": 100,
+        "timesRun": 150,
+        "timesSuccessful": 150
+      },
+      "termsConditionsFlow": {
+        "successRate": 97.65625,
+        "timesRun": 128,
+        "timesSuccessful": 125
+      },
+      "testKitsContactSupport": {
+        "successRate": 100,
+        "timesRun": 80,
+        "timesSuccessful": 80
+      },
+      "testKitsDetailsScreen": {
+        "successRate": 89.0625,
+        "timesRun": 64,
+        "timesSuccessful": 57
+      },
+      "testKitsFeedbackWalkthrough": {
+        "successRate": 100,
+        "timesRun": 200,
+        "timesSuccessful": 200
+      },
+      "testKitsFirstTimeUserSeeInfoRequiredScreenDashboard": {
+        "successRate": 88.57142857142857,
+        "timesRun": 70,
+        "timesSuccessful": 62
+      },
+      "testKitsOpenBookAppointment": {
+        "successRate": 97.01492537313433,
+        "timesRun": 67,
+        "timesSuccessful": 65
+      },
+      "testKitsPurchaseTestAndKit": {
+        "successRate": 93.75,
+        "timesRun": 64,
+        "timesSuccessful": 60
+      },
+      "testKitsUserWithOrderOrResultSeeDashboard": {
+        "successRate": 100,
+        "timesRun": 67,
+        "timesSuccessful": 67
+      },
+      "testKitsUserWithoutOrderOrResultsSeeDashboard": {
+        "successRate": 100,
+        "timesRun": 63,
+        "timesSuccessful": 63
+      },
+      "testKitsUsersSeeOrderDetailsAfterTappingOnOrder": {
+        "successRate": 100,
+        "timesRun": 67,
+        "timesSuccessful": 67
+      },
+      "testKitsViewNativeResults": {
+        "successRate": 100,
+        "timesRun": 66,
+        "timesSuccessful": 66
+      },
+      "testReferralMultiple": {
+        "successRate": 100,
+        "timesRun": 59,
+        "timesSuccessful": 59
+      },
+      "testReferralSingle": {
+        "successRate": 100,
+        "timesRun": 8,
+        "timesSuccessful": 8
+      },
+      "upcomingAppointment": {
+        "successRate": 99.1137939892114,
+        "timesRun": 7786,
+        "timesSuccessful": 7717
+      },
+      "upcomingAppointmentsFromAppointmentHub": {
+        "successRate": 100,
+        "timesRun": 142,
+        "timesSuccessful": 142
+      },
+      "userCanProvideFeedbackForActions": {
+        "successRate": 9.615384615384617,
+        "timesRun": 52,
+        "timesSuccessful": 5
+      },
+      "userWithReferralCanDownloadReferralLetter": {
+        "successRate": 0,
+        "timesRun": 14,
+        "timesSuccessful": 0
+      },
+      "userWithoutOrderOrResultsSeeDashboard": {
+        "successRate": 0,
+        "timesRun": 31,
+        "timesSuccessful": 0
+      },
+      "userWithoutReferral": {
+        "successRate": 100,
+        "timesRun": 5,
+        "timesSuccessful": 5
+      },
+      "validPostcodeNotCovered": {
+        "successRate": 98.0392156862745,
+        "timesRun": 153,
+        "timesSuccessful": 150
+      },
+      "verifySponsorCodeUIStates": {
+        "successRate": 99.90100643458175,
+        "timesRun": 6061,
+        "timesSuccessful": 6055
+      },
+      "verifyWelcomeScreenUI": {
+        "successRate": 100,
+        "timesRun": 5954,
+        "timesSuccessful": 5954
+      },
+      "viewAvailableDatesAndTimesRequiringChaperone": {
+        "successRate": 56.52173913043478,
+        "timesRun": 115,
+        "timesSuccessful": 65
+      },
+      "viewPgmReport": {
+        "successRate": 56.11510791366906,
+        "timesRun": 139,
+        "timesSuccessful": 78
+      }
+    }
+  }
+}

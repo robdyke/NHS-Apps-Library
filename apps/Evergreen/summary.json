@@ -1,0 +1,23 @@
+{
+  "name": "Evergreen",
+  "version": "15.3.2",
+  "securityscore": 55,
+  "avg_cvss": 6.9,
+  "trackers_found": 1,
+  "privacy_url": "https://www.evergreen-life.co.uk/terms/website-terms-of-use",
+  "manifest_high": 8,
+  "manifest_medium": 1,
+  "code_high": 3,
+  "code_info": 2,
+  "trackers": [
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": false,
+  "prominantTracking": true,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

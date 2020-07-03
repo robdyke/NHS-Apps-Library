@@ -1,0 +1,26 @@
+{
+  "name": "SystmOne eObs",
+  "version": "828",
+  "securityscore": 5,
+  "avg_cvss": 5.9,
+  "trackers_found": 2,
+  "privacy_url": "https://www.tpp-uk.com/legal/privacy-policy",
+  "manifest_high": 3,
+  "manifest_info": 1,
+  "code_good": 1,
+  "code_high": 6,
+  "code_info": 2,
+  "code_warning": 1,
+  "trackers": [
+    "Google AdMob",
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "Play",
+  "category": "Nursing"
+}

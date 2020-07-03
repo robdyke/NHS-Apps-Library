@@ -1,0 +1,28 @@
+{
+  "name": "Low Carb",
+  "version": "3.9.8",
+  "securityscore": 10,
+  "avg_cvss": 5.7,
+  "trackers_found": 3,
+  "privacy_url": "https://www.lowcarbprogram.com/privacy/",
+  "manifest_high": 8,
+  "manifest_medium": null,
+  "manifest_info": 1,
+  "code_high": 6,
+  "code_warning": 2,
+  "code_good": 1,
+  "code_info": 1,
+  "trackers": [
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Pusher"
+  ],
+  "privacyURLcorrect": null,
+  "prominantTracking": null,
+  "completeTracking": null,
+  "DPIA": null,
+  "cookies": null,
+  "privacyScore": null,
+  "store": null,
+  "category": null
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ACR",
+  "version": "5.0.6",
+  "securityscore": 10,
+  "avg_cvss": 6,
+  "trackers_found": 2,
+  "privacy_url": "https://healthy.io/docs/acr-eu/modality/privacy/",
+  "manifest_high": 1,
+  "manifest_medium": null,
+  "manifest_info": null,
+  "code_high": 5,
+  "code_warning": 2,
+  "code_good": 1,
+  "code_info": 1,
+  "trackers": [
+    "Google CrashLytics",
+    "MixPanel"
+  ],
+  "privacyURLcorrect": null,
+  "prominantTracking": null,
+  "completeTracking": null,
+  "DPIA": null,
+  "cookies": null,
+  "privacyScore": null,
+  "store": null,
+  "category": null
+}

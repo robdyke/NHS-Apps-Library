@@ -1,0 +1,28 @@
+{
+  "name": "NHS Online: 111",
+  "version": "Failed",
+  "securityscore": 10,
+  "avg_cvss": 6,
+  "trackers_found": 6,
+  "privacy_url": null,
+  "code_good": 1,
+  "code_high": 5,
+  "code_info": 1,
+  "code_warning": 2,
+  "trackers": [
+    "AppsFlyer",
+    "Facebook Login",
+    "Google AdMob",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "MixPanel"
+  ],
+  "privacyURLcorrect": false,
+  "prominantTracking": true,
+  "completeTracking": true,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "Play",
+  "category": "NHS Services"
+}

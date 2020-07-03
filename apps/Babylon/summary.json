@@ -1,0 +1,33 @@
+{
+  "name": "Babylon",
+  "version": "4.21.1.39418000",
+  "securityscore": 10,
+  "avg_cvss": 6,
+  "trackers_found": 9,
+  "privacy_url": "http://www.babylonhealth.com/privacy",
+  "manifest_high": 18,
+  "manifest_info": 1,
+  "code_good": 1,
+  "code_high": 7,
+  "code_info": 3,
+  "code_warning": 3,
+  "trackers": [
+    "AppsFlyer",
+    "Braze (formerly Appboy)",
+    "Facebook Login",
+    "Google AdMob",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "New Relic",
+    "Optimizely"
+  ],
+  "privacyURLcorrect": false,
+  "prominantTracking": true,
+  "completeTracking": true,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "Play",
+  "category": "NHS Services"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "HealthHelpNow",
+  "version": "2.83",
+  "securityscore": 10,
+  "avg_cvss": 6,
+  "trackers_found": 9,
+  "privacy_url": "http://kent.healthhelpnow.nhs.uk/privacy-policy/",
+  "manifest_high": 8,
+  "code_high": 6,
+  "code_info": 2,
+  "code_warning": 3,
+  "trackers": [
+    "Facebook Analytics",
+    "Facebook Login",
+    "Facebook Places",
+    "Facebook Share",
+    "Google AdMob",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Tag Manager"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": true,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "NHS Friends and Family Test",
+  "version": "1.0.3",
+  "securityscore": 100,
+  "avg_cvss": 0,
+  "trackers_found": 0,
+  "privacy_url": "",
+  "manifest_medium": 1,
+  "privacyURL": null,
+  "privacyURLcorrect": false,
+  "prominantTracking": false,
+  "completeTracking": true,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "Play",
+  "category": "NHS Services"
+}

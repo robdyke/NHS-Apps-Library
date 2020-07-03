@@ -1,0 +1,29 @@
+{
+  "name": "myGP",
+  "version": "7.1.7",
+  "securityscore": 20,
+  "avg_cvss": 5.8,
+  "trackers_found": 5,
+  "privacy_url": "https://www.mygp.com/privacy-policy/",
+  "manifest_high": 11,
+  "manifest_info": 1,
+  "manifest_medium": 1,
+  "code_high": 4,
+  "code_info": 1,
+  "code_warning": 2,
+  "trackers": [
+    "Google AdMob",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Tag Manager"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

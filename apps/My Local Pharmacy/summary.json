@@ -1,0 +1,27 @@
+{
+  "name": "My Local Pharmacy",
+  "version": "2.0.3",
+  "securityscore": 20,
+  "avg_cvss": 6.3,
+  "trackers_found": 4,
+  "privacy_url": "http://securepharm.co.uk/content/documentation/rxs-mpa-customer-licence_final_6-january-2014_blms_v-1-4/",
+  "manifest_high": 6,
+  "manifest_medium": 1,
+  "code_high": 4,
+  "code_info": 1,
+  "code_warning": 2,
+  "trackers": [
+    "Google AdMob",
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Google Tag Manager"
+  ],
+  "privacyURLcorrect": false,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": false,
+  "privacyScore": 0,
+  "store": "Play",
+  "category": "Pharmacy"
+}

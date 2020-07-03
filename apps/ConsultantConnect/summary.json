@@ -1,0 +1,26 @@
+{
+  "name": "ConsultantConnect",
+  "version": "2.3.2",
+  "securityscore": 35,
+  "avg_cvss": 6.3,
+  "trackers_found": 2,
+  "privacy_url": "https://www.consultantconnect.org.uk/privacy-policy/",
+  "manifest_high": 7,
+  "manifest_info": 1,
+  "code_good": 1,
+  "code_high": 4,
+  "code_info": 1,
+  "code_warning": 1,
+  "trackers": [
+    "Google AdMob",
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": true,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

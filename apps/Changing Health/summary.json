@@ -1,0 +1,26 @@
+{
+  "name": "Changing Health",
+  "version": "1.6.5",
+  "securityscore": 45,
+  "avg_cvss": 5.7,
+  "trackers_found": 1,
+  "privacy_url": "http://www.changinghealth.co.uk/privacy-policy/",
+  "manifest_high": 1,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 3,
+  "code_warning": 1,
+  "code_good": null,
+  "code_info": 1,
+  "trackers": [
+    "Google CrashLytics"
+  ],
+  "privacyURLcorrect": null,
+  "prominantTracking": null,
+  "completeTracking": null,
+  "DPIA": null,
+  "cookies": null,
+  "privacyScore": null,
+  "store": null,
+  "category": null
+}

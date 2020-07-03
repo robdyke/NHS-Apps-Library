@@ -1,0 +1,24 @@
+{
+  "name": "NHS App",
+  "version": "1.33.0",
+  "securityscore": 10,
+  "avg_cvss": 5.9,
+  "trackers_found": 1,
+  "privacy_url": "https://www.nhs.uk/using-the-nhs/nhs-services/the-nhs-app/privacy/",
+  "manifest_high": 4,
+  "manifest_info": 1,
+  "code_high": 7,
+  "code_info": 1,
+  "code_warning": 1,
+  "trackers": [
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

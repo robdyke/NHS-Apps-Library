@@ -1,0 +1,22 @@
+{
+  "name": "SystmOnline",
+  "version": "11",
+  "securityscore": 30,
+  "avg_cvss": 5.7,
+  "trackers_found": 0,
+  "privacy_url": "https://systmonline.tpp-uk.com/privacy/privacy.html",
+  "manifest_high": 1,
+  "manifest_info": 1,
+  "manifest_medium": 1,
+  "code_high": 4,
+  "code_info": 1,
+  "code_warning": 1,
+  "privacyURLcorrect": true,
+  "prominantTracking": true,
+  "completeTracking": true,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 4,
+  "store": "Play",
+  "category": "PHR"
+}

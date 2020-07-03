@@ -1,0 +1,31 @@
+{
+  "name": "Echo",
+  "version": "4.20.0",
+  "securityscore": 25,
+  "avg_cvss": 5.7,
+  "trackers_found": 8,
+  "privacy_url": "https://www.echo.co.uk/legal#privacy-policy",
+  "manifest_high": 10,
+  "code_good": 1,
+  "code_high": 4,
+  "code_info": 2,
+  "code_warning": 2,
+  "trackers": [
+    "Adjust",
+    "Branch",
+    "Google AdMob",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Tag Manager",
+    "Segment"
+  ],
+  "privacyURLcorrect": false,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 1,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

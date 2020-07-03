@@ -1,0 +1,26 @@
+{
+  "name": "Airmid UK",
+  "version": "1511",
+  "securityscore": 35,
+  "avg_cvss": 6,
+  "trackers_found": 2,
+  "privacy_url": "https://systmonline.tpp-uk.com/Clinical/AiHealth/Gbr/PrivacyPolicy.html",
+  "manifest_high": 6,
+  "manifest_info": 1,
+  "code_good": 1,
+  "code_high": 4,
+  "code_info": 3,
+  "code_warning": 1,
+  "trackers": [
+    "Google AdMob",
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": true,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "Play",
+  "category": "PHR"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "NHS Online",
+  "version": "1.2.0",
+  "securityscore": 30,
+  "avg_cvss": 6.3,
+  "trackers_found": 5,
+  "privacy_url": "http://assets.webgp.com/legal/applePrivacyPolicy",
+  "manifest_high": 9,
+  "manifest_medium": 1,
+  "code_high": 4,
+  "code_info": 1,
+  "code_warning": 1,
+  "trackers": [
+    "Google AdMob",
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Google Tag Manager",
+    "MixPanel"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": true,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "OneTouch",
+  "version": "4.6",
+  "securityscore": 10,
+  "avg_cvss": 5.9,
+  "trackers_found": 5,
+  "privacy_url": "https://onetouchreveal.com/mobile-privacy/",
+  "manifest_high": 14,
+  "manifest_medium": null,
+  "manifest_info": null,
+  "code_high": 8,
+  "code_warning": 2,
+  "code_good": null,
+  "code_info": 2,
+  "trackers": [
+    "AppsFlyer",
+    "Google AdMob",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": null,
+  "prominantTracking": null,
+  "completeTracking": null,
+  "DPIA": null,
+  "cookies": null,
+  "privacyScore": null,
+  "store": null,
+  "category": null
+}

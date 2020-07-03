@@ -1,0 +1,29 @@
+{
+  "name": "Hospify",
+  "version": "1.6.15",
+  "securityscore": 10,
+  "avg_cvss": 6.1,
+  "trackers_found": 7,
+  "privacy_url": "https://www.hospify.com/privacy",
+  "manifest_high": 9,
+  "code_high": 5,
+  "code_info": 1,
+  "code_warning": 4,
+  "trackers": [
+    "Google AdMob",
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Google Tag Manager",
+    "Microsoft Appcenter Analytics",
+    "Microsoft Appcenter Crashes",
+    "OneSignal"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

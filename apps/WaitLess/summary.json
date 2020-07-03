@@ -1,0 +1,27 @@
+{
+  "name": "WaitLess",
+  "version": "2.1.1",
+  "securityscore": 45,
+  "avg_cvss": 6.1,
+  "trackers_found": 3,
+  "privacy_url": "https://w.e-shrewd.com/Waitless/documents/privacy-policy.html?v=1.1",
+  "manifest_high": 9,
+  "manifest_info": 1,
+  "manifest_medium": 1,
+  "code_high": 3,
+  "code_info": 1,
+  "code_warning": 1,
+  "trackers": [
+    "Google AdMob",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": false,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 2,
+  "store": "NHS Apps Library",
+  "category": "NHS Services"
+}

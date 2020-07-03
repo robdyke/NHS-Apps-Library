@@ -1,0 +1,26 @@
+{
+  "name": "EMIS Mobile",
+  "version": "5.2",
+  "securityscore": 50,
+  "avg_cvss": 6.1,
+  "trackers_found": 3,
+  "privacy_url": "https://www.emishealth.com/legal/emis-mobile-privacy-policy/",
+  "manifest_high": 2,
+  "code_good": 1,
+  "code_high": 3,
+  "code_info": 2,
+  "code_warning": 1,
+  "trackers": [
+    "Google Analytics",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "privacyURLcorrect": true,
+  "prominantTracking": true,
+  "completeTracking": false,
+  "DPIA": false,
+  "cookies": true,
+  "privacyScore": 3,
+  "store": "Play",
+  "category": "PHR"
+}
