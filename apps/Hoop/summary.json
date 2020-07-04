@@ -1,0 +1,33 @@
+{
+  "app_name": "Hoop",
+  "app_version": "8.6",
+  "security_score": 25,
+  "security_avg_cvss": 5.8,
+  "privacy_trackers_found": 8,
+  "privacy_url": "https://hoop.co.uk/privacy-policy",
+  "manifest_high": 8,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 4,
+  "code_warning": 2,
+  "code_good": 1,
+  "code_info": 3,
+  "privacy_trackers": [
+    "AppsFlyer",
+    "Facebook Analytics",
+    "Facebook Login",
+    "Facebook Places",
+    "Facebook Share",
+    "Google AdMob",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Child health"
+}

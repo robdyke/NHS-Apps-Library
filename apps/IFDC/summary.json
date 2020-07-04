@@ -1,0 +1,27 @@
+{
+  "app_name": "IFDC",
+  "app_version": "1.0",
+  "security_score": 25,
+  "security_avg_cvss": 5.7,
+  "privacy_trackers_found": 2,
+  "privacy_url": "https://ifdcapp.com/privacy.html",
+  "manifest_high": 2,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 4,
+  "code_warning": 2,
+  "code_good": 1,
+  "code_info": 1,
+  "privacy_trackers": [
+    "Bugsnag",
+    "Google CrashLytics"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Child health"
+}

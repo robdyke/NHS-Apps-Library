@@ -1,0 +1,28 @@
+{
+  "app_name": "First Aid",
+  "app_version": "2.8.0",
+  "security_score": 25,
+  "security_avg_cvss": 6.5,
+  "privacy_trackers_found": 3,
+  "privacy_url": "http://www.redcross.org.uk/en/Header-Footer-Links/Privacy-policy",
+  "manifest_high": 7,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 3,
+  "code_warning": 3,
+  "code_good": null,
+  "code_info": 1,
+  "privacy_trackers": [
+    "Google AdMob",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "First aid"
+}
