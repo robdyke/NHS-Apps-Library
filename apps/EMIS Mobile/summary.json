@@ -1,26 +1,26 @@
 {
+  "app_category": "PHR",
   "app_name": "EMIS Mobile",
+  "app_store": "Play",
   "app_version": "5.2",
-  "security_score": 50,
-  "security_avg_cvss": 6.1,
-  "privacy_trackers_found": 3,
-  "privacy_url": "https://www.emishealth.com/legal/emis-mobile-privacy-policy/",
-  "manifest_high": 2,
   "code_good": 1,
   "code_high": 3,
   "code_info": 2,
   "code_warning": 1,
+  "manifest_high": 2,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "privacy_prominantTracking": true,
   "privacy_trackers": [
     "Google Analytics",
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
+  "privacy_trackers_found": 3,
+  "privacy_url": "https://www.emishealth.com/legal/emis-mobile-privacy-policy/",
   "privacy_url_correct": true,
-  "privacy_prominantTracking": true,
-  "privacy_completeTracking": false,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 3,
-  "app_store": "Play",
-  "app_category": "PHR"
+  "security_avg_cvss": 6.1,
+  "security_score": 50
 }

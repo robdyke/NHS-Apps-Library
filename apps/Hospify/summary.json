@@ -1,14 +1,17 @@
 {
+  "app_category": "NHS Services",
   "app_name": "Hospify",
+  "app_store": "NHS Apps Library",
   "app_version": "1.6.15",
-  "security_score": 10,
-  "security_avg_cvss": 6.1,
-  "privacy_trackers_found": 7,
-  "privacy_url": "https://www.hospify.com/privacy",
-  "manifest_high": 9,
   "code_high": 5,
   "code_info": 1,
   "code_warning": 4,
+  "manifest_high": 9,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "privacy_prominantTracking": false,
   "privacy_trackers": [
     "Google AdMob",
     "Google Analytics",
@@ -18,12 +21,9 @@
     "Microsoft Appcenter Crashes",
     "OneSignal"
   ],
+  "privacy_trackers_found": 7,
+  "privacy_url": "https://www.hospify.com/privacy",
   "privacy_url_correct": true,
-  "privacy_prominantTracking": false,
-  "privacy_completeTracking": false,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 2,
-  "app_store": "NHS Apps Library",
-  "app_category": "NHS Services"
+  "security_avg_cvss": 6.1,
+  "security_score": 10
 }

@@ -1,16 +1,20 @@
 {
+  "app_category": "NHS Services",
   "app_name": "Healthera",
+  "app_store": "NHS Apps Library",
   "app_version": "5.8.1",
-  "security_score": 15,
-  "security_avg_cvss": 6.1,
-  "privacy_trackers_found": 7,
-  "privacy_url": "https://healthera.co.uk/cookies-privacy/",
-  "manifest_high": 37,
-  "manifest_medium": 1,
   "code_good": 1,
   "code_high": 4,
   "code_info": 2,
   "code_warning": 3,
+  "manifest_high": 37,
+  "manifest_info": null,
+  "manifest_medium": 1,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": true,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "privacy_prominantTracking": true,
   "privacy_trackers": [
     "Adjust",
     "Facebook Analytics",
@@ -20,12 +24,9 @@
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
+  "privacy_trackers_found": 7,
+  "privacy_url": "https://healthera.co.uk/cookies-privacy/",
   "privacy_url_correct": false,
-  "privacy_prominantTracking": true,
-  "privacy_completeTracking": true,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 3,
-  "app_store": "NHS Apps Library",
-  "app_category": "NHS Services"
+  "security_avg_cvss": 6.1,
+  "security_score": 15
 }

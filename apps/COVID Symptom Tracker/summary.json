@@ -1,16 +1,20 @@
 {
+  "app_category": "COVID",
   "app_name": "COVID Symptom Tracker",
+  "app_store": "Play",
   "app_version": "0.13",
-  "security_score": 40,
-  "security_avg_cvss": 5.5,
-  "privacy_trackers_found": 10,
-  "privacy_url": "https://predict.study/covid-privacy-notice/",
-  "manifest_high": 17,
-  "manifest_medium": 1,
   "code_good": 1,
   "code_high": 3,
   "code_info": 2,
   "code_warning": 2,
+  "manifest_high": 17,
+  "manifest_info": null,
+  "manifest_medium": 1,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": true,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 4,
+  "privacy_prominantTracking": true,
   "privacy_trackers": [
     "Amplitude",
     "Facebook Ads",
@@ -23,12 +27,9 @@
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
+  "privacy_trackers_found": 10,
+  "privacy_url": "https://predict.study/covid-privacy-notice/",
   "privacy_url_correct": true,
-  "privacy_prominantTracking": true,
-  "privacy_completeTracking": true,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 4,
-  "app_store": "Play",
-  "app_category": "COVID"
+  "security_avg_cvss": 5.5,
+  "security_score": 40
 }

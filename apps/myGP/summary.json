@@ -1,16 +1,19 @@
 {
+  "app_category": "NHS Services",
   "app_name": "myGP",
+  "app_store": "NHS Apps Library",
   "app_version": "7.1.7",
-  "security_score": 20,
-  "security_avg_cvss": 5.8,
-  "privacy_trackers_found": 5,
-  "privacy_url": "https://www.mygp.com/privacy-policy/",
-  "manifest_high": 11,
-  "manifest_info": 1,
-  "manifest_medium": 1,
   "code_high": 4,
   "code_info": 1,
   "code_warning": 2,
+  "manifest_high": 11,
+  "manifest_info": 1,
+  "manifest_medium": 1,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "privacy_prominantTracking": false,
   "privacy_trackers": [
     "Google AdMob",
     "Google Analytics",
@@ -18,12 +21,9 @@
     "Google Firebase Analytics",
     "Google Tag Manager"
   ],
+  "privacy_trackers_found": 5,
+  "privacy_url": "https://www.mygp.com/privacy-policy/",
   "privacy_url_correct": true,
-  "privacy_prominantTracking": false,
-  "privacy_completeTracking": false,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 2,
-  "app_store": "NHS Apps Library",
-  "app_category": "NHS Services"
+  "security_avg_cvss": 5.8,
+  "security_score": 20
 }

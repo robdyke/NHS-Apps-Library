@@ -1,18 +1,18 @@
 {
+  "app_category": "NHS Services",
   "app_name": "NHS Friends and Family Test",
+  "app_store": "Play",
   "app_version": "1.0.3",
-  "security_score": 100,
-  "security_avg_cvss": 0,
-  "privacy_trackers_found": 0,
-  "privacy_url": "",
   "manifest_medium": 1,
   "privacyURL": null,
-  "privacy_url_correct": false,
-  "privacy_prominantTracking": false,
-  "privacy_completeTracking": true,
   "privacy_DPIA": false,
+  "privacy_completeTracking": true,
   "privacy_cookies": true,
   "privacy_privacyScore": 2,
-  "app_store": "Play",
-  "app_category": "NHS Services"
+  "privacy_prominantTracking": false,
+  "privacy_trackers_found": 0,
+  "privacy_url": "",
+  "privacy_url_correct": false,
+  "security_avg_cvss": 0,
+  "security_score": 100
 }

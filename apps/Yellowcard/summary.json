@@ -1,25 +1,25 @@
 {
+  "app_category": "NHS Services",
   "app_name": "Yellowcard",
+  "app_store": "NHS Apps Library",
   "app_version": "21.1.0",
-  "security_score": 30,
-  "security_avg_cvss": 5.9,
-  "privacy_trackers_found": 3,
-  "privacy_url": "https://yellowcard.mhra.gov.uk/privacy-policy/",
-  "manifest_high": 4,
   "code_high": 4,
   "code_info": 1,
   "code_warning": 1,
+  "manifest_high": 4,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "privacy_prominantTracking": true,
   "privacy_trackers": [
     "Google AdMob",
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
+  "privacy_trackers_found": 3,
+  "privacy_url": "https://yellowcard.mhra.gov.uk/privacy-policy/",
   "privacy_url_correct": true,
-  "privacy_prominantTracking": true,
-  "privacy_completeTracking": false,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 3,
-  "app_store": "NHS Apps Library",
-  "app_category": "NHS Services"
+  "security_avg_cvss": 5.9,
+  "security_score": 30
 }

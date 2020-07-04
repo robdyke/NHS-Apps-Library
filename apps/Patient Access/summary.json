@@ -1,26 +1,26 @@
 {
+  "app_category": "NHS Services",
   "app_name": "Patient Access",
+  "app_store": "NHS Apps Library",
   "app_version": "2.6.1",
-  "security_score": 0,
-  "security_avg_cvss": 5.9,
-  "privacy_trackers_found": 3,
-  "privacy_url": "https://support.patientaccess.com/privacy-policy",
-  "manifest_high": 6,
   "code_good": 1,
   "code_high": 5,
   "code_info": 3,
   "code_warning": 3,
+  "manifest_high": 6,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "privacy_prominantTracking": false,
   "privacy_trackers": [
     "Google Firebase Analytics",
     "Microsoft Appcenter Analytics",
     "Microsoft Appcenter Crashes"
   ],
+  "privacy_trackers_found": 3,
+  "privacy_url": "https://support.patientaccess.com/privacy-policy",
   "privacy_url_correct": true,
-  "privacy_prominantTracking": false,
-  "privacy_completeTracking": false,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 2,
-  "app_store": "NHS Apps Library",
-  "app_category": "NHS Services"
+  "security_avg_cvss": 5.9,
+  "security_score": 0
 }

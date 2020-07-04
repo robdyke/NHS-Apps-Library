@@ -1,14 +1,20 @@
 {
+  "app_category": "Cancer",
   "app_name": "Miiskin",
+  "app_store": "NHS Apps Library",
   "app_version": "1.58.0",
-  "security_score": 15,
-  "security_avg_cvss": 6.2,
-  "privacy_trackers_found": 9,
-  "privacy_url": "http://miiskin.com/legals/#TERMS",
-  "manifest_high": 10,
+  "code_good": null,
   "code_high": 5,
   "code_info": 2,
   "code_warning": 1,
+  "manifest_high": 10,
+  "manifest_info": null,
+  "manifest_medium": null,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "privacy_prominantTracking": false,
   "privacy_trackers": [
     "Facebook Analytics",
     "Facebook Login",
@@ -20,12 +26,9 @@
     "Microsoft Appcenter Crashes",
     "MixPanel"
   ],
+  "privacy_trackers_found": 9,
+  "privacy_url": "http://miiskin.com/legals/#TERMS",
   "privacy_url_correct": true,
-  "privacy_prominantTracking": false,
-  "privacy_completeTracking": false,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 2,
-  "app_store": "NHS Apps Library",
-  "app_category": "Cancer"
+  "security_avg_cvss": 6.2,
+  "security_score": 15
 }

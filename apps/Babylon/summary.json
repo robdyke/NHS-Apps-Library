@@ -1,16 +1,19 @@
 {
+  "app_category": "NHS Services",
   "app_name": "Babylon",
+  "app_store": "Play",
   "app_version": "4.21.1.39418000",
-  "security_score": 10,
-  "security_avg_cvss": 6,
-  "privacy_trackers_found": 9,
-  "privacy_url": "http://www.babylonhealth.com/privacy",
-  "manifest_high": 18,
-  "manifest_info": 1,
   "code_good": 1,
   "code_high": 7,
   "code_info": 3,
   "code_warning": 3,
+  "manifest_high": 18,
+  "manifest_info": 1,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": true,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "privacy_prominantTracking": true,
   "privacy_trackers": [
     "AppsFlyer",
     "Braze (formerly Appboy)",
@@ -22,12 +25,9 @@
     "New Relic",
     "Optimizely"
   ],
+  "privacy_trackers_found": 9,
+  "privacy_url": "http://www.babylonhealth.com/privacy",
   "privacy_url_correct": false,
-  "privacy_prominantTracking": true,
-  "privacy_completeTracking": true,
-  "privacy_DPIA": false,
-  "privacy_cookies": true,
-  "privacy_privacyScore": 3,
-  "app_store": "Play",
-  "app_category": "NHS Services"
+  "security_avg_cvss": 6,
+  "security_score": 10
 }
