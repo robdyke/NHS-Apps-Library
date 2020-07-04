@@ -3,8 +3,9 @@
 # Global variables
 declare SCRIPT_NAME="${0##*/}"
 declare SCRIPT_DIR="$(cd ${0%/*} ; pwd)"
-declare ROOT_DIR="$PWD"
-PARENTDIR=($(dirname $PWD))
+# declare ROOT_DIR="$PWD"
+declare ROOT_DIR=($(dirname $PWD))
+
 OUTDIR=out
 
 TOKEN=45a5ac0c6084ec1293b7574623f45da889d77da3e5dd772fc828bedfa66e6221
@@ -73,10 +74,33 @@ function all_summary_to_json_csv(){
     touch ${ROOT_DIR}/summary.tmp
     cat ${ROOT_DIR}/$OUTDIR/*/summary.json | tee -a ${ROOT_DIR}/summary.tmp
     cat ${ROOT_DIR}/summary.tmp|jq -s --sort-keys . | tee ${ROOT_DIR}/summary.json
-    echo "app_name,app_version,security_score,security_avg_cvss,privacy_trackers_found,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore,app_store,app_category" > ${ROOT_DIR}/summary.csv
-    cat ${ROOT_DIR}/summary.json |jq -r '.[]|[.name, .version, .securityscore, .avg_cvss, .trackers_found, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_privacy_url, .privacy_privacyurl, .privacy_prominantTracking, .privacy_completeTracking, .privacy_DPIA, .privacy_cookies, .privacy_privacyScore, .app_store, .app_category]|@csv' >> ${ROOT_DIR}/summary.csv
+    echo "app_name,app_version,app_store,app_category,security_score,security_avg_cvss,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_trackers_found,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore" > ${ROOT_DIR}/summary.csv
+    cat ${ROOT_DIR}/summary.json |jq -r '.[]|[.app_name, .app_version, .app_store, .app_category, .security_score, .security_avg_cvss, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_trackers_found, .privacy_url, .privacy_url_correct, .privacy_prominantTracking, .privacy_completeTracking, .privacy_DPIA, .privacy_cookies, .privacy_privacyScore]|@csv' >> ${ROOT_DIR}/summary.csv
     rm ${ROOT_DIR}/summary.tmp
     echo -e "\e[32mInfo: Created summary JSON and CSV"
+}
+
+function all_trackers(){
+    echo -e "\e[32mInfo: Creating trackers.csv"
+    find "${ROOT_DIR}/apps/"* -maxdepth 3 -name 'summary.json' | while read file; do  cat "$file"|jq -r '.privacy_trackers[]' >> trackers.out; done
+    cat trackers.out |sort|uniq -c > $ROOT_DIR/summaries/trackers.csv
+    rm trackers.out
+    echo -e "\e[32mInfo: Created trackers.csv"
+}
+
+function run_tests(){
+    echo -e "\e[32mTEST: SCRIPT_DIR is $SCRIPT_DIR"
+    echo -e "\e[32mTEST: ROOT_DIR is $ROOT_DIR"
+    # echo -e "\e[32mTEST: PARENT_DIR is $PARENT_DIR"
+}
+
+function merge_json(){
+    shopt -s dotglob
+    find "${ROOT_DIR}/apps/"* -prune -type d | while IFS= read -r d; do
+        APP_NAME=$(echo "${d}" |rev|cut -d / -f 1|rev)
+        echo "${APP_NAME}"
+        jq -s add "${ROOT_DIR}/out/${APP_NAME}/summary.json" "${ROOT_DIR}/apps/${APP_NAME}/summary.json" | tee "${ROOT_DIR}/out/${APP_NAME}/summary.json"
+    done
 }
 
 if [[ -z "$1" ]]; then
@@ -140,10 +164,13 @@ else
     --all-report)
         fetch_all_report
         ;;
+    --all-trackers)
+        all_trackers
+        ;;
     --all-summary)
         shopt -s dotglob
-            find $OUTDIR/* -prune -type d | while IFS= read -r d; do 
-                APP_NAME=$(echo "${d}" |cut -d / -f 2)
+            find "${ROOT_DIR}/${OUTDIR}/"* -prune -type d | while IFS= read -r d; do 
+                APP_NAME=$(echo "${d}" |rev|cut -d / -f 1|rev)
                 echo "${APP_NAME}"
         app_info
         app_manifest
@@ -155,6 +182,12 @@ else
         ;;
     --out)
         all_summary_to_json_csv
+        ;;
+    --test)
+        run_tests
+        ;;
+    --merge)
+        merge_json
         ;;
     *)
         usage
