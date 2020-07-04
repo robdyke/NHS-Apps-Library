@@ -10,6 +10,7 @@ app_name,app_version,app_store,app_category,security_score,security_avg_cvss,cod
 "COVID Symptom Tracker","0.13","Play","COVID",40,5.5,3,1,2,2,17,1,,10,"https://predict.study/covid-privacy-notice/",true,true,true,false,true,4
 "Echo","4.20.0","NHS Apps Library","NHS Services",25,5.7,4,1,2,2,10,,,8,"https://www.echo.co.uk/legal#privacy-policy",false,false,false,false,true,1
 "EMIS Mobile","5.2","Play","PHR",50,6.1,3,1,2,1,2,,,3,"https://www.emishealth.com/legal/emis-mobile-privacy-policy/",true,true,false,false,true,3
+"engage","1.1.23","NHS Apps Library","Body areas",75,4.9,1,,,1,,1,,0,"http://engageselfcare.com/privacy-cookie-policy/",,,,,,
 "Evergreen","15.3.2","NHS Apps Library","NHS Services",55,6.9,3,,2,,8,1,,1,"https://www.evergreen-life.co.uk/terms/website-terms-of-use",false,true,false,false,true,2
 "GDm-Health","19.1.34 (61)","NHS Apps Library","Diabetes",40,5.8,3,1,1,2,2,,1,3,"https://www.sensynehealth.com/policies/gdm-health-privacy-policy",,,,,,
 "HCAnywhere","2.30","NHS Apps Library","NHS Services",60,5.2,2,,1,1,,,,0,"https://healthcareanywhere.co.uk/privacy-policy",true,false,true,false,true,3
@@ -20,7 +21,9 @@ app_name,app_version,app_store,app_category,security_score,security_avg_cvss,cod
 "Howz","7.8.2","NHS Apps Library","COVID",65,5.8,2,1,1,1,6,,,1,"https://howz.com/pages/howz-privacy-policy",true,true,false,false,true,3
 "Liva UK","3.20.1","NHS Apps Library","Diabetes",5,5.5,5,,3,2,4,,1,3,"https://www.livahealthcare.com/privacy.html",,,,,,
 "Low Carb","3.9.8","NHS Apps Library","Diabetes",10,5.7,6,1,1,2,8,,1,3,"https://www.lowcarbprogram.com/privacy/",,,,,,
+"LymEx","18","NHS Apps Library","Body areas",10,5.9,7,1,1,2,23,2,,11,"https://www.lnni.org/content/privacy-and-cookies-policy",,,,,,
 "Medloop","1.5.3","NHS Apps Library","NHS Services",10,6.3,7,1,1,2,8,,1,3,"https://medloop.co/privacy",true,true,false,false,true,3
+"MeeTwo","1.5.0","NHS Apps Library","Body areas",65,5.8,2,1,1,1,4,,1,3,"https://www.meetwo.co.uk/privacy-policy",,,,,,
 "Miiskin","1.58.0","NHS Apps Library","Cancer",15,6.2,5,,2,1,10,,,9,"http://miiskin.com/legals/#TERMS",true,false,false,false,true,2
 "myGP","7.1.7","NHS Apps Library","NHS Services",20,5.8,4,,1,2,11,1,1,5,"https://www.mygp.com/privacy-policy/",true,false,false,false,true,2
 "MyHealthGuide","2.4.4","NHS Apps Library","Social Care",15,6.2,5,,1,1,3,1,1,6,"https://myhealthguideapp.com/privacy/",true,true,false,false,true,3
@@ -39,6 +42,7 @@ app_name,app_version,app_store,app_category,security_score,security_avg_cvss,cod
 "OWise","1.1.0","NHS Apps Library","Cancer",10,6.2,7,,1,3,2,1,,4,"http://www.owise.uk/privacy",true,false,false,false,true,2
 "Pando","7.6.0","NHS Apps Library","NHS Services",10,5.5,5,1,4,2,3,,1,6,"https://hellopando.com/privacy-policy/",true,true,true,true,true,5
 "Patient Access","2.6.1","NHS Apps Library","NHS Services",0,5.9,5,1,3,3,6,,,3,"https://support.patientaccess.com/privacy-policy",true,false,false,false,true,2
+"Peanut","4.0.2-b6084","NHS Apps Library","Body areas",45,6,3,,3,1,6,,1,7,"https://www.peanut-app.io/privacy",,,,,,
 "Pharmacy2U","4.0.8","Play","Pharmacy",0,6.1,5,1,1,3,7,1,,3,"https://www.pharmacy2u.co.uk/privacy.html",true,true,false,false,true,3
 "Second Nature","5.3.4","NHS Apps Library","Diabetes",10,5.7,6,,2,3,9,1,1,5,"https://www.secondnature.io/privacy",,,,,,
 "Sugarmedown","1.0.31","NHS Apps Library","Diabetes",10,6.3,9,,1,3,1,1,,5,"https://www.sugarmedown.com/privacypolicy",,,,,,

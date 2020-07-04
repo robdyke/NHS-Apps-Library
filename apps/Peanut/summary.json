@@ -1,0 +1,32 @@
+{
+  "app_name": "Peanut",
+  "app_version": "4.0.2-b6084",
+  "security_score": 45,
+  "security_avg_cvss": 6,
+  "privacy_trackers_found": 7,
+  "privacy_url": "https://www.peanut-app.io/privacy",
+  "manifest_high": 6,
+  "manifest_medium": null,
+  "manifest_info": 1,
+  "code_high": 3,
+  "code_warning": 1,
+  "code_good": null,
+  "code_info": 3,
+  "privacy_trackers": [
+    "Branch",
+    "Facebook Analytics",
+    "Facebook Login",
+    "Facebook Share",
+    "Google AdMob",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Body areas"
+}

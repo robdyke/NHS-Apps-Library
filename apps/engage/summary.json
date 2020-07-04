@@ -1,0 +1,23 @@
+{
+  "app_name": "engage",
+  "app_version": "1.1.23",
+  "security_score": 75,
+  "security_avg_cvss": 4.9,
+  "privacy_trackers_found": 0,
+  "privacy_url": "http://engageselfcare.com/privacy-cookie-policy/",
+  "manifest_high": null,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 1,
+  "code_warning": 1,
+  "code_good": null,
+  "code_info": null,
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Body areas"
+}

@@ -1,0 +1,28 @@
+{
+  "app_name": "MeeTwo",
+  "app_version": "1.5.0",
+  "security_score": 65,
+  "security_avg_cvss": 5.8,
+  "privacy_trackers_found": 3,
+  "privacy_url": "https://www.meetwo.co.uk/privacy-policy",
+  "manifest_high": 4,
+  "manifest_medium": null,
+  "manifest_info": 1,
+  "code_high": 2,
+  "code_warning": 1,
+  "code_good": 1,
+  "code_info": 1,
+  "privacy_trackers": [
+    "Facebook Login",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Body areas"
+}
