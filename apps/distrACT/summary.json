@@ -1,0 +1,23 @@
+{
+  "app_name": "distrACT",
+  "app_version": "1.4",
+  "security_score": 100,
+  "security_avg_cvss": 7.5,
+  "privacy_trackers_found": 0,
+  "privacy_url": "http://www.expertselfcare.com/the-small-print/privacy-policy/",
+  "manifest_high": 1,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": null,
+  "code_warning": null,
+  "code_good": null,
+  "code_info": 1,
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Mental Health"
+}

@@ -1,0 +1,28 @@
+{
+  "app_name": "Calm Harm",
+  "app_version": "4.3.0",
+  "security_score": 60,
+  "security_avg_cvss": 5.8,
+  "privacy_trackers_found": 3,
+  "privacy_url": "https://calmharm.org/tncs",
+  "manifest_high": 2,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 2,
+  "code_warning": 1,
+  "code_good": null,
+  "code_info": 2,
+  "privacy_trackers": [
+    "Branch",
+    "Google AdMob",
+    "Google Firebase Analytics"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Mental Health"
+}

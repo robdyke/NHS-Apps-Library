@@ -1,0 +1,28 @@
+{
+  "app_name": "MyPossibleSelf",
+  "app_version": "1.16.53",
+  "security_score": 25,
+  "security_avg_cvss": 6.4,
+  "privacy_trackers_found": 3,
+  "privacy_url": "https://www.my-possible-self.com/privacy",
+  "manifest_high": 6,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 4,
+  "code_warning": 2,
+  "code_good": 1,
+  "code_info": 2,
+  "privacy_trackers": [
+    "Branch",
+    "Google CrashLytics",
+    "Matomo (Piwik)"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "NHS Apps Library",
+  "app_category": "Mental Health"
+}
