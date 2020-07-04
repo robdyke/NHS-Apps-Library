@@ -72,7 +72,7 @@ function app_summary() {
 function all_summary_to_json_csv(){
     echo -e "\e[32mInfo: Creating summary JSON and CSV"
     touch ${ROOT_DIR}/summary.tmp
-    cat ${ROOT_DIR}/$OUTDIR/*/summary.json | tee -a ${ROOT_DIR}/summary.tmp
+    cat ${ROOT_DIR}/apps/*/summary.json | tee -a ${ROOT_DIR}/summary.tmp
     cat ${ROOT_DIR}/summary.tmp|jq -s --sort-keys . | tee ${ROOT_DIR}/summaries/summary.json
     echo "app_name,app_version,app_store,app_category,security_score,security_avg_cvss,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_trackers_found,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore" > ${ROOT_DIR}/summaries/summary.csv
     cat ${ROOT_DIR}/summaries/summary.json |jq -r '.[]|[.app_name, .app_version, .app_store, .app_category, .security_score, .security_avg_cvss, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_trackers_found, .privacy_url, .privacy_url_correct, .privacy_prominantTracking, .privacy_completeTracking, .privacy_DPIA, .privacy_cookies, .privacy_privacyScore]|@csv' >> ${ROOT_DIR}/summaries/summary.csv
