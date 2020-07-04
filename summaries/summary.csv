@@ -16,6 +16,7 @@ app_name,app_version,app_store,app_category,security_score,security_avg_cvss,cod
 "HCAnywhere","2.30","NHS Apps Library","NHS Services",60,5.2,2,,1,1,,,,0,"https://healthcareanywhere.co.uk/privacy-policy",true,false,true,false,true,3
 "Healthera","5.8.1","NHS Apps Library","NHS Services",15,6.1,4,1,2,3,37,1,,7,"https://healthera.co.uk/cookies-privacy/",false,true,true,false,true,3
 "HealthHelpNow","2.83","NHS Apps Library","NHS Services",10,6,6,,2,3,8,,,9,"http://kent.healthhelpnow.nhs.uk/privacy-policy/",true,true,false,false,true,3
+"Health Passport","1.17.7","NHS Apps Library","Respiratory",35,5.8,3,,2,2,10,,,6,"https://www.tinymedicalapps.com/legal/",,,,,,
 "Health","3.16","NHS Apps Library","NHS Services",5,6,5,,1,2,11,,1,9,"https://www.coop.co.uk/privacy-notice",true,false,false,false,true,2
 "Hospify","1.6.15","NHS Apps Library","NHS Services",10,6.1,5,,1,4,9,,,7,"https://www.hospify.com/privacy",true,false,false,false,true,2
 "Howz","7.8.2","NHS Apps Library","COVID",65,5.8,2,1,1,1,6,,,1,"https://howz.com/pages/howz-privacy-policy",true,true,false,false,true,3
@@ -44,6 +45,8 @@ app_name,app_version,app_store,app_category,security_score,security_avg_cvss,cod
 "Patient Access","2.6.1","NHS Apps Library","NHS Services",0,5.9,5,1,3,3,6,,,3,"https://support.patientaccess.com/privacy-policy",true,false,false,false,true,2
 "Peanut","4.0.2-b6084","NHS Apps Library","Body areas",45,6,3,,3,1,6,,1,7,"https://www.peanut-app.io/privacy",,,,,,
 "Pharmacy2U","4.0.8","Play","Pharmacy",0,6.1,5,1,1,3,7,1,,3,"https://www.pharmacy2u.co.uk/privacy.html",true,true,false,false,true,3
+"Pzizz","4.9.18","NHS Apps Library","Sleep",10,6.1,6,1,2,3,13,1,1,10,"http://pzizz.com/terms_privacy.html",,,,,,
+"Rafi Tone","9.0.9","NHS Apps Library","Respiratory",50,5.8,2,,1,2,1,1,,0,"https://www.clin-e-cal.com/rafi-tone",,,,,,
 "Second Nature","5.3.4","NHS Apps Library","Diabetes",10,5.7,6,,2,3,9,1,1,5,"https://www.secondnature.io/privacy",,,,,,
 "Sugarmedown","1.0.31","NHS Apps Library","Diabetes",10,6.3,9,,1,3,1,1,,5,"https://www.sugarmedown.com/privacypolicy",,,,,,
 "SystmOne eObs","828","Play","Nursing",5,5.9,6,1,2,1,3,,1,2,"https://www.tpp-uk.com/legal/privacy-policy",true,false,false,false,true,2
