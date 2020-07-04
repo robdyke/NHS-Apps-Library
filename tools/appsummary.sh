@@ -66,16 +66,16 @@ function app_additional_fields() {
 
 function app_summary() {
     echo -e "\e[32mInfo: Creating summary JSON for $APP_NAME"
-    cat "${ROOT_DIR}/$OUTDIR/$APP_NAME/summary.json" |jq --sort-keys -s '.|add' | tee "${ROOT_DIR}/$OUTDIR/$APP_NAME/summary.json"
+    cat "${ROOT_DIR}/$OUTDIR/$APP_NAME/summary.json" |jq -s '.|add' | tee "${ROOT_DIR}/$OUTDIR/$APP_NAME/summary.json"
 }
 
 function all_summary_to_json_csv(){
     echo -e "\e[32mInfo: Creating summary JSON and CSV"
     touch ${ROOT_DIR}/summary.tmp
     cat ${ROOT_DIR}/$OUTDIR/*/summary.json | tee -a ${ROOT_DIR}/summary.tmp
-    cat ${ROOT_DIR}/summary.tmp|jq -s --sort-keys . | tee ${ROOT_DIR}/summary.json
-    echo "app_name,app_version,app_store,app_category,security_score,security_avg_cvss,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_trackers_found,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore" > ${ROOT_DIR}/summary.csv
-    cat ${ROOT_DIR}/summary.json |jq -r '.[]|[.app_name, .app_version, .app_store, .app_category, .security_score, .security_avg_cvss, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_trackers_found, .privacy_url, .privacy_url_correct, .privacy_prominantTracking, .privacy_completeTracking, .privacy_DPIA, .privacy_cookies, .privacy_privacyScore]|@csv' >> ${ROOT_DIR}/summary.csv
+    cat ${ROOT_DIR}/summary.tmp|jq -s --sort-keys . | tee ${ROOT_DIR}/summaries/summary.json
+    echo "app_name,app_version,app_store,app_category,security_score,security_avg_cvss,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_trackers_found,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore" > ${ROOT_DIR}/summaries/summary.csv
+    cat ${ROOT_DIR}/summaries/summary.json |jq -r '.[]|[.app_name, .app_version, .app_store, .app_category, .security_score, .security_avg_cvss, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_trackers_found, .privacy_url, .privacy_url_correct, .privacy_prominantTracking, .privacy_completeTracking, .privacy_DPIA, .privacy_cookies, .privacy_privacyScore]|@csv' >> ${ROOT_DIR}/summaries/summary.csv
     rm ${ROOT_DIR}/summary.tmp
     echo -e "\e[32mInfo: Created summary JSON and CSV"
 }
@@ -99,7 +99,7 @@ function merge_json(){
     find "${ROOT_DIR}/apps/"* -prune -type d | while IFS= read -r d; do
         APP_NAME=$(echo "${d}" |rev|cut -d / -f 1|rev)
         echo "${APP_NAME}"
-        jq -s add "${ROOT_DIR}/out/${APP_NAME}/summary.json" "${ROOT_DIR}/apps/${APP_NAME}/summary.json" | tee "${ROOT_DIR}/out/${APP_NAME}/summary.json"
+        jq -s add "${ROOT_DIR}/out/${APP_NAME}/summary.json" "${ROOT_DIR}/apps/${APP_NAME}/summary.json" | jq --sort-keys . | tee "${ROOT_DIR}/out/${APP_NAME}/summary.json"
     done
 }
 
