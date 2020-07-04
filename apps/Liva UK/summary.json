@@ -1,9 +1,9 @@
 {
-  "name": "Liva UK",
-  "version": "3.20.1",
-  "securityscore": 5,
-  "avg_cvss": 5.5,
-  "trackers_found": 3,
+  "app_name": "Liva UK",
+  "app_version": "3.20.1",
+  "security_score": 5,
+  "security_avg_cvss": 5.5,
+  "privacy_trackers_found": 3,
   "privacy_url": "https://www.livahealthcare.com/privacy.html",
   "manifest_high": 4,
   "manifest_medium": null,
@@ -12,17 +12,17 @@
   "code_warning": 2,
   "code_good": null,
   "code_info": 3,
-  "trackers": [
+  "privacy_trackers": [
     "Google AdMob",
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": null,
-  "prominantTracking": null,
-  "completeTracking": null,
-  "DPIA": null,
-  "cookies": null,
-  "privacyScore": null,
-  "store": null,
-  "category": null
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
 }

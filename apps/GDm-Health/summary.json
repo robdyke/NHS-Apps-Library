@@ -1,9 +1,9 @@
 {
-  "name": "GDm-Health",
-  "version": "19.1.34 (61)",
-  "securityscore": 40,
-  "avg_cvss": 5.8,
-  "trackers_found": 3,
+  "app_name": "GDm-Health",
+  "app_version": "19.1.34 (61)",
+  "security_score": 40,
+  "security_avg_cvss": 5.8,
+  "privacy_trackers_found": 3,
   "privacy_url": "https://www.sensynehealth.com/policies/gdm-health-privacy-policy",
   "manifest_high": 2,
   "manifest_medium": null,
@@ -12,17 +12,17 @@
   "code_warning": 2,
   "code_good": 1,
   "code_info": 1,
-  "trackers": [
+  "privacy_trackers": [
     "Google AdMob",
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": null,
-  "prominantTracking": null,
-  "completeTracking": null,
-  "DPIA": null,
-  "cookies": null,
-  "privacyScore": null,
-  "store": null,
-  "category": null
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
 }

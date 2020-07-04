@@ -1,9 +1,9 @@
 {
-  "name": "NHS Go",
-  "version": "2.5",
-  "securityscore": 10,
-  "avg_cvss": 6,
-  "trackers_found": 10,
+  "app_name": "NHS Go",
+  "app_version": "2.5",
+  "security_score": 10,
+  "security_avg_cvss": 6,
+  "privacy_trackers_found": 10,
   "privacy_url": "https://nhsgo.uk/privacy",
   "manifest_high": 21,
   "manifest_medium": 1,
@@ -11,7 +11,7 @@
   "code_high": 5,
   "code_info": 2,
   "code_warning": 2,
-  "trackers": [
+  "privacy_trackers": [
     "Amplitude",
     "Facebook Ads",
     "Facebook Analytics",
@@ -23,12 +23,12 @@
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": false,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 2,
-  "store": "NHS Apps Library",
-  "category": "NHS Services"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": false,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "app_store": "NHS Apps Library",
+  "app_category": "NHS Services"
 }

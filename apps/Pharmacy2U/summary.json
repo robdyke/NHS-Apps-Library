@@ -1,9 +1,9 @@
 {
-  "name": "Pharmacy2U",
-  "version": "4.0.8",
-  "securityscore": 0,
-  "avg_cvss": 6.1,
-  "trackers_found": 3,
+  "app_name": "Pharmacy2U",
+  "app_version": "4.0.8",
+  "security_score": 0,
+  "security_avg_cvss": 6.1,
+  "privacy_trackers_found": 3,
   "privacy_url": "https://www.pharmacy2u.co.uk/privacy.html",
   "manifest_high": 7,
   "manifest_medium": 1,
@@ -11,17 +11,17 @@
   "code_high": 5,
   "code_info": 1,
   "code_warning": 3,
-  "trackers": [
+  "privacy_trackers": [
     "Google AdMob",
     "Google Firebase Analytics",
     "OneSignal"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": true,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 3,
-  "store": "Play",
-  "category": "Pharmacy"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "app_store": "Play",
+  "app_category": "Pharmacy"
 }

@@ -1,9 +1,9 @@
 {
-  "name": "Medloop",
-  "version": "1.5.3",
-  "securityscore": 10,
-  "avg_cvss": 6.3,
-  "trackers_found": 3,
+  "app_name": "Medloop",
+  "app_version": "1.5.3",
+  "security_score": 10,
+  "security_avg_cvss": 6.3,
+  "privacy_trackers_found": 3,
   "privacy_url": "https://medloop.co/privacy",
   "manifest_high": 8,
   "manifest_info": 1,
@@ -11,17 +11,17 @@
   "code_high": 7,
   "code_info": 1,
   "code_warning": 2,
-  "trackers": [
+  "privacy_trackers": [
     "Google CrashLytics",
     "Google Firebase Analytics",
     "MixPanel"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": true,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 3,
-  "store": "NHS Apps Library",
-  "category": "NHS Services"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "app_store": "NHS Apps Library",
+  "app_category": "NHS Services"
 }

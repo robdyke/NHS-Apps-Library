@@ -1,24 +1,24 @@
 {
-  "name": "Howz",
-  "version": "7.8.2",
-  "securityscore": 65,
-  "avg_cvss": 5.8,
-  "trackers_found": 1,
+  "app_name": "Howz",
+  "app_version": "7.8.2",
+  "security_score": 65,
+  "security_avg_cvss": 5.8,
+  "privacy_trackers_found": 1,
   "privacy_url": "https://howz.com/pages/howz-privacy-policy",
   "manifest_high": 6,
   "code_good": 1,
   "code_high": 2,
   "code_info": 1,
   "code_warning": 1,
-  "trackers": [
+  "privacy_trackers": [
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": true,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 3,
-  "store": "NHS Apps Library",
-  "category": "COVID"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "app_store": "NHS Apps Library",
+  "app_category": "COVID"
 }

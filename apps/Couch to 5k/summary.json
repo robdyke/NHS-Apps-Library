@@ -1,9 +1,9 @@
 {
-  "name": "Couch to 5k",
-  "version": "7.3.1",
-  "securityscore": 30,
-  "avg_cvss": 6,
-  "trackers_found": 6,
+  "app_name": "Couch to 5k",
+  "app_version": "7.3.1",
+  "security_score": 30,
+  "security_avg_cvss": 6,
+  "privacy_trackers_found": 6,
   "privacy_url": "https://www.nhs.uk/oneyou/privacy-policy",
   "manifest_high": 5,
   "manifest_medium": 1,
@@ -12,7 +12,7 @@
   "code_warning": 1,
   "code_good": null,
   "code_info": 1,
-  "trackers": [
+  "privacy_trackers": [
     "Google AdMob",
     "Google Analytics",
     "Google CrashLytics",
@@ -20,12 +20,12 @@
     "Google Tag Manager",
     "Tealium"
   ],
-  "privacyURLcorrect": null,
-  "prominantTracking": null,
-  "completeTracking": null,
-  "DPIA": null,
-  "cookies": null,
-  "privacyScore": null,
-  "store": null,
-  "category": null
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
 }

@@ -1,9 +1,9 @@
 {
-  "name": "MyHealthGuide",
-  "version": "2.4.4",
-  "securityscore": 15,
-  "avg_cvss": 6.2,
-  "trackers_found": 6,
+  "app_name": "MyHealthGuide",
+  "app_version": "2.4.4",
+  "security_score": 15,
+  "security_avg_cvss": 6.2,
+  "privacy_trackers_found": 6,
   "privacy_url": "https://myhealthguideapp.com/privacy/",
   "manifest_high": 3,
   "manifest_info": 1,
@@ -11,7 +11,7 @@
   "code_high": 5,
   "code_info": 1,
   "code_warning": 1,
-  "trackers": [
+  "privacy_trackers": [
     "Flurry",
     "Google AdMob",
     "Google Analytics",
@@ -19,12 +19,12 @@
     "Google Firebase Analytics",
     "Google Tag Manager"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": true,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 3,
-  "store": "NHS Apps Library",
-  "category": "Social Care"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "app_store": "NHS Apps Library",
+  "app_category": "Social Care"
 }

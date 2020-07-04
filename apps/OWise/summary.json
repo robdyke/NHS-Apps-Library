@@ -1,27 +1,27 @@
 {
-  "name": "OWise",
-  "version": "1.1.0",
-  "securityscore": 10,
-  "avg_cvss": 6.2,
-  "trackers_found": 4,
+  "app_name": "OWise",
+  "app_version": "1.1.0",
+  "security_score": 10,
+  "security_avg_cvss": 6.2,
+  "privacy_trackers_found": 4,
   "privacy_url": "http://www.owise.uk/privacy",
   "manifest_high": 2,
   "manifest_medium": 1,
   "code_high": 7,
   "code_info": 1,
   "code_warning": 3,
-  "trackers": [
+  "privacy_trackers": [
     "Google AdMob",
     "Google Analytics",
     "Google Firebase Analytics",
     "Google Tag Manager"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": false,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 2,
-  "store": "NHS Apps Library",
-  "category": "Cancer"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": false,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "app_store": "NHS Apps Library",
+  "app_category": "Cancer"
 }

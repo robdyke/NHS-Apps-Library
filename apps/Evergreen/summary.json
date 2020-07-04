@@ -1,23 +1,23 @@
 {
-  "name": "Evergreen",
-  "version": "15.3.2",
-  "securityscore": 55,
-  "avg_cvss": 6.9,
-  "trackers_found": 1,
+  "app_name": "Evergreen",
+  "app_version": "15.3.2",
+  "security_score": 55,
+  "security_avg_cvss": 6.9,
+  "privacy_trackers_found": 1,
   "privacy_url": "https://www.evergreen-life.co.uk/terms/website-terms-of-use",
   "manifest_high": 8,
   "manifest_medium": 1,
   "code_high": 3,
   "code_info": 2,
-  "trackers": [
+  "privacy_trackers": [
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": false,
-  "prominantTracking": true,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 2,
-  "store": "NHS Apps Library",
-  "category": "NHS Services"
+  "privacy_url_correct": false,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "app_store": "NHS Apps Library",
+  "app_category": "NHS Services"
 }

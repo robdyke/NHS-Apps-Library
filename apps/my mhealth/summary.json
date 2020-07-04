@@ -1,9 +1,9 @@
 {
-  "name": "my mhealth",
-  "version": "1.8.8",
-  "securityscore": 10,
-  "avg_cvss": 5.9,
-  "trackers_found": 2,
+  "app_name": "my mhealth",
+  "app_version": "1.8.8",
+  "security_score": 10,
+  "security_avg_cvss": 5.9,
+  "privacy_trackers_found": 2,
   "privacy_url": "https://mymhealth.com/privacy",
   "manifest_high": 5,
   "manifest_medium": null,
@@ -12,16 +12,16 @@
   "code_warning": 2,
   "code_good": null,
   "code_info": 1,
-  "trackers": [
+  "privacy_trackers": [
     "Google AdMob",
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": null,
-  "prominantTracking": null,
-  "completeTracking": null,
-  "DPIA": null,
-  "cookies": null,
-  "privacyScore": null,
-  "store": null,
-  "category": null
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
 }

@@ -10,6 +10,6 @@ cat apps/ThinkNinja/report.json |jq -s -r -f tools/jq/app_info.jq > thinkninja.j
 cat apps/ThinkNinja/report.json |jq -s -r -f tools/jq/app_manifest_analysis.jq >> thinkninja.json
 cat apps/ThinkNinja/report.json |jq -s -r -f tools/jq/app_code_analysis.jq >> thinkninja.json
 cat apps/ThinkNinja/report.json |jq -s -r -f tools/jq/app_trackers.jq >> thinkninja.json
-jo -p "privacyURLcorrect=" "prominantTracking=" "completeTracking=" "DPIA=" "cookies=" "privacyScore=" "store=" "category=" >> thinkninja.json
+jo -p "privacy_url_correct=" "privacy_prominantTracking=" "privacy_completeTracking=" "privacy_DPIA=" "cookies=" "privacyScore=" "store=" "category=" >> thinkninja.json
 cat thinkninja.json|jq -s '.|add' > apps/ThinkNinja/report-summary.json
 ```

@@ -58,8 +58,8 @@ summary_to_json_csv(){
     echo "" > summary.tmp
     find $PARENTDIR/apps -maxdepth 3 -name '*summary.json' | while read file; do cat "${file}" >> summary.tmp; done
     cat summary.tmp|jq -s . > summary.json
-    echo "name,version,securityscore,avg_cvss,trackers_found,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacyURL,privacyURLcorrect,prominantTracking,completeTracking,DPIA,cookies,privacyScore,store,category" > summary.csv
-    cat summary.json |jq -r '.[]|[.name, .version, .securityscore, .avg_cvss, .trackers_found, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_url, .privacyURLcorrect, .prominantTracking, .completeTracking, .DPIA, .cookies, .privacyScore, .store, .category]|@csv' >> summary.csv
+    echo "name,version,securityscore,avg_cvss,trackers_found,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacyURL,privacy_url_correct,prominantTracking,completeTracking,DPIA,cookies,privacyScore,store,category" > summary.csv
+    cat summary.json |jq -r '.[]|[.name, .version, .securityscore, .avg_cvss, .trackers_found, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_url, .privacy_url_correct, .prominantTracking, .completeTracking, .DPIA, .cookies, .privacyScore, .store, .category]|@csv' >> summary.csv
     rm summary.tmp
     mv summary.csv summary.json $PARENTDIR
     echo -e "\e[32mInfo: Created summary JSON and CSV"

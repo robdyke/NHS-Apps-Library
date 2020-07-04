@@ -1,24 +1,24 @@
 {
-  "name": "ThinkNinja",
-  "version": "10.4",
-  "securityscore": 75,
-  "avg_cvss": 5.7,
-  "trackers_found": 2,
+  "app_name": "ThinkNinja",
+  "app_version": "10.4",
+  "security_score": 75,
+  "security_avg_cvss": 5.7,
+  "privacy_trackers_found": 2,
   "privacy_url": "http://www.healios.org.uk/privacy-policy/",
   "manifest_high": 4,
   "code_high": 1,
   "code_info": 1,
   "code_warning": 1,
-  "trackers": [
+  "privacy_trackers": [
     "Google AdMob",
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": true,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 3,
-  "store": "NHS Apps Library",
-  "category": "COVID"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "app_store": "NHS Apps Library",
+  "app_category": "COVID"
 }

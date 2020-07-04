@@ -1,9 +1,9 @@
 {
-  "name": "mySugr",
-  "version": "3.73.1",
-  "securityscore": 10,
-  "avg_cvss": 6.2,
-  "trackers_found": 5,
+  "app_name": "mySugr",
+  "app_version": "3.73.1",
+  "security_score": 10,
+  "security_avg_cvss": 6.2,
+  "privacy_trackers_found": 5,
   "privacy_url": "https://legal.mysugr.com/documents/privacy_policy_eu/current.html",
   "manifest_high": 10,
   "manifest_medium": null,
@@ -12,19 +12,19 @@
   "code_warning": 2,
   "code_good": 1,
   "code_info": 3,
-  "trackers": [
+  "privacy_trackers": [
     "Adjust",
     "Countly",
     "Google AdMob",
     "Google CrashLytics",
     "Google Firebase Analytics"
   ],
-  "privacyURLcorrect": null,
-  "prominantTracking": null,
-  "completeTracking": null,
-  "DPIA": null,
-  "cookies": null,
-  "privacyScore": null,
-  "store": null,
-  "category": null
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
 }

@@ -1,9 +1,9 @@
 {
-  "name": "ACR",
-  "version": "5.0.6",
-  "securityscore": 10,
-  "avg_cvss": 6,
-  "trackers_found": 2,
+  "app_name": "ACR",
+  "app_version": "5.0.6",
+  "security_score": 10,
+  "security_avg_cvss": 6,
+  "privacy_trackers_found": 2,
   "privacy_url": "https://healthy.io/docs/acr-eu/modality/privacy/",
   "manifest_high": 1,
   "manifest_medium": null,
@@ -12,16 +12,16 @@
   "code_warning": 2,
   "code_good": 1,
   "code_info": 1,
-  "trackers": [
+  "privacy_trackers": [
     "Google CrashLytics",
     "MixPanel"
   ],
-  "privacyURLcorrect": null,
-  "prominantTracking": null,
-  "completeTracking": null,
-  "DPIA": null,
-  "cookies": null,
-  "privacyScore": null,
-  "store": null,
-  "category": null
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
 }

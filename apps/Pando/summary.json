@@ -1,9 +1,9 @@
 {
-  "name": "Pando",
-  "version": "7.6.0",
-  "securityscore": 10,
-  "avg_cvss": 5.5,
-  "trackers_found": 6,
+  "app_name": "Pando",
+  "app_version": "7.6.0",
+  "security_score": 10,
+  "security_avg_cvss": 5.5,
+  "privacy_trackers_found": 6,
   "privacy_url": "https://hellopando.com/privacy-policy/",
   "manifest_high": 3,
   "manifest_info": 1,
@@ -11,7 +11,7 @@
   "code_high": 5,
   "code_info": 4,
   "code_warning": 2,
-  "trackers": [
+  "privacy_trackers": [
     "Branch",
     "Google AdMob",
     "Google CrashLytics",
@@ -19,12 +19,12 @@
     "MixPanel",
     "Wootric"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": true,
-  "completeTracking": true,
-  "DPIA": true,
-  "cookies": true,
-  "privacyScore": 5,
-  "store": "NHS Apps Library",
-  "category": "NHS Services"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": true,
+  "privacy_DPIA": true,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 5,
+  "app_store": "NHS Apps Library",
+  "app_category": "NHS Services"
 }

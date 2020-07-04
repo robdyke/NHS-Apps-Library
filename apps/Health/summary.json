@@ -1,16 +1,16 @@
 {
-  "name": "Health",
-  "version": "3.16",
-  "securityscore": 5,
-  "avg_cvss": 6,
-  "trackers_found": 9,
+  "app_name": "Health",
+  "app_version": "3.16",
+  "security_score": 5,
+  "security_avg_cvss": 6,
+  "privacy_trackers_found": 9,
   "privacy_url": "https://www.coop.co.uk/privacy-notice",
   "manifest_high": 11,
   "manifest_info": 1,
   "code_high": 5,
   "code_info": 1,
   "code_warning": 2,
-  "trackers": [
+  "privacy_trackers": [
     "AppsFlyer",
     "Facebook Login",
     "Facebook Places",
@@ -21,12 +21,12 @@
     "Microsoft Appcenter Analytics",
     "Microsoft Appcenter Crashes"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": false,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 2,
-  "store": "NHS Apps Library",
-  "category": "NHS Services"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": false,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 2,
+  "app_store": "NHS Apps Library",
+  "app_category": "NHS Services"
 }

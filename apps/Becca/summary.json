@@ -1,27 +1,27 @@
 {
-  "name": "Becca",
-  "version": "1.29.02",
-  "securityscore": 5,
-  "avg_cvss": 6,
-  "trackers_found": 4,
+  "app_name": "Becca",
+  "app_version": "1.29.02",
+  "security_score": 5,
+  "security_avg_cvss": 6,
+  "privacy_trackers_found": 4,
   "privacy_url": "https://breastcancernow.org/privacy-policy",
   "manifest_high": 7,
   "manifest_medium": 1,
   "code_high": 5,
   "code_info": 1,
   "code_warning": 2,
-  "trackers": [
+  "privacy_trackers": [
     "AppsFlyer",
     "Google AdMob",
     "Google Firebase Analytics",
     "MixPanel"
   ],
-  "privacyURLcorrect": true,
-  "prominantTracking": true,
-  "completeTracking": false,
-  "DPIA": false,
-  "cookies": true,
-  "privacyScore": 3,
-  "store": "NHS Apps Library",
-  "category": "COVID"
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": false,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "app_store": "NHS Apps Library",
+  "app_category": "COVID"
 }
