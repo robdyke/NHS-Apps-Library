@@ -1,6 +1,12 @@
 # Trackers
 
-The NHS Digital Technical Assessment – Data Protection section of the DAQ aims to establishing that health apps and digital tools handle personal information in a safe, fair and lawful way.
+## What is a tracker?
+
+A tracker is a piece of software whose task is to gather information on the person using the application, on how they use it, or on the smartphone being used. A tracker is usually distributed by companies as a SDK (Software Development Kit), a sort of ready-made toolkit, aiming to make it easier for application developers. To be noted : 'open source' trackers exist, their code is available and open to everyone.
+
+Source: [Exodus Privacy](https://reports.exodus-privacy.eu.org/en/info/trackers/)
+
+## What do NHS Digital assess?
 
 NHS Digital require developers of apps and digital tools:
 
