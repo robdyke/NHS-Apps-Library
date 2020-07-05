@@ -904,6 +904,36 @@
     "security_score": 25
   },
   {
+    "app_category": "Pregnancy and baby",
+    "app_name": "Kicks Count",
+    "app_store": "NHS Apps Library",
+    "app_version": "1.2.6",
+    "code_good": null,
+    "code_high": 1,
+    "code_info": 1,
+    "code_warning": null,
+    "manifest_high": 1,
+    "manifest_info": null,
+    "manifest_medium": 1,
+    "privacy_DPIA": null,
+    "privacy_completeTracking": null,
+    "privacy_cookies": null,
+    "privacy_privacyScore": null,
+    "privacy_prominantTracking": null,
+    "privacy_trackers": [
+      "Google AdMob",
+      "Google Analytics",
+      "Google Firebase Analytics",
+      "Google Tag Manager",
+      "google-analytics-plugin"
+    ],
+    "privacy_trackers_found": 5,
+    "privacy_url": "http://www.kickscount.org.uk/privacy-policy/",
+    "privacy_url_correct": null,
+    "security_avg_cvss": 6.7,
+    "security_score": 85
+  },
+  {
     "app_category": "Diabetes",
     "app_name": "Liva UK",
     "app_store": "NHS Apps Library",

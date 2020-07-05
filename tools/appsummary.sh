@@ -71,21 +71,37 @@ function app_summary() {
 
 function all_summary_to_json_csv(){
     echo -e "\e[32mInfo: Creating summary JSON and CSV"
-    touch ${ROOT_DIR}/summary.tmp
-    cat ${ROOT_DIR}/apps/*/summary.json | tee -a ${ROOT_DIR}/summary.tmp
-    cat ${ROOT_DIR}/summary.tmp|jq -s --sort-keys . | tee ${ROOT_DIR}/summaries/summary.json
-    echo "app_name,app_version,app_store,app_category,security_score,security_avg_cvss,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_trackers_found,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore" > ${ROOT_DIR}/summaries/summary.csv
-    cat ${ROOT_DIR}/summaries/summary.json |jq -r '.[]|[.app_name, .app_version, .app_store, .app_category, .security_score, .security_avg_cvss, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_trackers_found, .privacy_url, .privacy_url_correct, .privacy_prominantTracking, .privacy_completeTracking, .privacy_DPIA, .privacy_cookies, .privacy_privacyScore]|@csv' >> ${ROOT_DIR}/summaries/summary.csv
-    rm ${ROOT_DIR}/summary.tmp
+    touch ${ROOT_DIR}/data/summary.tmp
+    cat ${ROOT_DIR}/apps/*/summary.json | tee -a ${ROOT_DIR}/data/summary.tmp
+    cat ${ROOT_DIR}/data/summary.tmp|jq -s --sort-keys . | tee ${ROOT_DIR}/data/summary.json
+    echo "app_name,app_version,app_store,app_category,security_score,security_avg_cvss,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_trackers_found,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore" > ${ROOT_DIR}/data/summary.csv
+    cat ${ROOT_DIR}/data/summary.json |jq -r '.[]|[.app_name, .app_version, .app_store, .app_category, .security_score, .security_avg_cvss, .code_high, .code_good, .code_info, .code_warning, .manifest_high, .manifest_medium, .manifest_info, .privacy_trackers_found, .privacy_url, .privacy_url_correct, .privacy_prominantTracking, .privacy_completeTracking, .privacy_DPIA, .privacy_cookies, .privacy_privacyScore]|@csv' >> ${ROOT_DIR}/data/summary.csv
+    rm ${ROOT_DIR}/data/summary.tmp
     echo -e "\e[32mInfo: Created summary JSON and CSV"
 }
 
 function all_trackers(){
     echo -e "\e[32mInfo: Creating trackers.csv"
-    find "${ROOT_DIR}/apps/"* -maxdepth 3 -name 'summary.json' | while read file; do  cat "$file"|jq -r '.privacy_trackers[]' >> trackers.out; done
-    cat trackers.out |sort|uniq -c > $ROOT_DIR/summaries/trackers.csv
-    rm trackers.out
+    touch ${ROOT_DIR}/data/trackers.tmp
+    find "${ROOT_DIR}/apps/"* -maxdepth 3 -name 'summary.json' | while read file; do  cat "$file"|jq -r '.privacy_trackers[]' >> ${ROOT_DIR}/data/trackers.tmp; done
+    cat ${ROOT_DIR}/data/trackers.tmp |sort|uniq -c > ${ROOT_DIR}/data/trackers.csv
+    cat ${ROOT_DIR}/data/trackers.csv |sort -n -r |tee ${ROOT_DIR}/data/trackers.csv
+    rm ${ROOT_DIR}/data/trackers.tmp
     echo -e "\e[32mInfo: Created trackers.csv"
+}
+
+function all_summary(){
+    shopt -s dotglob
+        find "${ROOT_DIR}/${OUTDIR}/"* -prune -type d | while IFS= read -r d; do 
+            APP_NAME=$(echo "${d}" |rev|cut -d / -f 1|rev)
+            echo "${APP_NAME}"
+            app_info
+            app_manifest
+            app_code
+            app_tracker
+            app_additional_fields
+            app_summary
+        done
 }
 
 function run_tests(){
@@ -139,6 +155,13 @@ else
         APP_NAME=$1
         app_summary
         ;;
+    --report)
+        shift
+        APP_NAME=$1
+        shift
+        APP_HASH=$1
+        fetch_report
+        ;;
     --summary)
         shift
         APP_NAME=$1
@@ -149,17 +172,10 @@ else
         app_additional_fields
         app_summary
         ;;
-    -ls)
+    --list)
         shift
         SCANS=${1:-5}
         list_scans
-        ;;
-    --report)
-        shift
-        APP_NAME=$1
-        shift
-        APP_HASH=$1
-        fetch_report
         ;;
     --all-report)
         fetch_all_report
@@ -168,19 +184,20 @@ else
         all_trackers
         ;;
     --all-summary)
-        shopt -s dotglob
-            find "${ROOT_DIR}/${OUTDIR}/"* -prune -type d | while IFS= read -r d; do 
-                APP_NAME=$(echo "${d}" |rev|cut -d / -f 1|rev)
-                echo "${APP_NAME}"
-        app_info
-        app_manifest
-        app_code
-        app_tracker
-        app_additional_fields
-        app_summary
-        done
+        # shopt -s dotglob
+        #     find "${ROOT_DIR}/${OUTDIR}/"* -prune -type d | while IFS= read -r d; do 
+        #         APP_NAME=$(echo "${d}" |rev|cut -d / -f 1|rev)
+        #         echo "${APP_NAME}"
+        # app_info
+        # app_manifest
+        # app_code
+        # app_tracker
+        # app_additional_fields
+        # app_summary
+        # done
+        all_summary
         ;;
-    --out)
+    --all-output)
         all_summary_to_json_csv
         ;;
     --test)

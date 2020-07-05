@@ -31,6 +31,7 @@ app_name,app_version,app_store,app_category,security_score,security_avg_cvss,cod
 "Hospify","1.6.15","NHS Apps Library","NHS Services",10,6.1,5,,1,4,9,,,7,"https://www.hospify.com/privacy",true,false,false,false,true,2
 "Howz","7.8.2","NHS Apps Library","COVID",65,5.8,2,1,1,1,6,,,1,"https://howz.com/pages/howz-privacy-policy",true,true,false,false,true,3
 "IFDC","1.0","NHS Apps Library","Child health",25,5.7,4,1,1,2,2,1,,2,"https://ifdcapp.com/privacy.html",,,,,,
+"Kicks Count","1.2.6","NHS Apps Library","Pregnancy and baby",85,6.7,1,,1,,1,1,,5,"http://www.kickscount.org.uk/privacy-policy/",,,,,,
 "Liva UK","3.20.1","NHS Apps Library","Diabetes",5,5.5,5,,3,2,4,,1,3,"https://www.livahealthcare.com/privacy.html",,,,,,
 "Low Carb","3.9.8","NHS Apps Library","Diabetes",10,5.7,6,1,1,2,8,,1,3,"https://www.lowcarbprogram.com/privacy/",,,,,,
 "LymEx","18","NHS Apps Library","Body areas",10,5.9,7,1,1,2,23,2,,11,"https://www.lnni.org/content/privacy-and-cookies-policy",,,,,,
