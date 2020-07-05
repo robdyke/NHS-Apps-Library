@@ -1,5 +1,9 @@
 #! /bin/bash
 
+# A simple script to search for packages matching a given patten on a connected Android device.
+# Packages matching the patten can be automagically pulled from the device.
+
+
 PATTERN=$1
 
 

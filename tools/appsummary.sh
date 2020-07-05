@@ -6,16 +6,18 @@ declare SCRIPT_DIR="$(cd ${0%/*} ; pwd)"
 # declare ROOT_DIR="$PWD"
 declare ROOT_DIR=($(dirname $PWD))
 
-OUTDIR=out
-
-TOKEN=45a5ac0c6084ec1293b7574623f45da889d77da3e5dd772fc828bedfa66e6221
+OUTDIR=${OUTDIR:-out}
+TOKEN=${TOKEN:-45a5ac0c6084ec1293b7574623f45da889d77da3e5dd772fc828bedfa66e6221}
 
 usage() {
-  echo -e "\e[31mUsage: $0 {-ai|-am|-ac|-at|-af|-as} APP_NAME"
-  echo -e "\e[31mUsage: $0 {-ls}"
-  echo -e "\e[31mUsage: $0 {-ar} APP_NAME APP_HASH"
-  echo -e "\e[31mUsage: $0 {--all-report|--all-summary}"
-  echo ""
+    echo -e "\e[32mINFO: $SCRIPT_NAME"
+    echo -e "\e[31m    $0 -i -m -c -t -f -s APPNAME"
+    echo -e "\e[31m    $0 --list"
+    echo -e "\e[31m    $0 --report APPNAME SCANHASH"
+    echo -e "\e[31m    $0 --summary APPNAME"
+    echo -e "\e[31m    $0 --all-report --all-summary --all-trackers --all-output"
+    echo -e "\e[31m    $0 --test"
+    echo ""
 }
 
 function list_scans() {
@@ -107,7 +109,16 @@ function all_summary(){
 function run_tests(){
     echo -e "\e[32mTEST: SCRIPT_DIR is $SCRIPT_DIR"
     echo -e "\e[32mTEST: ROOT_DIR is $ROOT_DIR"
-    # echo -e "\e[32mTEST: PARENT_DIR is $PARENT_DIR"
+    if [ -z ${TOKEN} ]; then
+        echo -e "\e[32mTEST: MobSF API token is not set"
+    else
+        echo -e "\e[32mTEST: MobSF API token is $TOKEN"
+    fi
+    if [ -z ${OUTDIR} ]; then
+        echo -e "\e[32mTEST: Output directory is not set"
+    else
+        echo -e "\e[32mTEST: Output directory is $OUTDIR"
+    fi
 }
 
 function merge_json(){
@@ -184,17 +195,6 @@ else
         all_trackers
         ;;
     --all-summary)
-        # shopt -s dotglob
-        #     find "${ROOT_DIR}/${OUTDIR}/"* -prune -type d | while IFS= read -r d; do 
-        #         APP_NAME=$(echo "${d}" |rev|cut -d / -f 1|rev)
-        #         echo "${APP_NAME}"
-        # app_info
-        # app_manifest
-        # app_code
-        # app_tracker
-        # app_additional_fields
-        # app_summary
-        # done
         all_summary
         ;;
     --all-output)
