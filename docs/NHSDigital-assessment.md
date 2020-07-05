@@ -14,7 +14,7 @@ Source: [How we assess health apps and digital tools](https://digital.nhs.uk/ser
 
 ## Assessment Process
 
-![Process flow of the technical assessment of apps](technical-assessment-process.png)
+![Process flow of the technical assessment of apps](attachments/nhsd-technical-assessment-process.png)
 
 Source: [How we assess health apps and digital tools](https://digital.nhs.uk/services/nhs-apps-library/guidance-for-health-app-developers-commissioners-and-assessors/how-we-assess-health-apps-and-digital-tools)
 
@@ -22,8 +22,8 @@ Source: [How we assess health apps and digital tools](https://digital.nhs.uk/ser
 
 NHS Digital publish the Digital Assessment Questions (DAQs) used to assess health apps and digital tools for inclusion on the NHS Apps Library. Developers of apps and digital tools should review this document to better understand the standards for all products published on the Apps Library. This represents a full list of all possible questions, however not all questions will be relevant to all products. You can find out more about the assessment process here and check if your product is eligible. Any questions or comments relating to this document can be sent to daq.team@nhs.net.
 
-Digital Assessment Questions: [online](https://digital.nhs.uk/services/nhs-apps-library/guidance-for-health-app-developers-commissioners-and-assessors/how-we-assess-health-apps-and-digital-tools#preview-the-questions) and [pdf](digital-assessment-questions/daq.pdf)
+Digital Assessment Questions: [online](https://digital.nhs.uk/services/nhs-apps-library/guidance-for-health-app-developers-commissioners-and-assessors/how-we-assess-health-apps-and-digital-tools#preview-the-questions) and [pdf](attachments/digital-assessment-questions/daq.pdf)
 
 DAQs last updated: 17/05/19
 
-The DAQ [roadmap](https://indd.adobe.com/view/51d857c0-00ee-4a2f-9b4b-02cb1c2a9ac7) for developers shows planned changes based on relevant national standards, policy and regulations for apps and digital tools in healthcare. [pdf](digital-assessment-questions/Apps_and_Wearables_Roadmap_v2.2.pdf)
+The DAQ [roadmap](https://indd.adobe.com/view/51d857c0-00ee-4a2f-9b4b-02cb1c2a9ac7) for developers shows planned changes based on relevant national standards, policy and regulations for apps and digital tools in healthcare. [pdf](attachments/digital-assessment-questions/Apps_and_Wearables_Roadmap_v2.2.pdf)
