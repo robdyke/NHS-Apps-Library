@@ -10,11 +10,11 @@
   "manifest_high": 10,
   "manifest_info": null,
   "manifest_medium": null,
-  "privacy_DPIA": null,
-  "privacy_completeTracking": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
-  "privacy_prominantTracking": null,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
+  "privacy_privacyScore": 3,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Adjust",
     "Countly",
@@ -24,7 +24,7 @@
   ],
   "privacy_trackers_found": 5,
   "privacy_url": "https://legal.mysugr.com/documents/privacy_policy_eu/current.html",
-  "privacy_url_correct": null,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 6.2,
   "security_score": 10
 }

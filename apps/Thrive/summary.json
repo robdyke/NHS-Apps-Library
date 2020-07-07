@@ -16,12 +16,12 @@
     "Google AdMob",
     "Google Firebase Analytics"
   ],
-  "privacy_url_correct": null,
-  "privacy_prominantTracking": null,
-  "privacy_completeTracking": null,
-  "privacy_DPIA": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
+  "privacy_url_correct": 1,
+  "privacy_prominantTracking": 1,
+  "privacy_completeTracking": 0,
+  "privacy_DPIA": 0,
+  "privacy_cookies": 1,
+  "privacy_privacyScore": 3,
   "app_store": "NHS Apps Library",
   "app_category": "Mental Health"
 }

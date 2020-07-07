@@ -10,11 +10,11 @@
   "manifest_high": 8,
   "manifest_info": 1,
   "manifest_medium": null,
-  "privacy_DPIA": null,
-  "privacy_completeTracking": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
-  "privacy_prominantTracking": null,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
+  "privacy_privacyScore": 2,
+  "privacy_prominantTracking": 0,
   "privacy_trackers": [
     "Google CrashLytics",
     "Google Firebase Analytics",
@@ -22,7 +22,7 @@
   ],
   "privacy_trackers_found": 3,
   "privacy_url": "https://www.lowcarbprogram.com/privacy/",
-  "privacy_url_correct": null,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 5.7,
   "security_score": 10
 }

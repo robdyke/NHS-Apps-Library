@@ -10,11 +10,11 @@
   "manifest_high": 4,
   "manifest_info": null,
   "manifest_medium": 1,
-  "privacy_DPIA": null,
-  "privacy_completeTracking": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
-  "privacy_prominantTracking": null,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
+  "privacy_privacyScore": 3,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Google AdMob",
     "Google CrashLytics",
@@ -22,7 +22,7 @@
   ],
   "privacy_trackers_found": 3,
   "privacy_url": "https://oviva.com/uk/en/legal/#privacy",
-  "privacy_url_correct": null,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 5.7,
   "security_score": 20
 }
