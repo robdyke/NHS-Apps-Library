@@ -88,6 +88,8 @@ function all_trackers(){
     find "${ROOT_DIR}/apps/"* -maxdepth 3 -name 'summary.json' | while read file; do  cat "$file"|jq -r '.privacy_trackers[]' >> ${ROOT_DIR}/data/trackers.tmp; done
     cat ${ROOT_DIR}/data/trackers.tmp |sort|uniq -c > ${ROOT_DIR}/data/trackers.csv
     cat ${ROOT_DIR}/data/trackers.csv |sort -n -r |tee ${ROOT_DIR}/data/trackers.csv
+    sed -i 's/^ *//' ${ROOT_DIR}/data/trackers.csv
+    sed -i 's/ /,/' ${ROOT_DIR}/data/trackers.csv
     rm ${ROOT_DIR}/data/trackers.tmp
     echo -e "\e[32mInfo: Created trackers.csv"
 }
