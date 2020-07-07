@@ -1,7 +1,7 @@
 {
   "app_category": null,
   "app_name": "Couch to 5k",
-  "app_store": null,
+  "app_store": "Play",
   "app_version": "7.3.1",
   "code_good": null,
   "code_high": 4,
@@ -10,11 +10,11 @@
   "manifest_high": 5,
   "manifest_info": null,
   "manifest_medium": 1,
-  "privacy_DPIA": null,
-  "privacy_completeTracking": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
-  "privacy_prominantTracking": null,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 3,
+  "privacy_prominantTracking": true,
   "privacy_trackers": [
     "Google AdMob",
     "Google Analytics",
@@ -25,7 +25,7 @@
   ],
   "privacy_trackers_found": 6,
   "privacy_url": "https://www.nhs.uk/oneyou/privacy-policy",
-  "privacy_url_correct": null,
+  "privacy_url_correct": true,
   "security_avg_cvss": 6,
   "security_score": 30
 }

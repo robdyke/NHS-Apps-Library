@@ -10,18 +10,18 @@
   "manifest_high": 1,
   "manifest_info": null,
   "manifest_medium": null,
-  "privacy_DPIA": null,
-  "privacy_completeTracking": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
-  "privacy_prominantTracking": null,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": false,
+  "privacy_privacyScore": 1,
+  "privacy_prominantTracking": false,
   "privacy_trackers": [
     "Google CrashLytics",
     "MixPanel"
   ],
   "privacy_trackers_found": 2,
   "privacy_url": "https://healthy.io/docs/acr-eu/modality/privacy/",
-  "privacy_url_correct": null,
+  "privacy_url_correct": true,
   "security_avg_cvss": 6,
   "security_score": 10
 }

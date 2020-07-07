@@ -12,12 +12,12 @@
   "code_warning": 1,
   "code_good": null,
   "code_info": null,
-  "privacy_url_correct": null,
-  "privacy_prominantTracking": null,
-  "privacy_completeTracking": null,
-  "privacy_DPIA": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
+  "privacy_url_correct": true,
+  "privacy_prominantTracking": true,
+  "privacy_completeTracking": true,
+  "privacy_DPIA": false,
+  "privacy_cookies": true,
+  "privacy_privacyScore": 4,
   "app_store": "NHS Apps Library",
   "app_category": "Body areas"
 }

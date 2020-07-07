@@ -10,17 +10,17 @@
   "manifest_high": 1,
   "manifest_info": null,
   "manifest_medium": 1,
-  "privacy_DPIA": null,
-  "privacy_completeTracking": null,
-  "privacy_cookies": null,
-  "privacy_privacyScore": null,
-  "privacy_prominantTracking": null,
+  "privacy_DPIA": false,
+  "privacy_completeTracking": false,
+  "privacy_cookies": false,
+  "privacy_privacyScore": 1,
+  "privacy_prominantTracking": false,
   "privacy_trackers": [
     "Google CrashLytics"
   ],
   "privacy_trackers_found": 1,
   "privacy_url": "http://www.brushdj.com/privacy-policy",
-  "privacy_url_correct": null,
+  "privacy_url_correct": true,
   "security_avg_cvss": 5.7,
   "security_score": 60
 }
