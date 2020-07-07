@@ -1,76 +1,77 @@
 app_name,app_version,app_store,app_category,security_score,security_avg_cvss,code_high,code_good,code_info,code_warning,manifest_high,manifest_medium,manifest_info,privacy_trackers_found,privacy_url,privacy_url_correct,privacy_prominantTracking,privacy_completeTracking,privacy_DPIA,privacy_cookies,privacy_privacyScore
-"ACR","5.0.6","NHS Apps Library","Diabetes",10,6,5,1,1,2,1,,,2,"https://healthy.io/docs/acr-eu/modality/privacy/",,,,,,
-"Airmid UK","1511","Play","PHR",35,6,4,1,3,1,6,,1,2,"https://systmonline.tpp-uk.com/Clinical/AiHealth/Gbr/PrivacyPolicy.html",true,true,false,false,true,3
-"BabyBuddy","2.13","NHS Apps Library","Child health",10,6.5,7,,1,2,14,1,,9,"https://www.bestbeginnings.org.uk/privacy-policy",,,,,,
-"Baby & Child First Aid","2.6.0","NHS Apps Library","Child health",10,6.3,4,,1,3,7,1,,3,"http://www.redcross.org.uk/en/Header-Footer-Links/Privacy-policy",,,,,,
-"Babylon","4.21.1.39418000","Play","NHS Services",10,6,7,1,3,3,18,,1,9,"http://www.babylonhealth.com/privacy",false,true,true,false,true,3
-"Becca","1.29.02","NHS Apps Library","COVID",5,6,5,,1,2,7,1,,4,"https://breastcancernow.org/privacy-policy",true,true,false,false,true,3
-"Brush DJ","4.0.11","NHS Apps Library","Dental",60,5.7,2,,1,1,1,1,,1,"http://www.brushdj.com/privacy-policy",,,,,,
-"Calm Harm","4.3.0","NHS Apps Library","Mental Health",60,5.8,2,,2,1,2,1,,3,"https://calmharm.org/tncs",,,,,,
-"Catch It","2.5","NHS Apps Library","Mental Health",100,7.5,,,1,,,1,,0,"http://liv.ac.uk/legal",,,,,,
-"Changing Health","1.6.5","NHS Apps Library","Diabetes",45,5.7,3,,1,1,1,1,,1,"http://www.changinghealth.co.uk/privacy-policy/",,,,,,
-"Companion","2.0","NHS Apps Library","Mental Health",60,5.7,2,,1,1,14,,,2,"http://companionapproach.com/ts-cs",,,,,,
-"ConsultantConnect","2.3.2","NHS Apps Library","NHS Services",35,6.3,4,1,1,1,7,,1,2,"https://www.consultantconnect.org.uk/privacy-policy/",true,false,true,false,true,3
-"Couch to 5k","7.3.1",,,30,6,4,,1,1,5,1,,6,"https://www.nhs.uk/oneyou/privacy-policy",,,,,,
-"COVID Symptom Tracker","0.13","Play","COVID",40,5.5,3,1,2,2,17,1,,10,"https://predict.study/covid-privacy-notice/",true,true,true,false,true,4
-"distrACT","1.4","NHS Apps Library","Mental Health",100,7.5,,,1,,1,1,,0,"http://www.expertselfcare.com/the-small-print/privacy-policy/",,,,,,
-"Echo","4.20.0","NHS Apps Library","NHS Services",25,5.7,4,1,2,2,10,,,8,"https://www.echo.co.uk/legal#privacy-policy",false,false,false,false,true,1
-"EMIS Mobile","5.2","Play","PHR",50,6.1,3,1,2,1,2,,,3,"https://www.emishealth.com/legal/emis-mobile-privacy-policy/",true,true,false,false,true,3
-"engage","1.1.23","NHS Apps Library","Body areas",75,4.9,1,,,1,,1,,0,"http://engageselfcare.com/privacy-cookie-policy/",,,,,,
-"eQuoo","3.4.3","NHS Apps Library","Mental Health",10,6.2,6,,2,3,12,1,,9,"https://www.equoogame.com/disclaimer-tc/",,,,,,
-"Evergreen","15.3.2","NHS Apps Library","NHS Services",55,6.9,3,,2,,8,1,,1,"https://www.evergreen-life.co.uk/terms/website-terms-of-use",false,true,false,false,true,2
-"FeelingGood","1.5.6.1","NHS Apps Library","Mental Health",75,5.8,1,,1,1,2,1,,4,"http://www.positiverewards.com/app/feeling-good-app-privacy-policy",,,,,,
-"First Aid","2.8.0","NHS Apps Library","First aid",25,6.5,3,,1,3,7,1,,3,"http://www.redcross.org.uk/en/Header-Footer-Links/Privacy-policy",,,,,,
-"GDm-Health","19.1.34 (61)","NHS Apps Library","Diabetes",40,5.8,3,1,1,2,2,,1,3,"https://www.sensynehealth.com/policies/gdm-health-privacy-policy",,,,,,
-"HCAnywhere","2.30","NHS Apps Library","NHS Services",60,5.2,2,,1,1,,,,0,"https://healthcareanywhere.co.uk/privacy-policy",true,false,true,false,true,3
-"Healthera","5.8.1","NHS Apps Library","NHS Services",15,6.1,4,1,2,3,37,1,,7,"https://healthera.co.uk/cookies-privacy/",false,true,true,false,true,3
-"HealthHelpNow","2.83","NHS Apps Library","NHS Services",10,6,6,,2,3,8,,,9,"http://kent.healthhelpnow.nhs.uk/privacy-policy/",true,true,false,false,true,3
-"Health Passport","1.17.7","NHS Apps Library","Respiratory",35,5.8,3,,2,2,10,,,6,"https://www.tinymedicalapps.com/legal/",,,,,,
-"Health","3.16","NHS Apps Library","NHS Services",5,6,5,,1,2,11,,1,9,"https://www.coop.co.uk/privacy-notice",true,false,false,false,true,2
-"Hoop","8.6","NHS Apps Library","Child health",25,5.8,4,1,3,2,8,1,,8,"https://hoop.co.uk/privacy-policy",,,,,,
-"Hospify","1.6.15","NHS Apps Library","NHS Services",10,6.1,5,,1,4,9,,,7,"https://www.hospify.com/privacy",true,false,false,false,true,2
-"Howz","7.8.2","NHS Apps Library","COVID",65,5.8,2,1,1,1,6,,,1,"https://howz.com/pages/howz-privacy-policy",true,true,false,false,true,3
-"IFDC","1.0","NHS Apps Library","Child health",25,5.7,4,1,1,2,2,1,,2,"https://ifdcapp.com/privacy.html",,,,,,
-"Kicks Count","1.2.6","NHS Apps Library","Pregnancy and baby",85,6.7,1,,1,,1,1,,5,"http://www.kickscount.org.uk/privacy-policy/",,,,,,
-"Liva UK","3.20.1","NHS Apps Library","Diabetes",5,5.5,5,,3,2,4,,1,3,"https://www.livahealthcare.com/privacy.html",,,,,,
-"Low Carb","3.9.8","NHS Apps Library","Diabetes",10,5.7,6,1,1,2,8,,1,3,"https://www.lowcarbprogram.com/privacy/",,,,,,
-"LymEx","18","NHS Apps Library","Body areas",10,5.9,7,1,1,2,23,2,,11,"https://www.lnni.org/content/privacy-and-cookies-policy",,,,,,
-"Medloop","1.5.3","NHS Apps Library","NHS Services",10,6.3,7,1,1,2,8,,1,3,"https://medloop.co/privacy",true,true,false,false,true,3
-"MeeTwo","1.5.0","NHS Apps Library","Body areas",65,5.8,2,1,1,1,4,,1,3,"https://www.meetwo.co.uk/privacy-policy",,,,,,
-"Miiskin","1.58.0","NHS Apps Library","Cancer",15,6.2,5,,2,1,10,,,9,"http://miiskin.com/legals/#TERMS",true,false,false,false,true,2
-"MyCognition HOME","1.9.6","NHS Apps Library","Memory and communication",10,6.1,5,,1,3,10,,,7,"http://www.mycognition.com/privacy-policy/",,,,,,
-"myGP","7.1.7","NHS Apps Library","NHS Services",20,5.8,4,,1,2,11,1,1,5,"https://www.mygp.com/privacy-policy/",true,false,false,false,true,2
-"MyHealthGuide","2.4.4","NHS Apps Library","Social Care",15,6.2,5,,1,1,3,1,1,6,"https://myhealthguideapp.com/privacy/",true,true,false,false,true,3
-"MyHouseOfMemories","6.06","NHS Apps Library","Memory and communication",10,5.9,6,,1,2,3,1,,2,"http://www.liverpoolmuseums.org.uk/about/corporate/policies/data-protection-policy.aspx",,,,,,
-"My Local Pharmacy","2.0.3","Play","Pharmacy",20,6.3,4,,1,2,6,1,,4,"http://securepharm.co.uk/content/documentation/rxs-mpa-customer-licence_final_6-january-2014_blms_v-1-4/",false,false,false,false,false,0
-"my mhealth","1.8.8","NHS Apps Library","Diabetes",10,5.9,7,,1,2,5,,,2,"https://mymhealth.com/privacy",,,,,,
-"MyPossibleSelf","1.16.53","NHS Apps Library","Mental Health",25,6.4,4,1,2,2,6,1,,3,"https://www.my-possible-self.com/privacy",,,,,,
-"mySugr","3.73.1","NHS Apps Library","Diabetes",10,6.2,6,1,3,2,10,,,5,"https://legal.mysugr.com/documents/privacy_policy_eu/current.html",,,,,,
-"NHS App","1.33.0","NHS Apps Library","NHS Services",10,5.9,7,,1,1,4,,1,1,"https://www.nhs.uk/using-the-nhs/nhs-services/the-nhs-app/privacy/",true,false,false,false,true,2
-"NHS Friends and Family Test","1.0.3","Play","NHS Services",100,0,,,,,,1,,0,"",false,false,true,false,true,2
-"NHS Go","2.5","NHS Apps Library","NHS Services",10,6,5,1,2,2,21,1,,10,"https://nhsgo.uk/privacy",true,false,false,false,true,2
-"NHS Online: 111","Failed","Play","NHS Services",10,6,5,1,1,2,,,,6,,false,true,true,false,true,3
-"NHS Online","1.2.0","NHS Apps Library","NHS Services",30,6.3,4,,1,1,9,1,,5,"http://assets.webgp.com/legal/applePrivacyPolicy",true,true,false,false,true,3
-"nujjer","2.2.2","NHS Apps Library","Diabetes",60,5.8,2,,1,1,2,1,,3,"http://nujjer.com/nujjer-privacy-policy",,,,,,
-"OneTouch","4.6","NHS Apps Library","Diabetes",10,5.9,8,,2,2,14,,,5,"https://onetouchreveal.com/mobile-privacy/",,,,,,
-"Oviva","v342","NHS Apps Library","Diabetes",20,5.7,4,,2,2,4,1,,3,"https://oviva.com/uk/en/legal/#privacy",,,,,,
-"OWise","1.1.0","NHS Apps Library","Cancer",10,6.2,7,,1,3,2,1,,4,"http://www.owise.uk/privacy",true,false,false,false,true,2
-"Pando","7.6.0","NHS Apps Library","NHS Services",10,5.5,5,1,4,2,3,,1,6,"https://hellopando.com/privacy-policy/",true,true,true,true,true,5
-"Patient Access","2.6.1","NHS Apps Library","NHS Services",0,5.9,5,1,3,3,6,,,3,"https://support.patientaccess.com/privacy-policy",true,false,false,false,true,2
-"Peanut","4.0.2-b6084","NHS Apps Library","Body areas",45,6,3,,3,1,6,,1,7,"https://www.peanut-app.io/privacy",,,,,,
-"Pharmacy2U","4.0.8","Play","Pharmacy",0,6.1,5,1,1,3,7,1,,3,"https://www.pharmacy2u.co.uk/privacy.html",true,true,false,false,true,3
-"Pzizz","4.9.18","NHS Apps Library","Sleep",10,6.1,6,1,2,3,13,1,1,10,"http://pzizz.com/terms_privacy.html",,,,,,
-"Rafi Tone","9.0.9","NHS Apps Library","Respiratory",50,5.8,2,,1,2,1,1,,0,"https://www.clin-e-cal.com/rafi-tone",,,,,,
-"Second Nature","5.3.4","NHS Apps Library","Diabetes",10,5.7,6,,2,3,9,1,1,5,"https://www.secondnature.io/privacy",,,,,,
-"SOS QR","2.0.0.95","NHS Apps Library","First Aid",40,5.8,3,1,1,2,6,1,,4,"http://www.humetrix.com/sosqr/privacy_summary.html",,,,,,
-"Student Health App","1.7","NHS Apps Library","Mental Health",70,6.9,2,,1,,1,1,,0,"https://www.expertselfcare.com/the-small-print/privacy-policy/",,,,,,
-"Sugarmedown","1.0.31","NHS Apps Library","Diabetes",10,6.3,9,,1,3,1,1,,5,"https://www.sugarmedown.com/privacypolicy",,,,,,
-"SystmOne eObs","828","Play","Nursing",5,5.9,6,1,2,1,3,,1,2,"https://www.tpp-uk.com/legal/privacy-policy",true,false,false,false,true,2
-"SystmOne eObs Training","828","Play","Nursing",5,5.9,6,1,2,1,3,,1,2,"https://www.tpp-uk.com/legal/privacy-policy",true,false,false,false,true,2
-"SystmOnline","11","Play","PHR",30,5.7,4,,1,1,1,1,1,0,"https://systmonline.tpp-uk.com/privacy/privacy.html",true,true,true,false,true,4
-"ThinkNinja","10.4","NHS Apps Library","COVID",75,5.7,1,,1,1,4,,,2,"http://www.healios.org.uk/privacy-policy/",true,true,false,false,true,3
-"Thrive","3.2.6","NHS Apps Library","Mental Health",90,4.6,,,3,1,6,1,,2,"https://thrive.uk.com/privacy-policy",,,,,,
-"Untire","3.3.0","NHS Apps Library","Cancer",10,6.3,7,1,1,2,8,2,,3,"https://www.untire.me/privacy",true,false,false,false,true,3
-"WaitLess","2.1.1","NHS Apps Library","NHS Services",45,6.1,3,,1,1,9,1,1,3,"https://w.e-shrewd.com/Waitless/documents/privacy-policy.html?v=1.1",true,false,false,false,true,2
-"WorryTree","2.1.02","NHS Apps Library","Mental Health",35,5.8,3,,3,2,4,,,3,"https://worry-tree.com/privacy-policy",,,,,,
-"Yellowcard","21.1.0","NHS Apps Library","NHS Services",30,5.9,4,,1,1,4,,,3,"https://yellowcard.mhra.gov.uk/privacy-policy/",true,true,false,false,true,3
+"ACR","5.0.6","NHS Apps Library","Diabetes",10,6,5,1,1,2,1,,,2,"https://healthy.io/docs/acr-eu/modality/privacy/",1,0,0,0,0,1
+"Airmid UK","1511","Play","PHR",35,6,4,1,3,1,6,,1,2,"https://systmonline.tpp-uk.com/Clinical/AiHealth/Gbr/PrivacyPolicy.html",1,1,0,0,1,3
+"BabyBuddy","2.13","NHS Apps Library","Child health",10,6.5,7,,1,2,14,1,,9,"https://www.bestbeginnings.org.uk/privacy-policy",1,0,0,0,1,2
+"Baby & Child First Aid","2.6.0","NHS Apps Library","Child health",10,6.3,4,,1,3,7,1,,3,"http://www.redcross.org.uk/en/Header-Footer-Links/Privacy-policy",1,0,0,0,1,2
+"Babylon","4.21.1.39418000","Play","NHS Services",10,6,7,1,3,3,18,,1,9,"http://www.babylonhealth.com/privacy",0,1,1,0,1,3
+"Becca","1.29.02","NHS Apps Library","COVID",5,6,5,,1,2,7,1,,4,"https://breastcancernow.org/privacy-policy",1,1,0,0,1,3
+"Brush DJ","4.0.11","NHS Apps Library","Dental",60,5.7,2,,1,1,1,1,,1,"http://www.brushdj.com/privacy-policy",1,0,0,0,0,1
+"Calm Harm","4.3.0","NHS Apps Library","Mental Health",60,5.8,2,,2,1,2,1,,3,"https://calmharm.org/tncs",1,0,0,0,0,1
+"Catch It","2.5","NHS Apps Library","Mental Health",100,7.5,,,1,,,1,,0,"http://liv.ac.uk/legal",0,0,1,0,1,2
+"Changing Health","1.6.5","NHS Apps Library","Diabetes",45,5.7,3,,1,1,1,1,,1,"http://www.changinghealth.co.uk/privacy-policy/",0,0,0,0,1,1
+"Companion","2.0","NHS Apps Library","Mental Health",60,5.7,2,,1,1,14,,,2,"http://companionapproach.com/ts-cs",0,1,0,0,1,2
+"ConsultantConnect","2.3.2","NHS Apps Library","NHS Services",35,6.3,4,1,1,1,7,,1,2,"https://www.consultantconnect.org.uk/privacy-policy/",1,0,1,0,1,3
+"Couch to 5k","7.3.1","Play",,30,6,4,,1,1,5,1,,6,"https://www.nhs.uk/oneyou/privacy-policy",1,1,0,0,1,3
+"COVID Symptom Tracker","0.13","Play","COVID",40,5.5,3,1,2,2,17,1,,10,"https://predict.study/covid-privacy-notice/",1,1,1,0,1,4
+"distrACT","1.4","NHS Apps Library","Mental Health",100,7.5,,,1,,1,1,,0,"http://www.expertselfcare.com/the-small-print/privacy-policy/",1,,,0,1,2
+"DoctorLink","1.26.1","Play","NHS Services",10,5.8,4,,1,3,,1,,2,"https://www.doctorlink.com/privacynotice/",1,0,0,0,1,2
+"Echo","4.20.0","NHS Apps Library","NHS Services",25,5.7,4,1,2,2,10,,,8,"https://www.echo.co.uk/legal#privacy-policy",0,0,0,0,1,1
+"EMIS Mobile","5.2","Play","PHR",50,6.1,3,1,2,1,2,,,3,"https://www.emishealth.com/legal/emis-mobile-privacy-policy/",1,1,0,0,1,3
+"engage","1.1.23","NHS Apps Library","Body areas",75,4.9,1,,,1,,1,,0,"http://engageselfcare.com/privacy-cookie-policy/",1,1,1,0,1,4
+"eQuoo","3.4.3","NHS Apps Library","Mental Health",10,6.2,6,,2,3,12,1,,9,"https://www.equoogame.com/disclaimer-tc/",1,1,0,0,1,3
+"Evergreen","15.3.2","NHS Apps Library","NHS Services",55,6.9,3,,2,,8,1,,1,"https://www.evergreen-life.co.uk/terms/website-terms-of-use",0,1,0,0,1,2
+"FeelingGood","1.5.6.1","NHS Apps Library","Mental Health",75,5.8,1,,1,1,2,1,,4,"http://www.positiverewards.com/app/feeling-good-app-privacy-policy",1,1,0,0,1,3
+"First Aid","2.8.0","NHS Apps Library","First aid",25,6.5,3,,1,3,7,1,,3,"http://www.redcross.org.uk/en/Header-Footer-Links/Privacy-policy",1,1,0,0,1,3
+"GDm-Health","19.1.34 (61)","NHS Apps Library","Diabetes",40,5.8,3,1,1,2,2,,1,3,"https://www.sensynehealth.com/policies/gdm-health-privacy-policy",1,0,0,0,1,2
+"HCAnywhere","2.30","NHS Apps Library","NHS Services",60,5.2,2,,1,1,,,,0,"https://healthcareanywhere.co.uk/privacy-policy",1,0,1,0,1,3
+"Healthera","5.8.1","NHS Apps Library","NHS Services",15,6.1,4,1,2,3,37,1,,7,"https://healthera.co.uk/cookies-privacy/",0,1,1,0,1,3
+"HealthHelpNow","2.83","NHS Apps Library","NHS Services",10,6,6,,2,3,8,,,9,"http://kent.healthhelpnow.nhs.uk/privacy-policy/",1,1,0,0,1,3
+"Health Passport","1.17.7","NHS Apps Library","Respiratory",35,5.8,3,,2,2,10,,,6,"https://www.tinymedicalapps.com/legal/",1,0,0,0,0,1
+"Health","3.16","NHS Apps Library","NHS Services",5,6,5,,1,2,11,,1,9,"https://www.coop.co.uk/privacy-notice",1,0,0,0,1,2
+"Hoop","8.6","NHS Apps Library","Child health",25,5.8,4,1,3,2,8,1,,8,"https://hoop.co.uk/privacy-policy",1,1,0,0,1,3
+"Hospify","1.6.15","NHS Apps Library","NHS Services",10,6.1,5,,1,4,9,,,7,"https://www.hospify.com/privacy",1,0,0,0,1,2
+"Howz","7.8.2","NHS Apps Library","COVID",65,5.8,2,1,1,1,6,,,1,"https://howz.com/pages/howz-privacy-policy",1,1,0,0,1,3
+"IFDC","1.0","NHS Apps Library","Child health",25,5.7,4,1,1,2,2,1,,2,"https://ifdcapp.com/privacy.html",1,0,0,0,1,2
+"Kicks Count","1.2.6","NHS Apps Library","Pregnancy and baby",85,6.7,1,,1,,1,1,,5,"http://www.kickscount.org.uk/privacy-policy/",1,0,0,0,1,2
+"Liva UK","3.20.1","NHS Apps Library","Diabetes",5,5.5,5,,3,2,4,,1,3,"https://www.livahealthcare.com/privacy.html",1,0,0,0,1,2
+"Low Carb","3.9.8","NHS Apps Library","Diabetes",10,5.7,6,1,1,2,8,,1,3,"https://www.lowcarbprogram.com/privacy/",1,0,0,0,1,2
+"LymEx","18","NHS Apps Library","Body areas",10,5.9,7,1,1,2,23,2,,11,"https://www.lnni.org/content/privacy-and-cookies-policy",1,0,0,0,1,2
+"Medloop","1.5.3","NHS Apps Library","NHS Services",10,6.3,7,1,1,2,8,,1,3,"https://medloop.co/privacy",1,1,0,0,1,3
+"MeeTwo","1.5.0","NHS Apps Library","Body areas",65,5.8,2,1,1,1,4,,1,3,"https://www.meetwo.co.uk/privacy-policy",1,0,0,0,1,2
+"Miiskin","1.58.0","NHS Apps Library","Cancer",15,6.2,5,,2,1,10,,,9,"http://miiskin.com/legals/#TERMS",1,0,0,0,1,2
+"MyCognition HOME","1.9.6","NHS Apps Library","Memory and communication",10,6.1,5,,1,3,10,,,7,"http://www.mycognition.com/privacy-policy/",1,0,0,0,1,2
+"myGP","7.1.7","NHS Apps Library","NHS Services",20,5.8,4,,1,2,11,1,1,5,"https://www.mygp.com/privacy-policy/",1,0,0,0,1,2
+"MyHealthGuide","2.4.4","NHS Apps Library","Social Care",15,6.2,5,,1,1,3,1,1,6,"https://myhealthguideapp.com/privacy/",1,1,0,0,1,3
+"MyHouseOfMemories","6.06","NHS Apps Library","Memory and communication",10,5.9,6,,1,2,3,1,,2,"http://www.liverpoolmuseums.org.uk/about/corporate/policies/data-protection-policy.aspx",0,1,0,0,1,2
+"My Local Pharmacy","2.0.3","Play","Pharmacy",20,6.3,4,,1,2,6,1,,4,"http://securepharm.co.uk/content/documentation/rxs-mpa-customer-licence_final_6-january-2014_blms_v-1-4/",0,0,0,0,0,0
+"my mhealth","1.8.8","NHS Apps Library","Diabetes",10,5.9,7,,1,2,5,,,2,"https://mymhealth.com/privacy",1,0,0,0,1,2
+"MyPossibleSelf","1.16.53","NHS Apps Library","Mental Health",25,6.4,4,1,2,2,6,1,,3,"https://www.my-possible-self.com/privacy",1,1,0,0,1,3
+"mySugr","3.73.1","NHS Apps Library","Diabetes",10,6.2,6,1,3,2,10,,,5,"https://legal.mysugr.com/documents/privacy_policy_eu/current.html",1,1,0,0,1,3
+"NHS App","1.33.0","NHS Apps Library","NHS Services",10,5.9,7,,1,1,4,,1,1,"https://www.nhs.uk/using-the-nhs/nhs-services/the-nhs-app/privacy/",1,0,0,0,1,2
+"NHS Friends and Family Test","1.0.3","Play","NHS Services",100,0,,,,,,1,,0,"",0,0,1,0,1,2
+"NHS Go","2.5","NHS Apps Library","NHS Services",10,6,5,1,2,2,21,1,,10,"https://nhsgo.uk/privacy",1,0,0,0,1,2
+"NHS Online: 111","Failed","Play","NHS Services",10,6,5,1,1,2,,,,6,,0,1,1,0,1,3
+"NHS Online","1.2.0","NHS Apps Library","NHS Services",30,6.3,4,,1,1,9,1,,5,"http://assets.webgp.com/legal/applePrivacyPolicy",1,1,0,0,1,3
+"nujjer","2.2.2","NHS Apps Library","Diabetes",60,5.8,2,,1,1,2,1,,3,"http://nujjer.com/nujjer-privacy-policy",1,1,0,0,1,3
+"OneTouch","4.6","NHS Apps Library","Diabetes",10,5.9,8,,2,2,14,,,5,"https://onetouchreveal.com/mobile-privacy/",1,1,0,0,1,3
+"Oviva","v342","NHS Apps Library","Diabetes",20,5.7,4,,2,2,4,1,,3,"https://oviva.com/uk/en/legal/#privacy",1,1,0,0,1,3
+"OWise","1.1.0","NHS Apps Library","Cancer",10,6.2,7,,1,3,2,1,,4,"http://www.owise.uk/privacy",1,0,0,0,1,2
+"Pando","7.6.0","NHS Apps Library","NHS Services",10,5.5,5,1,4,2,3,,1,6,"https://hellopando.com/privacy-policy/",1,1,1,1,1,5
+"Patient Access","2.6.1","NHS Apps Library","NHS Services",0,5.9,5,1,3,3,6,,,3,"https://support.patientaccess.com/privacy-policy",1,0,0,0,1,2
+"Peanut","4.0.2-b6084","NHS Apps Library","Body areas",45,6,3,,3,1,6,,1,7,"https://www.peanut-app.io/privacy",1,1,0,0,1,3
+"Pharmacy2U","4.0.8","Play","Pharmacy",0,6.1,5,1,1,3,7,1,,3,"https://www.pharmacy2u.co.uk/privacy.html",1,1,0,0,1,3
+"Pzizz","4.9.18","NHS Apps Library","Sleep",10,6.1,6,1,2,3,13,1,1,10,"http://pzizz.com/terms_privacy.html",1,0,0,0,1,2
+"Rafi Tone","9.0.9","NHS Apps Library","Respiratory",50,5.8,2,,1,2,1,1,,0,"https://www.clin-e-cal.com/rafi-tone",0,0,0,0,1,1
+"Second Nature","5.3.4","NHS Apps Library","Diabetes",10,5.7,6,,2,3,9,1,1,5,"https://www.secondnature.io/privacy",1,1,1,0,1,4
+"SOS QR","2.0.0.95","NHS Apps Library","First Aid",40,5.8,3,1,1,2,6,1,,4,"http://www.humetrix.com/sosqr/privacy_summary.html",0,1,0,0,1,2
+"Student Health App","1.7","NHS Apps Library","Mental Health",70,6.9,2,,1,,1,1,,0,"https://www.expertselfcare.com/the-small-print/privacy-policy/",1,1,1,0,1,4
+"Sugarmedown","1.0.31","NHS Apps Library","Diabetes",10,6.3,9,,1,3,1,1,,5,"https://www.sugarmedown.com/privacypolicy",0,0,0,0,0,0
+"SystmOne eObs","828","Play","Nursing",5,5.9,6,1,2,1,3,,1,2,"https://www.tpp-uk.com/legal/privacy-policy",1,0,0,0,1,2
+"SystmOne eObs Training","828","Play","Nursing",5,5.9,6,1,2,1,3,,1,2,"https://www.tpp-uk.com/legal/privacy-policy",1,0,0,0,1,2
+"SystmOnline","11","Play","PHR",30,5.7,4,,1,1,1,1,1,0,"https://systmonline.tpp-uk.com/privacy/privacy.html",1,1,1,0,1,4
+"ThinkNinja","10.4","NHS Apps Library","COVID",75,5.7,1,,1,1,4,,,2,"http://www.healios.org.uk/privacy-policy/",1,1,0,0,1,3
+"Thrive","3.2.6","NHS Apps Library","Mental Health",90,4.6,,,3,1,6,1,,2,"https://thrive.uk.com/privacy-policy",1,1,0,0,1,3
+"Untire","3.3.0","NHS Apps Library","Cancer",10,6.3,7,1,1,2,8,2,,3,"https://www.untire.me/privacy",1,0,0,0,1,3
+"WaitLess","2.1.1","NHS Apps Library","NHS Services",45,6.1,3,,1,1,9,1,1,3,"https://w.e-shrewd.com/Waitless/documents/privacy-policy.html?v=1.1",1,0,0,0,1,2
+"WorryTree","2.1.02","NHS Apps Library","Mental Health",35,5.8,3,,3,2,4,,,3,"https://worry-tree.com/privacy-policy",1,1,0,0,1,3
+"Yellowcard","21.1.0","NHS Apps Library","NHS Services",30,5.9,4,,1,1,4,,,3,"https://yellowcard.mhra.gov.uk/privacy-policy/",1,1,0,0,1,3
