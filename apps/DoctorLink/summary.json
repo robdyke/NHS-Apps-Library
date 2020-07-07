@@ -1,0 +1,27 @@
+{
+  "app_name": "DoctorLink",
+  "app_version": "1.26.1",
+  "security_score": 10,
+  "security_avg_cvss": 5.8,
+  "privacy_trackers_found": 2,
+  "privacy_url": "https://www.doctorlink.com/privacynotice/",
+  "manifest_high": null,
+  "manifest_medium": 1,
+  "manifest_info": null,
+  "code_high": 4,
+  "code_warning": 3,
+  "code_good": null,
+  "code_info": 1,
+  "privacy_trackers": [
+    "Microsoft Appcenter Analytics",
+    "Microsoft Appcenter Crashes"
+  ],
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": "Play",
+  "app_category": null
+}
