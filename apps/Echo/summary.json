@@ -8,11 +8,11 @@
   "code_info": 2,
   "code_warning": 2,
   "manifest_high": 10,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 1,
-  "privacy_prominantTracking": false,
+  "privacy_prominantTracking": 0,
   "privacy_trackers": [
     "Adjust",
     "Branch",
@@ -25,7 +25,7 @@
   ],
   "privacy_trackers_found": 8,
   "privacy_url": "https://www.echo.co.uk/legal#privacy-policy",
-  "privacy_url_correct": false,
+  "privacy_url_correct": 0,
   "security_avg_cvss": 5.7,
   "security_score": 25
 }

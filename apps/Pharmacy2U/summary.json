@@ -9,11 +9,11 @@
   "code_warning": 3,
   "manifest_high": 7,
   "manifest_medium": 1,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 3,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Google AdMob",
     "Google Firebase Analytics",
@@ -21,7 +21,7 @@
   ],
   "privacy_trackers_found": 3,
   "privacy_url": "https://www.pharmacy2u.co.uk/privacy.html",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 6.1,
   "security_score": 0
 }

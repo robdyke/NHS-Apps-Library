@@ -10,11 +10,11 @@
   "manifest_high": 37,
   "manifest_info": null,
   "manifest_medium": 1,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": true,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 1,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 3,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Adjust",
     "Facebook Analytics",
@@ -26,7 +26,7 @@
   ],
   "privacy_trackers_found": 7,
   "privacy_url": "https://healthera.co.uk/cookies-privacy/",
-  "privacy_url_correct": false,
+  "privacy_url_correct": 0,
   "security_avg_cvss": 6.1,
   "security_score": 15
 }

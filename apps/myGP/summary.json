@@ -9,11 +9,11 @@
   "manifest_high": 11,
   "manifest_info": 1,
   "manifest_medium": 1,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 2,
-  "privacy_prominantTracking": false,
+  "privacy_prominantTracking": 0,
   "privacy_trackers": [
     "Google AdMob",
     "Google Analytics",
@@ -23,7 +23,7 @@
   ],
   "privacy_trackers_found": 5,
   "privacy_url": "https://www.mygp.com/privacy-policy/",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 5.8,
   "security_score": 20
 }

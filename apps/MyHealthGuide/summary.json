@@ -10,11 +10,11 @@
   "manifest_high": 3,
   "manifest_info": 1,
   "manifest_medium": 1,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 3,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Flurry",
     "Google AdMob",
@@ -25,7 +25,7 @@
   ],
   "privacy_trackers_found": 6,
   "privacy_url": "https://myhealthguideapp.com/privacy/",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 6.2,
   "security_score": 15
 }

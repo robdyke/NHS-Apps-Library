@@ -10,11 +10,11 @@
   "manifest_high": 5,
   "manifest_info": null,
   "manifest_medium": 1,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 3,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Google AdMob",
     "Google Analytics",
@@ -25,7 +25,7 @@
   ],
   "privacy_trackers_found": 6,
   "privacy_url": "https://www.nhs.uk/oneyou/privacy-policy",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 6,
   "security_score": 30
 }

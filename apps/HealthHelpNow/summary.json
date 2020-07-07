@@ -7,11 +7,11 @@
   "code_info": 2,
   "code_warning": 3,
   "manifest_high": 8,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 3,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Facebook Analytics",
     "Facebook Login",
@@ -25,7 +25,7 @@
   ],
   "privacy_trackers_found": 9,
   "privacy_url": "http://kent.healthhelpnow.nhs.uk/privacy-policy/",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 6,
   "security_score": 10
 }

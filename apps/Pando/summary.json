@@ -10,11 +10,11 @@
   "manifest_high": 3,
   "manifest_info": 1,
   "manifest_medium": null,
-  "privacy_DPIA": true,
-  "privacy_completeTracking": true,
-  "privacy_cookies": true,
+  "privacy_DPIA": 1,
+  "privacy_completeTracking": 1,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 5,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Branch",
     "Google AdMob",
@@ -25,7 +25,7 @@
   ],
   "privacy_trackers_found": 6,
   "privacy_url": "https://hellopando.com/privacy-policy/",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 5.5,
   "security_score": 10
 }

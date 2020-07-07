@@ -7,18 +7,18 @@
   "code_info": 1,
   "code_warning": 1,
   "manifest_high": 4,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 3,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Google AdMob",
     "Google Firebase Analytics"
   ],
   "privacy_trackers_found": 2,
   "privacy_url": "http://www.healios.org.uk/privacy-policy/",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 5.7,
   "security_score": 75
 }

@@ -7,17 +7,17 @@
   "code_info": 2,
   "manifest_high": 8,
   "manifest_medium": 1,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 2,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "Google Firebase Analytics"
   ],
   "privacy_trackers_found": 1,
   "privacy_url": "https://www.evergreen-life.co.uk/terms/website-terms-of-use",
-  "privacy_url_correct": false,
+  "privacy_url_correct": 0,
   "security_avg_cvss": 6.9,
   "security_score": 55
 }

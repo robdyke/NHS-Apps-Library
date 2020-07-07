@@ -8,11 +8,11 @@
   "code_warning": 2,
   "manifest_high": 7,
   "manifest_medium": 1,
-  "privacy_DPIA": false,
-  "privacy_completeTracking": false,
-  "privacy_cookies": true,
+  "privacy_DPIA": 0,
+  "privacy_completeTracking": 0,
+  "privacy_cookies": 1,
   "privacy_privacyScore": 3,
-  "privacy_prominantTracking": true,
+  "privacy_prominantTracking": 1,
   "privacy_trackers": [
     "AppsFlyer",
     "Google AdMob",
@@ -21,7 +21,7 @@
   ],
   "privacy_trackers_found": 4,
   "privacy_url": "https://breastcancernow.org/privacy-policy",
-  "privacy_url_correct": true,
+  "privacy_url_correct": 1,
   "security_avg_cvss": 6,
   "security_score": 5
 }
