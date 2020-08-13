@@ -1,0 +1,23 @@
+{
+  "app_name": "NHS Test & Trace",
+  "app_version": "3.0.0 (35)",
+  "security_score": 100,
+  "security_avg_cvss": 0,
+  "privacy_trackers_found": 0,
+  "privacy_url": null,
+  "manifest_high": 6,
+  "manifest_medium": null,
+  "manifest_info": 1,
+  "code_high": null,
+  "code_warning": null,
+  "code_good": null,
+  "code_info": null,
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
+}
