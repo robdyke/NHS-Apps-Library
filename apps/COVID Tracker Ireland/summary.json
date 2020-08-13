@@ -1,0 +1,23 @@
+{
+  "app_name": "COVID Tracker Ireland",
+  "app_version": "1.0.1.44",
+  "security_score": 100,
+  "security_avg_cvss": 0,
+  "privacy_trackers_found": 0,
+  "privacy_url": "http://covidtracker.ie/privacy-and-data",
+  "manifest_high": 4,
+  "manifest_medium": null,
+  "manifest_info": null,
+  "code_high": null,
+  "code_warning": null,
+  "code_good": null,
+  "code_info": null,
+  "privacy_url_correct": null,
+  "privacy_prominantTracking": null,
+  "privacy_completeTracking": null,
+  "privacy_DPIA": null,
+  "privacy_cookies": null,
+  "privacy_privacyScore": null,
+  "app_store": null,
+  "app_category": null
+}
