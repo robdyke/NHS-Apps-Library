@@ -1,2 +1,5 @@
 *.apk
 out
+venv
+__pycache__
+*.tar
