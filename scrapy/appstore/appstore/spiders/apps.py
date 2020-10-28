@@ -12,10 +12,20 @@ class AppsSpider(scrapy.Spider):
         ]
 
     def parse(self, response):
-        for quote in response.css('div.apps-grid__content__item'):
-            yield {
-                'path': quote.css('a::attr(href)').get()
-            }
+        app_library_links = response.css('div.apps-grid__content__item > a')
 
-        for next_page in response.css('div.pagination > div:nth-child(2) > a'):
-            yield response.follow(next_page, self.parse)
+        yield from response.follow_all(app_library_links, self.parse_appdetail)
+
+        pagination_links = response.css('div.pagination > div:nth-child(2) > a')
+        yield from response.follow_all(pagination_links, self.parse)
+
+    def parse_appdetail(self, response):
+    
+        def extract_with_css(query):
+            return response.css(query).get(default='').strip()
+
+        yield {
+            'name': extract_with_css('div.aaw-app-details.nshuk-o-grid > div > div.aaw-app-details-head > div > h1::text'),
+            'category': extract_with_css('div.aaw-app-details.nshuk-o-grid > div > div.aaw-app-details-head > div > p > a::text'),
+            'bio': extract_with_css('div.aaw-app-details.nshuk-o-grid > div > div:nth-child(2) > p::text'),
+        }
