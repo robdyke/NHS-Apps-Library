@@ -21,19 +21,11 @@ class AppsSpider(scrapy.Spider):
 
     def parse_appdetail(self, response):
     
-        # def extract_with_css(query):
-        #     return response.css(query).get(default='').strip()
-
-        # yield {
-        #     'name': extract_with_css('div.aaw-app-details.nshuk-o-grid > div > div.aaw-app-details-head > div > h1::text'),
-        #     'category': extract_with_css('div.aaw-app-details.nshuk-o-grid > div > div.aaw-app-details-head > div > p > a::text'),
-        #     'bio': extract_with_css('div.aaw-app-details.nshuk-o-grid > div > div:nth-child(2) > p::text'),
-        # }
-    
         for app in response.css('div.aaw-app-details.nshuk-o-grid>div'):
 
             yield {
                 'name': app.css('div.aaw-app-details-head > div.aaw-app-details-head__description > h1::text').get(),
                 'category': app.css('div.aaw-app-details-head > div.aaw-app-details-head__description > p > a::text').getall(),
                 'bio': app.css('div.rich-text > p::text').get(),
-        }
+                'store': response.xpath('//*[@id="main-content"]/div[1]/div/div[3]/div/a/@href').getall()
+            }
