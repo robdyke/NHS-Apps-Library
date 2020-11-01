@@ -3,3 +3,5 @@ out
 venv
 __pycache__
 *.tar
+config.*
+gplaycli.conf
