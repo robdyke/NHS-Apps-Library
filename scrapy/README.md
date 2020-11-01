@@ -9,7 +9,7 @@ source venv/bin/activate
 
 ```sh
 cd scrapy/appstore
-scrapy shell "http://www.nhs.uk/apps-library/acr-digital-urinalysis
+scrapy shell "http://www.nhs.uk/apps-library/acr-digital-urinalysis"
 ```
 
 ```sh
