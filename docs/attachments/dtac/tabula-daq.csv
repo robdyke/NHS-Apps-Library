@@ -1,0 +1,2191 @@
+Display,,,,
+"",Question,,Response Option,Supporting Information
+ID,,,,
+1.1,Is your product available to the pub lic and can you provide,,Yes | No,
+"",URL(s) to the app store location(s)?,,,
+1.2,Can you confirm that users are able to contact you or your,,Yes | No,
+"","organisation directly via the product, if required?",,,
+1.3,"If your product uses any form of NHS Branding, can you",,Yes | No | Not Applicable,Information on NHS branding guidelines
+"",confirm that you have permission from the Department of,,,
+"",Health & Social Care and that it complies with NHS,,,
+"",England’s Branding Guidelines?,,,
+"",,,,
+1.4,"If your product connects to any of the following services,",,Yes | No | Not Applicable,
+"",can you confirm that an appropriate interoperability review,,,
+"",and /or a technical review has taken place?,,,
+"",* Electronic Referrals Service (eRS),,,
+"",* Electronic Transfer of Prescription Service (ETP),,,
+"",* GP2GP,,,
+"",* GP Connect,,,
+"","* GPSoC Connection to Primary Care Systems (EMIS,",,,
+"","Microtest, TPP, VISION)",,,
+"",* Health and Social Care Network,,,
+"",* NHS Mail,,,
+"",* NHS Pathways,,,
+"",* Spine,,,
+"",* Summary Care Records,,,
+1.5,If your prod uct is a medical device as defined within the,Yes | No | Not Applicable
+"",Medical Device Directive can you provide evidence of:,
+"","registration with MHRA and self-declaration of conformity,",
+"","a post market surveillance plan, and a CE certificate from a",
+"",notified body (class 11a or above)?,
+1.6,If your product constitutes a pharmacy service that requires,Yes | No | Not Applicable
+"","registration with the General Pharmaceutical Council, can",
+"",you provide evidence confirming registration?,
+1.7,If your product forms part of a service that requires,Yes | No | Not Applicable
+"","registered healthcare professionals to operate, can you",
+"",confirm their registration status and names?,
+1.8,Can you provide a guest login for your product so that,Yes | No | Not Applicable
+"",assessors can access and evaluate it?,
+1.9,Can you confirm that your organisation is registered as one,Yes | No | Not Applicable
+"",of the following?,
+"",* Public Limited Company (Plc),
+"",* Private Company Limited By Shares (Ltd),
+"",* Company Limited By Guarantee,
+"",* Unlimited Company (Unltd),
+"",* Limited Liability Partnership (Llp),
+"",* Community Interest Company,
+"",* Industrial and Provident Society (Ips),
+"",* Royal Charter,
+"",* Public Body,
+"",* Charitable Organisation,
+1.10,Can you confirm your organisation is registered with the,Yes | No | Not Applicable
+"","Care Quality Commission (CQC) if it carries out, or proposes",
+"","to carry out, any regulated activities in England which",
+"",require such registration?,
+Display,Answer this question,,Response,
+"",,Question,,Supporting Information
+ID,if...,,Option,
+1.1,,Provide the name of the individual who will be the key contact at your,Free Text,
+"",,organisation.,,
+1.2,,Provide the key contact's email address.,Free Text,
+1.3,,Provide the key contact's phone number.,Free Text,
+1.4,,Provide the name of your company.,Free Text,
+1.5,,Provide the registered address of your company.,Free Text,
+1.6,,In which country is your organisation registered?,Free Text,
+1.7,,"Does your organisation carry out, or propose to carry out, any regulated",Yes | No,The CQC is the independent regulator
+"",,activities in England which require registration with the Care Quality,,of health and social care in England.
+"",,Commission (CQC)?,,Their website provides information on
+"",,,,regulated activities that require
+"",,,,registration.
+1.7.1,"Your organisationrequires CQCregistration",Is your organisation registered with CQC?,Yes | No,
+1.7.1.1,"Your organisation isregistered with the CQC",Provide your organisation's CQC account number.,Free Text,
+1.7.1.2,"Your organisation isregistered with the CQC","Provide the date of your organisation's most recent registrationcertificate.",Free Text,
+1.7.1.3,,"Provide the date and outcome of your organisation's last CQC inspection.If your organisation has not been inspected, provide the date of yourupcoming inspection.",Free Text,
+Display,Answer this,,,
+"",,Question,Response Option,Supporting Information
+ID,question if...,,,
+2.1,,Provide a brief descr iption of your product (200 words max).,Free Text,
+"",,,,
+2.2,,Describe all applicable functionality. Include any calculating,Free Text,
+"",,"functions (e.g. body mass index, weight charts for children,",,
+"",,calorie counters) and any associated information outputs such as,,
+"",,dietary or exercise suggestions.,,
+"",,,,
+2.3,,Does your product integrate with a website or other,Yes | No,
+"",,software/device?,,
+2.4,,"Select the following NHS services your product connects to, or",Electronic Prescription Service,
+"",,intends to connect to:,(EPS) | Electronic Referrals,
+"",,,Service (eRS) | GP2GP | GP,
+"",,,Connect | GPSoC Connection to,
+"",,,"Primary Care Systems (EMIS,",
+"",,,"Microtest, TPP & VISION) |",
+"",,,Health and Social Care Network |,
+"",,,NHS Mail | NHS Pathways | Spine,
+"",,,| Summary Care Records | None,
+2.4.1,Your product,You must provide evidence that you have permission to connect,File,
+"","connects to, or","to and use the services you have selected, for example that your",,
+"",intends to connect,product successfully connects to GPSoC. Describe and upload as a,,
+"",to any of the NHS,single file any relevant documentation.,,
+"",Services listed above,,,
+"",in 2.4,,,
+2.5,Describe how your product integrates with other systems. If it,,This could include a GP
+"","does not integrate with other systems, put 'N/A'",,"system, a parent system,"
+"",,,patient administration or
+"",,Free Text,prescribing systems.
+2.6,Select all of the following statements that apply to your product:,Your product is a clinical decision,
+"",,support system. It contributes to,
+"",,decisions about treatment and,
+"",,may involve controlling other,
+"",,medical devices |  Your product,
+"",,is used as a calculator to provide,
+"",,information which impacts,
+"",,"treatment, diagnosis or care. This",
+"",,information is obtained by,
+"",,analysing data entered by the,
+"",,user or collected by the product |,
+"",,Your product is used to provide a,
+"",,psychological intervention to,
+"",,people with a diagnosed,
+"",,condition | Your product is used,
+"",,to facilitate the diagnosis or,
+"",,management of a condition by,
+"",,collecting information. It may,
+"",,include features such as,
+"",,reminders or alerts | Your,
+"",,product is used to facilitate,
+"",,communication with healthcare,
+"",,professionals | Your product is,
+"",,used to influence behavioural,
+"",,change to reduce personal risk,
+"",,factors for a specific condition |,
+"",,Your product enables people to,
+"",,interact with their data or,
+"",,appointments in the NHS or,
+"",,social care systems | Your,
+"",,product enables users to,
+"",,communicate with others,
+"",,| Your product collects,
+"",,information to enable people to,
+"",,,keep a personal record. This data
+"",,,is not routinely shared | Your
+"",,,product provides information to
+"",,,promote learning and improve
+"",,,awareness | Your product
+"",,,provides a digital solution to
+"",,,businesses (e.g. appointment
+"",,,booking or staff rotas) | Your
+"",,,product is used as an information
+"",,,or service finder and holds no
+"",,,personal data | Your product is
+"",,,used as an eBook or digital book
+"",,,equivalent
+2.7,,Select the health theme(s) that your product aims to address:,Cancer | Child health | Long-term
+"",,,condition | Maternity | Mental
+"",,,health | Patient empowerment |
+"",,,Primary care | Urgent and
+"",,,emergency | Other
+2.7.1,Your product aims to,"If other, please state.",Free Text
+"",address a health,,
+"",theme not listed,,
+"",above in 2.7,,
+2.8,,In what context do you see your product being used?,Free Text
+"",,,
+2.9,,Who are the intended end-users?,Free Text
+"",,,
+2.10,,What problem in the health system or to the end-user is your,Free Text
+"",,product trying to solve?,
+"",,,
+2.11,,Estimate the number of people who would use the product (per,Free Text
+"",,"100,000 of the population).",
+2.12,,Do you think your product could replace a current NHS,Yes | No
+"",,commissioned service?,
+2.12.1,Your product could,Provide details about how your product could replace a,Free Text
+"",replace a,commissioned service.,
+"",commissioned NHS,,
+"",service,,
+2.13,,Is your product free to public users?,Yes | No,
+"",,,,
+2.13.1,If your product is not,How much does your product cost users?,Free Text,
+"",free to public users,,,
+"",,,,
+2.13.2,If your product is,What is the source of the funding?,Free Text,
+"",free to public users,,,
+2.14,,"Briefly describe your business model, including any direct costs",Free Text,
+"",,"such as licence cost, purchase cost, subscription for use, etc. If",,
+"",,"the period of use is less than a year, please indicate this.",,
+"",,,,
+2.15,,"Is your product involved in a pilot or trial with an NHS hospital,","Yes, we are live in an area |",
+"",,"Trust, Clinical Commissioning Group (CCG) or in a primary care","Almost, we have a go live date |",
+"",,setting?,We are in discussions | No,
+2.16,If your product is,Give brief details of the pilot or trial.,Free Text,
+"",involved in a pilot or,,,
+"",trial with an NHS,,,
+"","hospital, Trust, CCG",,,
+"",or in a primary care,,,
+"",setting,,,
+2.17,,Is your product a medical device as defined within the Medical,Yes | No | Don't know,Information on medical
+"",,Device Dir ective?,,devices regulation and safety
+2.17.1,If your product is a,Provide evidence confirming agreement from MHRA or a notified,File,
+"",medical device,body.,,
+"",,,,
+2.17.2,If you don't know,,Yes | No,
+"",whether your,"Does your product indicate a diagnosis or treatment, monitor a",,
+"",product is a medical,"physiological process or disease, support clinical decisions,",,
+"",device,perform calculations or indicate individual risk scores for a,,
+"",,medical purpose?,,
+2.18,If your product is a,If defined as a medical device your product should be 'CE' marked,,
+"",medical device,to show the manufacturer's declaration that it complies with the,,
+"",,EU Medical device directives.,,
+"",,,,
+"",,Please provide the following evidence:,,
+"",,Class 1 devices,,
+"",,,Fil  e,Guidance on CE marking
+"",,- your evidence of registration with MHRA and self-declaration of,,
+"",,"conformity, or",,
+"",,Class 11a and above devices,,
+"",,- your CE certificate from a Notified Body,,
+"",,All,,
+"",,- Your post market surveillance plan.,,
+2.19,,Does your product form part of a service that requires registered,,
+"",,,Yes | No,
+"",,healthcare professionals to operate?,,
+2.19.1,If your product forms,,,
+"",part of a service that,,,
+"",,"Confirm their registration status, names and fitness to practice in",,
+"",requires healthcare,,Free Text,
+"",,England as well as appropriate identifiers/codes.,,
+"",professionals to,,,
+"",operate it,,,
+2.20,,Does your product process (e.g. store) the personal data of NHS,,
+"",,,Yes | No,
+"",,or Social Care patient/client/service users?,,
+2.20.1,,,In the UK | In the European,
+"",,,Economic Area | In a country,
+"",If your product,,deemed ‘adequate’ i.e.,
+"",processes personal,Where does the product process (e.g. store) the personal data of,recognised by the EU,
+"",data of NHS or Social,NHS or Social Care patient/client/service users?,Commission to have an adequate,
+"",Care users,,level of protection | In the USA,
+"",,,under a Privacy Shield,
+"",,,arrangement | Other,
+2.20.2,If your product,,,
+"",processes personal,,,
+"",,"If other, where does your product process (e.g. store) the",,
+"",data outside of,,Free Text,
+"",,personal data of NHS or Social Care patient/client/service users?,,
+"",regions listed above,,,
+"",in 2.20.1,,,
+2.21,,Are registration or login details required for full use of your,,
+"",,,Yes | No,
+"",,product?,,
+2.21.1,If login details are,,,
+"",required for full use,Please provide guest login details.,Free Text,
+"",of your product,,,
+2.22,,,A. iOS | B. Android | C. Windows,
+"",,Select which platforms your product is available on and provide,,
+"",,,Mobile | D. OS X | E. Linux | F.,
+"",,version numbers.,,
+"",,,Other,
+2.22.1,If your product is,,,
+"",,Provide the iOS version number.,Free Text,
+"",available on iOS,,,
+2.22.2,If your product is,,,
+"",,Provide the Android version number.,Free Text,
+"",available on Android,,,
+2.22.3,If your product is,,,
+"",available on,Provide the Windows Mobile version number.,Free Text,
+"",Windows Mobile,,,
+2.22.4,If your product is,,,
+"",,Provide the OS X version number.,Free Text,
+"",available on OS X,,,
+2.22.5,If your product is,,,
+"",,Provide the Linux version number.,Free Text,
+"",available on Linux,,,
+2.22.6,If your product is,,,
+"",available on a,,,
+"",,Provide the 'other type' version number.,Free Text,
+"",platform not listed,,,
+"",above in 2.22,,,
+2.23,,,,
+"",,Provide the URL(s) to the app store location(s).,Free Text,
+"",,,,
+2.24,,,,Information on NHS identity
+"",,Does your product use any form of NHS Branding?,Yes | No,
+"",,,,guidelines
+2.24.1,,,,
+"",If your product uses,,,
+"",,Confirm you have permission from the Department of Health &,,
+"",any form of NHS,,Yes | No,
+"",,Social Care to use NHS Branding.,,
+"",branding,,,
+2.24.2,If your product uses,,File
+"",any form of NHS,,
+"",branding and you,,
+"",,Provide confirmation of permission from the Department of,
+"",have permission,,
+"",,Health and Social Care.,
+"",from the,,
+"",Department of,,
+"",Health & Social Care,,
+2.24.3,,,Information on NHS identity
+"",If your product uses,,
+"",,Confirm the branding complies with NHS England’s Branding,guidelines
+"",any form of NHS,,Yes | No
+"",,Guidelines.,
+"",branding,,
+2.25,,Does your product constitute a pharmacy service that requires,Guidance for registered
+"",,registration with the General Pharmaceutical Council?,pharmacies providing
+"",,,Yes | No pharmacy services at a
+"",,,"distance, including on the"
+"",,,in  ternet
+2.25.1,If your product,,File
+"",requires registration,,
+"",,Provide evidence confirming registration with the General,
+"",with the General,,
+"",,Pharmaceutical Council.,
+"",Pharmaceutical,,
+"",Council,,
+2.26,,If your product directly provides or facilitates access to registered,A. Dispensing directly via
+"",,"pharmacy services, indicate which services these are:",Electronic Prescription Service
+"",,,(EPS) nominated pharmacies | B.
+"",,,Dispensing directly via
+"",,,pharmacies where a prescription
+"",,,is not sent directly via EPS | C.
+"",,,Any other pharmacy service
+"",,,"(advanced, enhanced, locally"
+"",,,"commissioned, private) | D. None"
+2.26.1,If you answered A or,,
+"",,Are users informed of the geographical location of the,
+"",B or C listed above in,,Yes | No
+"",,pharmacy/dispenser?,
+"",2.30,,
+2.26.2,,,
+"",If you answered A or,,
+"",,Is the type of pharmacy (online/physical/other) clearly stated,
+"",B or C listed above in,,Yes | No
+"",,prior to the beginning of any sign up process?,
+"",2.30,,
+2.26.2.1,If the type of,,,
+"",pharmacy is clearly,,,
+"",stated prior to the,Describe how the type of pharmacy is presented to the user.,Free Text,
+"",beginning of any sign,,,
+"",up process,,,
+2.26.3,,,,
+"",If you answered A or,"Are access, collection and/or delivery options explicitly stated",,
+"",B or C listed above in,"prior to any engagement with offered services, such as opening",Yes | No,
+"",2.30,times?,,
+"",,,,
+2.26.4,If you answered A or,,,
+"",,Is the choice of pharmacy offered to the user restricted in any,,
+"",B or C listed above in,,Yes | No,
+"",,way?,,
+"",2.30,,,
+2.26.4.1,If the choice of,,,
+"",pharmacy offered to,Confirm how and where this and subsequent restrictions are,,
+"",,,Free Text,
+"",the user is restricted,presented to the user.,,
+"",in any way,,,
+2.26.5,If you answered A or,,,
+"",,Is Electronic Prescription Service (EPS) nomination included,,
+"",B or C listed above in,,Yes | No,
+"",,within the product?,,
+"",2.30,,,
+2.26.5.1,If you answered A or,,,
+"",B or C listed above in,,,
+"",,Are users provided with clear information about EPS within the,,
+"",2.30 and if EPS,,,
+"",,product before any of their personal details are captured for the,Yes | No,
+"",nomination is,,,
+"",,purpose of nomination?,,
+"",included within your,,,Information on Electronic
+"",product,,,Prescription ces  Servi
+2.26.5.2,If you answered A or,,,
+"",B or C listed above in,,,
+"",2.30 and if EPS,Is the information provided in line with the information on EPS,,
+"",,,Yes | No,
+"",nomination is,published by nhs.uk?,,
+"",included within your,,,Information on Electronic
+"",product,,,Prescr  iption Services
+2.26.5.3,If you answered A or,,,
+"",B or C listed above in,,,
+"",2.30 and if EPS,Is the nomination clearly distinct from any other sign up process,,
+"",,,Yes | No,
+"",nomination is,within the product?,,
+"",included within your,,,
+"",product,,,
+2.26.5.4,If you answered A or,,
+"",B or C listed above in,,
+"",2.30 and if EPS,,
+"",,Is the nomination clearly communicated in plain English?,Yes | No
+"",nomination is,,
+"",included within your,,
+"",product,,
+2.26.5.5,If you answered A or,,
+"",B or C listed above in,,
+"",2.30 and if EPS,Does the nomination require proactive patient consent? (a pre-,
+"",,,Yes | No
+"",nomination is,ticked box is not sufficient).,
+"",included within your,,
+"",product,,
+2.26.5.6,If you answered A or,,
+"",B or C listed above in,,
+"",2.30 and if EPS,Is the ability and process required to change a nominated,
+"",,,Yes | No
+"",nomination is,pharmacy at any time made explicit and clear?,
+"",included within your,,
+"",product,,
+2.26.5.7,If you answered A or,,
+"",B or C listed above in,,
+"",2.30 and if EPS,Is it explicit that withdrawal from EPS is not possible once signed,
+"",,,Yes | No
+"",nomination is,"up, but that this does not restrict future pharmacy choices?",
+"",included within your,,
+"",product,,
+2.26.5.8,If you answered A or,,
+"",B or C listed above in,,
+"",2.30 and if EPS,Is this information available for the user to refer back to at any,
+"",,,Yes | No
+"",nomination is,point during their use of the service?,
+"",included within your,,
+"",product,,
+2.26.6,,,
+"",,Please list potential services offered and whether these are free,
+"",If you answered C,at the point of care or if an additional cost is incurred by the user,
+"",,,Free Text
+"",listed above in 2.30,or commissioner above and beyond standard NHS contract,
+"",,reimbursement.,
+Display,Answer this question,,,,Supporting
+"",,Question,,Response Option,
+ID,if...,,,,Information
+"",,,,,
+"",,Are there any clinical benefits to using your product?,,,
+"",,"For example, will it improve symptom control or clinical",,,
+1.1,,outcomes?,Yes | No,,
+1.1.1,Your product provides,Describe what clinical benefits and the timeframe for,,,
+"",any clinical benefits,success.,Free Text,,
+1.1.2,,Do you have any evidence to show success of the,,,
+"",Your product provides,"clinical benefits? For example, published articles, pilot",,,Information on levels
+"",any c linical benefits,studies or user research.,Yes | No,,of medical evidence
+"",,,"Expert opinion without explicit critical appraisal, or",,
+"",,,"based on physiology, bench research or ""first",,
+"",,,"principles"" | Case series (and poor-quality cohort",,
+"",,,and case-control studies) | Individual case-control,,
+"",,,study | Systematic review (with homogeneity) of,,
+"",You can provide,,,,
+"",,,"case-control studies | ""Outcomes"" Research;",,
+"",evidence,,,,
+"",,,ecological studies | Individual cohort study or low,,
+1.1.2.1,demonstrating the,Select all relevant evidence type(s) from the following:,,,
+"",,,quality randomized controlled trials (e.g. <80%,,
+"",clinical benefits of,,,,
+"",,,follow-up) | Systematic reviews (with,,
+"",your product,,,,
+"",,,homogeneity) of cohort studies | All or none,,
+"",,,randomized controlled trials | Individual,,
+"",,,randomized controlled trials (with narrow,,
+"",,,confidence interval) | Systematic reviews (with,,
+"",,,homogeneity) of randomized controlled trials,,
+"",You can provide,,,,
+"",evidence,,,,
+1.1.2.2,demonstrating the,Upload a relevant document or provide relevant URLs.,,,
+"",clinical benefits of,Please indicate how you would like to provide this,,,
+"",your product,information:,Text | File | Text and File,,
+1.1.2.3,,Provide relevant URLs.,Free Text,,
+1.1.2.4,,Upload relevant document.,File
+"",Your product does not,,
+"",provide any clinical,,
+"",benefits or if you,,
+"",cannot provide,,
+"",evidence of any,,
+1.1.3,clinical benefits.,Give the reason why not.,Free Text
+"",,Are there any behavioural benefits to using your,
+"",,"product? For example, will it improve patient reported",
+1.2,,outcomes or experience measures?,Yes | No
+"",If your product,Describe the improvements to psychological or social,
+"",provides any,"motivation, patient reported outcomes or experience",
+1.2.1,behavioural benefits,measures.,Free Text
+1.2.2,If your product,Do you have any evidence to show success of the,
+"",provides any,"behavioural benefits? For example, published articles,",
+"",behavioural benefits,pilot studies or user research.,Yes | No
+1.2.2.1,,,"Expert opinion without explicit critical appraisal, or"
+"",,,"based on physiology, bench research or ""first"
+"",,,"principles"" | Case series (and poor-quality cohort"
+"",,,and case-control studies) | Individual case-control
+"",,,study | Systematic review (with homogeneity) of
+"",You can provide,,
+"",,,"case-control studies | ""Outcomes"" Research;"
+"",evidence,,
+"",,,ecological studies | Individual cohort study or low
+"",demonstrating the,Select all relevant evidence types from the following:,
+"",,,quality randomized controlled trials (e.g. <80%
+"",behavioural benefits,,
+"",,,follow-up) | Systematic reviews (with
+"",of your product,,
+"",,,homogeneity) of cohort studies | All or none
+"",,,randomized controlled trials | Individual
+"",,,randomized controlled trials (with narrow
+"",,,confidence interval) | Systematic reviews (with Information on levels
+"",,,homogeneity) of randomized co  n tro lled trials of medical evidence
+1.2.2.2,You can provide,,
+"",evidence,,
+"",demonstrating the,Upload a relevant document or provide relevant URLs.,
+"",behavioural benefits,Please indicate how you would like to provide this,
+"",of your product,information:,Text | File | Text and File
+1.2.2.3,,,
+"",,Provide relevant URLs.,Free Text
+1.2.2.4,.2.2.4,,Upload relevant document.,File,,,
+"",,,,Upload relevant document.,ile,,
+1.2.3,,Your product does not,,Give the reason why not.,Free Text,,
+"",,,provide any,,,,
+"",,,behavioural benefits,,,,
+"",,,or if you cannot,,,,
+"",,,provide evidence of,,,,
+"",,,any behavioural,,,,
+".2.3",benefits.,Give the reason why not.,ree Text,,,,
+1.3,,,Are there any economic benefits to using your,,Yes | No,,
+".3",,product?,es | No,,,,
+1.3.1,.3.1,,There are established,,"Describe what economic benefits and the timeframe forsuccess.",Free Text,
+"",,economic benefits to,Describe what economic benefits and the timeframe for,,,,
+"",,using your product,success.,ree Text,,,
+1.3.2,"There are establishedeconomic benefits tousing your product","Do you have any evidence to show success of theeconomic benefits? For example, published articles,pilot studies or user research.",Yes | No,,,,
+"",,There are established,Do you have any evidence to show success of the,,,,
+"",,economic benefits to,"economic benefits? For example, published articles,",,,,
+".3.2",using your product,pilot studies or user research.,es | No,,,,
+1.3.2.1,.3.2.1,"If you can provideevidencedemonstrating theeconomic benefits ofyour product",Select all relevant evidence types from the following:,,"xpert opinion without explicit critical appraisal, or",,
+"",If you can provide,"ased on physiology, bench research or ""first",,,,,
+"",evidence,"rinciples"" | Case series (and poor-quality cohort",,,,,
+"",demonstrating the,nd case-control studies) | Individual case-control,,,,,
+"",economic benefits of,tudy | Systematic review (with homogeneity) of,,,,,
+"",your product,Select all relevant evidence types from the following:,ase,,,,
+1.3.2.2,"You can provideevidencedemonstrating theeconomic benefits ofyour product","Upload a relevant document or provide relevant URLs.Please indicate how you would like to provide thisinformation:",Text | File | Text and File,,,,
+"",You can provide,,,,,,
+"",evidence,,,,,,
+"",demonstrating the,Upload a relevant document or provide relevant URLs.,,,,,
+"",economic benefits of,Please indicate how you would like to provide this,,,,,
+".3.2.2",your product,information:,ext | File | Text and File,,,,
+1.3.2.3,,Provide relevant URLs.,Free Text,,,,
+".3.2.3",,Provide relevant URLs.,ree Text,,,,
+1.3.2.4,,Upload relevant document.,File,,,,
+".3.2.4",,Upload relevant document.,ile,,,,
+""
+""
+Upload relevant document.
+Upload relevant document.
+File
+ile
+""
+""
+1.2.3
+".2.3"
+Give the reason why not.
+Give the reason why not.
+Free Text
+ree Text
+""
+""
+1.3,
+".3",
+1.3.1,.3.1
+""
+""
+Yes | No
+es | No
+""
+""
+"Describe what economic benefits and the timeframe forsuccess."
+Describe what economic benefits and the timeframe for
+success.
+Free Text
+ree Text
+""
+""
+1.3.2,
+".3.2",
+1.3.2.1,.3.2.1
+"There are establishedeconomic benefits tousing your product"
+There are established
+economic benefits to
+using your product
+"Do you have any evidence to show success of theeconomic benefits? For example, published articles,pilot studies or user research."
+Do you have any evidence to show success of the
+"economic benefits? For example, published articles,"
+pilot studies or user research.
+Yes | No
+es | No
+""
+""
+"If you can provideevidencedemonstrating theeconomic benefits ofyour product"
+If you can provide
+evidence
+demonstrating the
+economic benefits of
+your product
+Select all relevant evidence types from the following:
+Select all relevant evidence types from the following:
+""
+""
+1.3.2.2
+".3.2.2"
+"You can provideevidencedemonstrating theeconomic benefits ofyour product"
+You can provide
+evidence
+demonstrating the
+economic benefits of
+your product
+"Upload a relevant document or provide relevant URLs.Please indicate how you would like to provide thisinformation:"
+Upload a relevant document or provide relevant URLs.
+Please indicate how you would like to provide this
+information:
+Text | File | Text and File
+ext | File | Text and File
+""
+""
+1.3.2.3
+".3.2.3"
+""
+""
+Provide relevant URLs.
+Provide relevant URLs.
+Free Text
+ree Text
+""
+""
+1.3.2.4
+".3.2.4"
+".3.3"
+""
+""
+There are no
+established economic
+benefits to using your
+"","cannot provideevidence of economicbenefits.",cannot provide,,,,,
+"",,,evidence of economic,,,,
+"",,,benefits.,,,,
+1.4,.4,,Are there any other outcomes that you have measured?,Yes | No,,,
+"",,,,,,,
+"",,,,,Are there any other outcomes that you have measured?,es | No,
+1.4.1,.4.1,,There are any other,,"Describe what other outcomes and the timeframe forsuccess.",Free Text,
+"",,,outcomes that you,Describe what other outcomes and the timeframe for,,,
+"",,,have measured,success.,ree Text,,
+1.4.2,.4.2,,There are any other,,"Has your product been evaluated in any way for theseother outcomes?",Yes | No,
+"",,outcomes that you,Has your product been evaluated in any way for these,,,,
+"",,have measured,other outcomes?,es | No,,,
+1.4.2.1,.4.2.1,"You can provideevidencedemonstrating theevaluation of theseoutcomes",Select all relevant evidence types from the following:,,"xpert opinion without explicit critical appraisal, or",,
+"",,,,,"ased on physiology, bench research or ""first",,
+"",,,,,"rinciples"" | Case series (and poor-quality cohort",,
+"",,,,,nd case-control studies) | Individual case-control,,
+"",,,,,tudy | Systematic review (with homogeneity) of,,
+"",,You can provide,,,,,
+"",,,,,"ase-control studies | ""Outcomes"" Research;",,
+"",,evidence,,,,,
+"",,,,,cological studies | Individual cohort study or low,,
+"",,demonstrating the,Select all relevant evidence types from the following:,,,,
+"",,,,,uality randomized controlled trials (e.g. <80%,,
+"",,evaluation of these,,,,,
+"",,,,,ollow-up) | Systematic reviews (with,,
+"",,outcomes,,,,,
+"",,,,,omogeneity) of cohort studies | All or none,,
+"",,,,,andomized controlled trials | Individual,,
+"",,,,,andomized controlled trials (with narrow,,
+"",,,,,onfidence interval) | Systematic reviews (with,,
+"",,,,,omogeneity) of randomized controlled trials,,
+1.4.2.2,,"Upload a relevant document or provide relevant URLs.Please indicate how you would like to provide thisinformation:",Text | File | Text and File,,,,
+"",,,,Upload a relevant document or provide relevant URLs.,,,
+"",,,,Please indicate how you would like to provide this,,,
+".4.2.2",,information:,ext | File | Text and File,,,,
+1.4.2.3,,Provide relevant URLs.,Free Text,,,,
+".4.2.3",,Provide relevant URLs.,ree Text,,,,
+1.4.2.4,,Upload relevant document.,File,,,,
+".4.2.4",,Upload relevant document.,ile,,,,
+1.4.3,,There are no,,Give the reason why not.,Free Text,,
+"",outcomes that you,,,,,,
+"",have measured which,,,,,,
+".4.3",have been evaluated,Give the reason why not.,ree Text,,,,
+1.4,.4
+""
+""
+Are there any other outcomes that you have measured?
+Are there any other outcomes that you have measured?
+Yes | No
+es | No
+""
+""
+1.4.1,.4.1
+"Describe what other outcomes and the timeframe forsuccess."
+Describe what other outcomes and the timeframe for
+success.
+Free Text
+ree Text
+""
+""
+1.4.2,.4.2
+"Has your product been evaluated in any way for theseother outcomes?"
+Has your product been evaluated in any way for these
+other outcomes?
+Yes | No
+es | No
+""
+""
+1.4.2.1,.4.2.1
+"You can provideevidencedemonstrating theevaluation of theseoutcomes"
+You can provide
+evidence
+demonstrating the
+evaluation of these
+outcomes
+Select all relevant evidence types from the following:
+Select all relevant evidence types from the following:
+""
+""
+1.4.2.2
+".4.2.2"
+""
+""
+"Upload a relevant document or provide relevant URLs.Please indicate how you would like to provide thisinformation:"
+Upload a relevant document or provide relevant URLs.
+Please indicate how you would like to provide this
+information:
+Text | File | Text and File
+ext | File | Text and File
+""
+""
+1.4.2.3
+".4.2.3"
+""
+""
+Provide relevant URLs.
+Provide relevant URLs.
+Free Text
+ree Text
+""
+""
+1.4.2.4
+".4.2.4"
+""
+""
+Upload relevant document.
+Upload relevant document.
+File
+ile
+""
+""
+"",,Describe any resource costs associated with running,
+"",,"your service, any indirect costs of facilitating its use, or",
+"",,any activities assumed to be undertaken by healthcare,
+"",,"staff. If directly replacing a process, provide details of",
+"",,the resources needed and the comparative service costs,
+1.5,,being replaced.,Free Text
+"",,Based on your business model and associated costs to,
+"",,"the NHS or its users, are there resource impact benefits",
+1.6,,associated with your product?,Yes | No
+"",There are any,,
+"",resource impact,,
+"",benefits associated,,
+1.6.1,with your product,Provide details of resource impact benefits.,Free Text
+"",,Is there cost and resource impact data available to,
+"",,demonstrate the claimed economic benefits of your,
+1.7,,product?,Yes | No
+"",There is any cost and,,
+"",impact data available,,
+1.7.1,for your product,Provide details of cost and resource impact data.,Free Text
+Display,,Response,
+Answer this question if...,Question,,Supporting Information
+ID,,Option,
+"",Does your product fall within the scope of the NHS England,,Information on clinical risk management
+2.1,mandated Safety Standard DCB0129?,Yes | No,standard DCB01  29
+Your product falls within,,,Safety Case and Hazard Log templates can
+2.1.1 the scope of DCB0129,Provide a copy of your Safety Case and Hazard Log.,File,be found here
+Your product does not fall,Provide a brief explanation as to why your product does not fall,,
+within the scope of,within the scope of the NHS England mandated Safety Standard,,Information on clinical risk management
+2.1.  2 DCB0129,DCB0129.,Free Text,standard DCB0129
+"",,,"For example, think about what may happen"
+"",,,if the information displayed within your
+"",,,"product is missing, incorrect or displayed in"
+"",,,a confusing manner. Could this have an
+"",Is it possible for users to experience adverse effects as a result of,,effect on the user or the care/treatment
+2.2,using your product?,Yes | No,they receive?
+If it is possible for users to,,,
+experience adverse,,,
+effects as a result of using,,,
+2.2.1 your product,List all of the possible adverse effects of using your product.,Free Text,
+"",List any adverse events associated with your product reported to,,
+"","a notified body, regulatory authority, or known to you from other",,
+2.3,sources.,Free Text,
+"",Provide details of the measures that have been put in place to,,
+2.4,"prevent a recurrence of any reported events, including any proof",Free Text,
+"",of their effectiveness.,,
+"",Has the safety assessment for your product and its impact on,,
+"",interfacing systems been reviewed and approved by a suitably,,
+2.5,qualified clinician or other healthcare professional?,Yes | No,
+If the safety assessment,,,
+for your product has been,,,
+approved by a qualified,,,
+2.5.1 clinician,Provide the name and job title of the reviewer.,Free Text,
+Display,,,Response,
+Answer this question if...,,Question,,Supporting Information
+ID,,,Option,
+"",,,,
+"",,Using your product causes personal data to be processed,,
+"",,(e.g. collected /used/stored/analysed transmitted). This,,
+"",,"could be processing carried out by you/your organisation,",,
+"",,another organisation on your behalf or by the users,,
+"",,themselves.,,
+"",,,,
+"",,The definition of personal data can be found on ICO's,,
+"",,website examples are listed in the supporting information.,,
+"",,,,
+"",,This includes any processing of personal data that is:,,
+"",,,,
+"",,"• Carried out by a third party e.g. user analytics, user",,
+"",,"surveys, bulk emailers, tracker software (meant to collect",,
+"",,data about the user or their online actions whether used for,,
+"",,marketing or not),,
+"",,• Caused by allowing 'permissions' your product requests to,,
+"",,access or perform actions on existing personal data e.g. the,,
+"",,"user's mobile phone photo library, contact lists, address",,
+3.1,,books,True | False,
+"",,Provide details of any other personal data items being,,
+Your product processes,,processed by your product that are not listed in the,,
+3.1.1 personal data,,supporting information.,Free Text,
+Sensitive Personal Data,,,,
+3.2,,"Using your product causes sensitive personal data to beprocessed (e.g.collected/used/stored/analysed/transmitted). This could beprocessing carried out by you/your organisation, anotherorganisation on your behalf or the users themselves.The definition of sensitive personal data can be found on theICO's website and examples are listed in the supportinginformation.This includes any processing of sensitive personal data thatis:• Carried out by a third party e.g. user analytics, usersurveys, bulk emailers, tracker software (meant to collectdata about the user or their online actions whether used formarketing or not• Caused by allowing 'permissions' your product requests toaccess or perform actions on existing sensitive personal data(e.g. the user's mobile phone photo library, contact lists,address books)",True | False,,his includes:,
+"",,,,". Physical / mental health or condition (past,",,
+"",,,,urrent or future status) including:,,
+"",,,,. Medical data – data that are inherently/clearly,,
+"",,,,edical data,,
+"",,,,. Raw sensor data – data that can be used in itself,,
+"",,,,r in combination with other data to draw a,,
+"",,,,onclusion about the actual health status or health,,
+"",,,,isk of a person,,
+"",,sing your product causes sensitive personal data to be,. Conclusions data – data where conclusions are,,,
+"",,rocessed (e.g.,rawn about a person’s health status or health,,,
+"",,ollected/used/stored/analysed/transmitted). This could be,"isk, irrespective of whether these conclusions are",,,
+"",,"rocessing carried out by you/your organisation, another","ccurate, or otherwise adequate",,,
+"",,rganisation on your behalf or the users themselves.,. Sexual life / orientation,,,
+"",,,. Family / lifestyle / social circumstance,,,
+"",,he definition of sensitive personal data can be found on the,. Political opinion,,,
+"",,CO's website and examples are listed in the supporting,. Offences committed / alleged to have,,,
+"",,nformation.,ommitted / criminal proceedings / outcomes /,,,
+"",,,entence*,,,
+"",,his includes any processing of sensitive personal data that,. Financial data (that might be used for payment,,,
+"",,s:,raud),,,
+"",,,. Religion or other beliefs,,,
+"",,"Carried out by a third party e.g. user analytics, user",. Trade Union membership,,,
+"",,"urveys, bulk emailers, tracker software (meant to collect",. Racial / ethnic origin,,,
+"",,ata about the user or their online actions whether used for,0. Biometric data (e.g. fingerprints / facial,,,
+"",,arketing or not,ecognition) for the purpose of uniquely,,,
+"",,Caused by allowing 'permissions' your product requests to,dentifying a person,,,
+"",,ccess or perform actions on existing sensitive personal data,1. Genetic data for the purpose of uniquely,,,
+"",,"e.g. the user's mobile phone photo library, contact lists,",dentifying a person,,,
+".2",,ddress books),rue | False,2. Other sensitive personal data,,
+3.2.1,"Your product processessensitive personal data","Provide details of any other sensitive personal data itemsbeing processed by your product that are not listed in thesupporting information.",Free Text,,,
+"",,rovide details of any other sensitive personal data items,,,,
+"",our product processes,eing processed by your product that are not listed in the,,,,
+".2.1",ensitive personal data,upporting information.,ree Text,,,
+"",,,,,,
+our product processes,,,,,,
+3.2
+".2"
+""
+""
+"Using your product causes sensitive personal data to beprocessed (e.g.collected/used/stored/analysed/transmitted). This could beprocessing carried out by you/your organisation, anotherorganisation on your behalf or the users themselves.The definition of sensitive personal data can be found on theICO's website and examples are listed in the supportinginformation.This includes any processing of sensitive personal data thatis:• Carried out by a third party e.g. user analytics, usersurveys, bulk emailers, tracker software (meant to collectdata about the user or their online actions whether used formarketing or not• Caused by allowing 'permissions' your product requests toaccess or perform actions on existing sensitive personal data(e.g. the user's mobile phone photo library, contact lists,address books)"
+sing your product causes sensitive personal data to be
+rocessed (e.g.
+ollected/used/stored/analysed/transmitted). This could be
+"rocessing carried out by you/your organisation, another"
+rganisation on your behalf or the users themselves.
+""
+he definition of sensitive personal data can be found on the
+CO's website and examples are listed in the supporting
+nformation.
+""
+his includes any processing of sensitive personal data that
+s:
+""
+"Carried out by a third party e.g. user analytics, user"
+"urveys, bulk emailers, tracker software (meant to collect"
+ata about the user or their online actions whether used for
+arketing or not
+Caused by allowing 'permissions' your product requests to
+ccess or perform actions on existing sensitive personal data
+"e.g. the user's mobile phone photo library, contact lists,"
+ddress books)
+"Provide details of any other sensitive personal data itemsbeing processed by your product that are not listed in thesupporting information."
+True | False
+rue | False
+"",
+our product processes
+ersonal OR sensitive
+he personal data (and/or sensitive personal data) includes
+"",,,,NHS and Social Care providers may use cloud
+"",,,,"computing services for NHS data, but personal and"
+"",,,,sensitive personal data should only be hosted
+"",Your product processes,,,"within the UK, European Economic Area (EEA), a"
+"",personal or sensitive,,,country deemed adequate by the European
+"",personal data AND this,,,"Commission, or in the US where covered by"
+"",data includes NHS or,You/your organisation complies with NHS national guidance,,Privacy Shield. Click here for more information on
+3.3.1,Social Care Data,on offshoring and the use of public cloud services.,True | False,cloud services and data offshoring.
+"",,You have indicated that the use of your product  will not,,
+"",,cause any personal or sensitive personal data to be,,
+"",,processed.,,
+"",,,,
+"",,Please confirm that:,,
+"",,,,
+"",,• You have read and fully understood the definitions of,,
+"",,personal sensitive personal data provided by the Information,,
+"",,Commissioner’s Office,,
+"",,• You have read and fully understood the supporting,,
+"",,information and examples,,
+"",,• You have fully considered all the data including that,,
+"",,processed by placing and retrieving information through a,,
+"",,cookie or similar technology,,
+"",,"• Should there be an intention to process such data, you",,
+"",,accept that a reassessment will be required before the data,,
+"",,processing begins in order to remain on the NHS Apps,,
+"",Your product does not,Library,,
+"",process personal or,,,
+3.4,sensitive personal data,I confirm,True | False,
+"",,Understanding you/your organisation’s role in the processing,,
+"",,is crucial. The following questions will help identify your data,,
+"",,protection responsibilities by finding out if you/your,,
+Organisation Status,,,,
+"",,organisation is a:,,
+"",,,,Please also read the guidance available on the UK
+"",,,,
+"",,,,Information Commissioners website
+"",,• 'Controller',,
+"",,,,
+"",,• 'Controller' and 'manufacturer/designer' of the product),,
+"",,• 'Processor' only or,,
+"",,• Product 'manufacturer/designer' only.,,
+3.5,"Your product processespersonal OR sensitivepersonal data","You/your organisation (does not need to actually possess thedata) but STILL, alone or jointly with another organisation,decides:• to collect the data in the first place and the legal basis fordoing so;• which items of data to collect (e.g. the content of thedata);• the purpose or purposes the data are to be used for;• which individuals to collect data about;• whether to disclose the data, and if so, who to;• whether subject access and other individuals’ rights apply(e.g. the application of exemptions); and• how long to retain the data or whether to make non-routine amendments to the data.If your answer to these statements is 'True', this indicatesthat your organisation is a 'Controller' (you may also be thedesigner/manufacturer, but your role as a 'Controller'dictates your data protection liabilities).",True | False,,
+"",,ou/your organisation (does not need to actually possess the,,,
+"",,"ata) but STILL, alone or jointly with another organisation,",,,
+"",,ecides:,,,
+"",,,,,
+"",,to collect the data in the first place and the legal basis for,,,
+"",,oing so;,,,
+"",,which items of data to collect (e.g. the content of the,,,
+"",,ata);,,,
+"",,the purpose or purposes the data are to be used for;,,,
+"",,which individuals to collect data about;,,,
+"",,"whether to disclose the data, and if so, who to;",,,
+"",,whether subject access and other individuals’ rights apply,,,
+"",,e.g. the application of exemptions); and,,,
+"",,how long to retain the data or whether to make non-,,,
+"",,outine amendments to the data.,,,
+"",,,,,
+"",,"f your answer to these statements is 'True', this indicates",,,
+"",our product processes,hat your organisation is a 'Controller' (you may also be the,,,
+"",ersonal OR sensitive,"esigner/manufacturer, but your role as a 'Controller'",,,
+3.5,ersonal data,ictates your data protection liabilities).,rue | False,,
+"",,‘Controller’ is required to ensure a contract /,,,
+"",,ritten binding agreement is in place that sets out,,,
+"",,lear instructions to the ‘Processor’ and,,,
+"",,stablishes the liabilities of the ‘Controller’ and its,,,
+"",,Processor’.,,,
+"",,,,,
+"",,Processing’ means any operation or set of,,,
+"",ou/your organisation processes personal data on behalf of,"perations performed on personal data, such as",,,
+"",nother organisation and the other organisation (the,"ollection, recording, organisation, structuring,",,,
+our product processes,Controller') makes the decisions described above.,"torage, adaptation or alteration, retrieval,",,,
+ersonal OR sensitive,,"onsultation, use, disclosure by transmission,",,,
+ersonal data AND your,"f your answer to this is 'Yes', then you / your organisation is","issemination or otherwise making available,",,,
+rganisation is not a,"lignment or combination, restriction, erasure or",,,,
+our product processes
+ersonal OR sensitive
+ersonal data AND your
+rganisation is not a
+ou/your organisation processes personal data on behalf of
+nother organisation and the other organisation (the
+Controller') makes the decisions described above.
+""
+"f your answer to this is 'Yes', then you / your organisation is"
+"",Your product processes,,,
+"",personal OR sensitive,,,
+"",personal data AND your,,,
+"",organisation is a,,,
+"",Processor (and not a,Please provide the details of the 'Controller' organisation on,,
+3.6.1,Controller),whose behalf you are processing personal data.,Free Text,
+"",,,,If you are developing a product which will be
+"",,,,"taken into use by another organisation, for"
+"",,,,example a health or care
+"",,,,organisation/professional to process personal
+"",,,,"data, then the health or care"
+"",,,,organisation/professional will be the 'Controller'
+"",,,,of the personal data processed by the product and
+"",,,,will be accountable for evidencing compliance
+"",,,,with relevant:
+"",,,,
+"",,,,• Legislation (e.g. Data Protection legislation)
+"",,,,
+"",,,,• Policies (e.g. Information on cloud services and
+"",,,,data offshoring)
+"",,,,
+"",,"You/your organisation is developing, or has developed, a",,"As part of your development process, you, as a"
+"",,product but you will not control or process the personal data,,"'maufacturer/designer', should ensure that you"
+"",,because:,,can evidence that your product meets your
+"",,• the individual user who downloads your product controls,,customer/client’s expectations e.g. it meets the
+"",,their own data entirely OR,,data protection principle 'Data Protection by
+"",,• the client (organisation) which buys your product is the,,"design and default', which means embedding data"
+"",,‘Controller’ and will make the decisions described earlier,,privacy features and data privacy enhancing
+"",,regarding what personal data is processed when using your,,technologies into the design at an early stage.
+"",,product).,,
+"",,,,"To evidence compliance with this principle, you"
+"",,"If your answer to this is 'Yes', then you/your organisation is a",,should complete a Data Protection Impact
+"",Your product processes,manufacturer or designer (neither a 'Controller' nor,,Assessment (which is included later in this
+"",personal OR sensitive,'Processor'). Your app must be designed and configurable to,,"section). If you are not a 'Controller', then you"
+"",personal data AND your,meet the potential clients' (the 'Controller') legal,,should not complete the 'Controller' questions.
+"",organisation is neither a,requirements or safeguard the privacy rights of users who,,
+3.7,Controller nor Processor,individually download the product you make available.,Yes | No,Available Mobile Health (mHealth) product
+"",,,guidance includes:
+"",,,
+"",,,• The privacy code of conduct for mHealth apps
+"",,,which is being developed under the initiative of
+"",,,the European Commission submitted for
+"",,,comments to the Article 29 Data Protection
+"",,,Working Party in June 2016
+"",,,
+"",,,• The code of practice standard (PAS 277)
+"",,,developed by the British Standards Institution
+"",,,(BSI);
+"",,,
+"",,,"• The international Standard IEC 82304-1, which is"
+"",,,being prepared by a Joint Working Group of IEC
+"",,,subcommittee 62A (Common aspects of electrical
+"",,,equipment used in medical practice) and ISO
+"",,,technical committee 215: Health Informatics.
+"",,,
+"",,,• The UK ICO describes this situation in an article:
+"",,,Six reasons you need to be thinking about data
+"",,,protection.
+"",,,European and UK data protection laws apply to
+"",,,'Controllers' that are:
+"",,,• Established in the EU/UK
+"",,,• Established outside of EU/UK but offers goods or
+"",,,services to EU/UK residents or monitors the
+"",,,behaviour of EU/UK residents
+"",,,
+"",,,Many organisations that were not subject to
+"",,,existing EU/UK data protection law before May
+Application of legislation,,,"2018 will now be subject to the GDPR, especially"
+"",,,online businesses.
+Your product processes,,True | False,
+personal OR sensitive,,,
+personal data AND is a,You/your organisation is subject to European/UK Data,,
+3.8 Controller,Protection laws.,,
+"Data Protection Registration andAnnual Fee",,,,,,,
+ata Protection Registration and,,,,,,,
+nnual Fee,,,,,,,
+3.9,"Your product processespersonal OR sensitivepersonal data AND yourorganisation is aController AND is subjectto European/UK DataProtection Laws","You/your organisation has a registration number in the DataProtection Register",True | False,,f you/your organisation is subject to UK/EU data,,
+"",,our product processes,"rotection law, you must register and pay a data",,,,
+"",,ersonal OR sensitive,rotection fee - in the UK this is paid to the,,,,
+"",,ersonal data AND your,nformation Commissioner’s Office (ICO).,,,,
+"",,rganisation is a,,,,,
+"",,ontroller AND is subject,"ee data protection fee, which includes a",,,,
+"",,o European/UK Data,ou/your organisation has a registration number in the Data,egistration self-assessment 'Not sure if you need,,,
+3.,rotection Laws,rotection Register,rue | False,o pay a fee to the ICO?',,,
+3.10,,our product processes,,"What is your registration number in the appropriateEuropean/UK Data Protection Register?",Free Text,,
+"",,ersonal OR sensitive,,,,,
+"",,ersonal data AND your,,,,,
+"",,rganisation is a,,,,,
+"",,ontroller AND is subject,,,,,
+"",,o European/UK Data,,,,,
+"",,rotection Laws and if,,,,,
+"",,our organisation has a,,,,,
+"",,egistration number in,,,,,
+"",,he Data Protection,hat is your registration number in the appropriate,,,,
+".10",egister,uropean/UK Data Protection Register?,ree Text,,,,
+3.11,,our product processes,,"If you do not have a registration number in the DataProtection Register, explain why",Free Text,,
+"",ersonal OR sensitive,,,,,,
+"",ersonal data AND your,,,,,,
+"",rganisation is a,,,,,,
+"",ontroller AND is subject,,,,,,
+"",o European/UK Data,,,,,,
+"",rotection Laws and if,,,,,,
+"",our organisation does,,,,,,
+"",ot have a registration,,,,,,
+"",umber in the Data,f you do not have a registration number in the Data,,,,,
+".11",rotection Register,"rotection Register, explain why",ree Text,,,,
+"",,,,,,,
+nswer this section if your product,,,,,,,
+rocesses personal OR sensitive,CO Data Protection Self Assessment – Controllers Checklist,,,,,,
+ersonal data AND if your,,,,,,,
+"Data Protection Registration andAnnual Fee"
+ata Protection Registration and
+nnual Fee
+""
+""
+""
+""
+3.9
+3.
+"Your product processespersonal OR sensitivepersonal data AND yourorganisation is aController AND is subjectto European/UK DataProtection Laws"
+our product processes
+ersonal OR sensitive
+ersonal data AND your
+rganisation is a
+ontroller AND is subject
+o European/UK Data
+rotection Laws
+"You/your organisation has a registration number in the DataProtection Register"
+ou/your organisation has a registration number in the Data
+rotection Register
+True | False
+rue | False
+3.10
+".10"
+"What is your registration number in the appropriateEuropean/UK Data Protection Register?"
+hat is your registration number in the appropriate
+uropean/UK Data Protection Register?
+Free Text
+ree Text
+"",
+"",
+CO Data Protection Self Assessment – Controllers Checklist
+""
+""
+3.12,,The UK Information Commissioner’s Office Complete the 'Controllers' checklist and tell us your overall Red | Amber,
+"",,| Green,provides a Data Protection checklist to help
+"",,grading (which must achieve Green or Amber to be,
+"",,,'Controllers' assess the general level of data
+"",,considered for the NHS Apps Library). You will be asked to,
+"",,,protection compliance.
+"",,provide us with a copy in a subsequent question. See the,
+"",,supporting information for details of the 'Controllers',
+"",,checklist.,
+3.13,,Provide the name and title of a senior manager in the,
+"",,'Controller' organisation who verifies the grading is accurate.,
+"",,Free Text,
+3.14,,What date was this checklist completed on? (this should be,
+"",,within a month of your application),
+3.15,,Please supply a copy of the completed ICO Checklist.   File,
+"",,,"Under Data Protection legislation, organisations"
+"",,,must be able to demonstrate (evidence) that their
+"",,,processing of personal and sensitive personal data
+"",,,complies with the Data Protection Principle of
+"",,,'Data Protection by Design'.
+"",,,
+"",,,A DPIA is a tool that enables organisations to
+"",,,identify and mitigate risks inherent in proposed
+"",,,data processing activities before the processing
+"",,,begins.
+"",,,
+"",,,A  comprehensive DPIA is required which covers
+"",,,the criteria set out in European guidelines (Annex
+"",Answer this section if,,2) and additionally covers trackers and
+"",your product processes,,permissions (described in later questions).
+"",personal OR sensitive,,•  You may use your own equivalent
+"",personal data AND if,,documentation or you may use the DPIA template
+"",your organisation is a,,available from the UK ICO website:
+"",Controller OR a,,• DPIA template: WORD version
+"",Manufacturer,Data Protection Impact Assessment Report (DPIA),• DPIA template: PDF version
+3.16,,"To be considered for the NHS Apps Library, a DPIA report",,
+"",,must be provided for any product that causes personal or,,
+"",,sensitive personal data to be accessed/processed.,,
+"",,,,
+"",,Complete and attach a dated and signed DPIA Report (see,,
+"",,"supporting information), ensuring that it:",,
+"",,,,
+"",,• Meets the criteria set out in European guidelines (Annex 2),,
+"",,AND,,
+"",,• Includes details of trackers (software meant to collect data,,
+"",,about the user or their online actions) with a justification,,
+"",,"why each is required, what the purpose of each is and the",,
+"",,legal basis (e.g. consent for such processing),,
+"",,• Includes details of permissions (actions the product can do,,
+"",,"on user’s device) with a justification why each is required,",,
+"",,what the purpose of each is and the legal basis (if necessary,,
+"",,e.g. consent for such processing),File,
+3.17,,Your DPIA meets the criteria set in Annex 2 of Guidelines on,True | False,Information on European guidelines (Annex 2)
+"",,Data Protection Impact Assessment (DPIA).,| Partially,
+3.17.1 AND If your product,,Provide details of any criteria set out in Annex 2 that are not,Free Text,
+partially meets the,,met in the DPIA.,,
+criteria set out in Annex 2,,,,
+of Guidelines of DPIA,,,,
+3.18,,Your DPIA includes details of trackers and permissions used,,
+"",,by your product along with the justification for why each is,,
+"",,required and their purpose. If there are no trackers or,,
+"",,"permissions used by your product, this is clearly stated in the",,
+"",,DPIA.,True | False,
+3.18.1 AND If your DPIA includes,,,,
+details of trackers and,,If these trackers comprise personal data (e.g. allow a user to,,
+permissions used by your,,"be tracked), users are made adequately aware of the",,
+product,,trackers/permissions in the product's privacy notice.,True | False,
+"",,,,
+Answer this section if your product,,,,
+processes personal OR sensitive,,Legal Basis for Processing Personal Data (Excluding Cookies),,
+personal data AND your,,,,
+organisation is a Controller,,,,
+3.19,,The legal basis for each processing purpose of the personal,True | False
+"",AND If your product,data is clearly described to the individual.,
+"",processes personal data,,
+"",AND your organisation is,,
+"",a Controller,,
+3.20,,The legal basis for the processing of personal data is:,Consent |
+"",,,Other legal
+"",,,basis
+"",,,
+3.20.1,AND If there is an 'other,"As you have selected 'other legal basis', please describe the",Free Text
+"",legal basis' for the,basis here:,
+"",processing of personal,,
+"",data,,
+3.21,AND If your product,The legal basis for each processing purpose of sensitive,True | False
+"",processes sensitive,personal data is ALSO clearly described to the individual.,| Not
+"",personal data and if your,,Applicable
+"",organisation is a,,
+"",Controller,,
+3.22,AND If your product,The legal basis for the processing of sensitive personal data,Consent |
+"",processes sensitive,is:,Other legal
+"",personal data and if your,,basis
+"",organisation is a,,
+"",Controller,,
+3.22.1,AND If there is an 'other,"As you have selected 'other legal basis', please describe the",Free Text
+"",legal basis' for the,basis here:,
+"",processing of sensitive,,
+"",personal data,,
+"",,,
+"",,Controllers Obligations - Personal Data Breach Actions,
+"",,You/your organisation has a documented plan showing your,
+"",,intended reactions to a data breach before a breach occurs.,
+"",,This plan includes assessing:,
+"",If your product processes,"• whether personal data, and what personal data, is involved",
+3.23,,,
+"",personal OR sensitive,• need to notify the appropriate Data Protection Authority,
+"",personal data AND your,"(in UK the ICO) without undue delay and, not later than 72",
+"",organisation is a,hours after discovering the breach,
+"",Controller,• the existing technical and organisational protection,True | False
+"",measures in place / your subsequent measures to ensure,
+"",that the high risk to the rights and freedoms of  users is no,
+"",longer likely,
+"","• notifying the affected individuals, without undue delay, of",
+"","the appropriate details, for example likely consequences",
+"",• your measures to mitigate possible adverse effects,
+If your product processes personal,,
+OR sensitive personal data AND,Controllers Obligations - Individuals’ Rights are Upheld,
+your organisation is a Controller,,
+3.24,You/your organisation has developed measures to treat risks,
+"",and to protect the applicable rights of the data subjects.,True | False
+AND If your organisation,,
+has developed measures,,
+3.24.1,,
+to protect the applicable,The rights of the data subjects include providing,
+rights of the data subjects,transparency/fair processing information to data subjects.,True | False
+"",The rights of data subjects include the right of data,
+"",portability (which only applies where consent or contract,
+"",with the data subject is the legal basis and personal data are,
+"",/ knowingly and actively provided by the data subject /,
+3.24.2,,
+AND If your organisation,generated by and collected from the use of the service or,
+has developed measures,"device e.g. ‘observed’ such as search history, traffic data,",True | False
+to protect the applicable,"location data, other raw data such as heartbeat tracked by",| Not
+rights of the data subjects,fitness and health trackers).,Applicable
+AND If your organisation,,
+"",,True | False
+has developed measures,The rights of the data subjects include the right to erase (or,
+3.24.3,,| Not
+to protect the applicable,"the “right to be forgotten"").",
+"",,Applicable
+rights of the data subjects,,
+AND If your organisation,,
+has developed measures,"The rights of the data subjects include the right to rectify,",
+3.24.4,,True | False
+to protect the applicable,"object, restrict processing.",
+rights of the data subjects,,
+"",You/your organisation use all reasonable measures to verify,
+3.25,,True | False
+"",the identity of an individual who exercises these rights.,
+"",
+Answer this section if your product,
+processes personal OR sensitive Controllers Obligations – Processing Contracts e.g. Cloud or Network/Communications Providers,
+personal data AND your,
+organisation is a Controller AND,
+allows your users personal data to,
+be processed by a third party,
+You/your organisation allows or causes your users' personal,
+"data to be processed by a third party (e.g. hosts the data,",
+"3.26 manages your website, provides user research or analytics",
+"services, user survey tools, bulk email providers that manage",
+your client email lists).,True | False
+The third party provides technical services (e.g. maintains 3.26.1,
+personal data backups or stores personal data in a cloud).,True | False
+The third party accesses/uses personal data (for which you,
+3.26.2,
+are the 'Controller').,True | False
+A written binding agreement (e.g. contract) is in place,
+3.26.3 between you/your organisation and each third party,
+"('Processor').",True | False
+3.26.4 No contract clauses indemnify 'Processors' against fines or,
+claims under UK/EU data protection law.,True | False
+3.26.5 All contracts clearly set out the subject matter and duration,
+of the processing.,True | False
+3.26.6 All contracts clearly set out the nature and purpose of the,
+processing.,True | False
+All contracts clearly set out the type of personal data and,
+3.26.7,
+categories of data subject.,True | False
+All contracts clearly set out the obligations and rights of the,
+3.26.8,
+"'Controller'.",True | False
+3.26.9 All contracts require the 'Processor' to only act on the,
+written instructions of the 'Controller'.,True | False
+All contracts require the 'Processor' to ensure that their,
+3.26.10 employees processing the data are subject to a duty of,
+confidence.,True | False
+"",All contracts require the 'Processor' to take appropriate
+3.26.11,
+"",measures to ensure the security of processing. True | False
+"",All contracts require the 'Processor' to only engage 'Sub-
+"",Processors' with the prior consent of the 'Controller' and
+3.26.12,
+"",under the same conditions as the processing written
+"",contract. True | False
+"",All contracts require the 'Processor' to assist the 'Controller'
+3.26.13,in providing subject access and allowing data subjects to
+"",exercise their rights under the UK/EU law. True | False
+"",All contracts require the 'Processor' to assist the 'Controller'
+"",in meeting its UK/EU data protection law obligations in
+3.26.14,relation to:
+"",• the security of processing
+"","• the notification of personal data breaches, and"
+"",• data protection impact assessments True | False
+"",All contracts require the 'Processor' to tell the 'Controller'
+3.26.15,immediately if it is asked to do something infringing UK/EU
+"",data protection law. True | False
+"",Fair Processing Information
+"",
+"","The next set of questions firstly identify from whom the data is obtained, the content to be included in the fair processing"
+Answer this section if your product,"information, and when this information should be provided. The requirements differ depending upon whether the personal data"
+processes personal OR sensitive,is obtained from the data subject directly or from a third party.
+personal data AND your,
+organisation is a Controller,Individuals have the right to be informed about the collection and use of their personal data. This is a key transparency
+"",requirement under data protection legislation. Guidance is available on the ICO's website
+"",
+"",The personal data is obtained directly from the individual | The
+3.27,How is the personal data obtained? personal data is obtained from a third party
+"",
+"",
+AND if the personal data 3.27.1,
+is obtained directly from,Fair processing information is provided at the time the
+the individual,personal data is obtained. True | False
+"",,Fair processing information is provided within one month of
+"",,"having obtained the data from a third party OR, if the"
+3.27.2 AND if the personal data,,"True | False personal data is used to communicate with the individual, at"
+is obtained from a third,,"the latest, when the first communication takes place."
+party,,
+3.27.3,,You/your organisation's fair processing information is
+"",,provided to individuals free of charge. True | False
+"",,
+Answer this section if your product,,
+"",,You/your organisation's fair processing information includes the following:
+processes personal OR sensitive,,
+personal data AND is a Controller,,
+"",,The identity and the contact details of the 'Controller' and
+3.27.4,,True | False
+"",,"where applicable, the 'Controller's' representative."
+3.27.5,,
+"",,The purposes and the legal basis for each purpose. True | False
+3.27.6,,"The recipients, or categories of recipients, of the personal"
+"",,data. True | False
+"",,The details of data transfers outside the European Economic
+"",,"Area, including how the data will be protected. For example:"
+"",,• The recipient is in an ‘adequate’ country (e.g. recognised
+"",,by the EU Commission to have an adequate level of
+3.27.7,,protection)
+"",,• Binding Corporate Rules (BCR) or
+"",,• Model Contract ClausesTrue | False
+"",,and you have made the individual aware of how they may | Not
+"",,"obtain a copy of the safeguards, or where they can be seen. Applicable"
+3.27.8,,"The retention period or, if no fixed retention period can be"
+"",,"provided, the criteria used to determine that period. True | False"
+"",,The right to lodge a complaint with a supervisory authority
+3.27.9,,(in the UK this would be the Information Commissioner's
+"",,Office (ICO)). True | False
+"",Whether the provision of personal data is part of a statutory,True | False
+3.27.10,or contractual requirement or obligation and possible,| Not
+"",consequences of failing to provide the personal data.,Applicable
+"",The existence of automated decision making including,True | False
+3.27.11,"profiling and information about how decisions are made, the",| Not
+"",significance and the consequences.,Applicable
+3.27.12,The existence of the data subject’s right to access/obtain a,
+"",copy of their personal data.,True | False
+3.27.13,"The existence of the data subject’s rights to rectify, erase",
+"",and restrict their personal data.,True | False
+"",,True | False
+"",The existence of the data subject’s rights to object to the,
+3.27.14,,| Not
+"",processing.,
+"",,Applicable
+"",,True | False
+3.27.15,The existence of the data subject’s rights to withdraw,| Not
+"",consent (if consent is the legal basis).,Applicable
+"",,True | False
+3.27.16,The existence of the data subject’s rights to data portability,| Not
+"",(provide the personal data in machine readable form).,Applicable
+"",The existence of the data subject’s rights to object to,
+"",decisions based solely on automated processing (which,True | False
+3.27.17,,
+"","could include profiling), if the decisions produce legal effects",| Not
+"",or similarly significantly affects the data subject.,Applicable
+"",If the personal data is to be used later for a new purpose,
+"",which was not adequately described in the initial,
+"",transparency information and is 'incompatible' with the,
+3.27.18,,
+"","original purpose, you will provide users with updated",
+"",transparency information which may mean re-obtaining,
+"",consent (if consent was the legal basis).,True | False
+"",Users are notified of substantial changes to the existing,True | False
+3.27.19,transparency information (and consent obtained again,| Not
+"",unless the consent obtained previously remains valid).,Applicable
+3.27.20,"AND if personal data isobtained from a thirdparty","The categories of personal data (what types of personal datayou have obtained about the data subject).",Yes | No,,,
+"",ND if personal data is,,,,,
+"",.27.20,btained from a third,he categories of personal data (what types of personal data,,,
+"",arty,ou have obtained about the data subject).,Yes | No,,,
+3.27.21,"AND if personal data isobtained from a thirdparty","The source the personal data originates from (if not the datasubject) and whether it came from publicly accessiblesources.","Yes | No |NotApplicable",,,
+"",ND if personal data is,he source the personal data originates from (if not the data,Yes | No |,,,
+"",.27.21,btained from a third,ubject) and whether it came from publicly accessible,Not,,
+"",arty,ources.,Applicable,,,
+3.27.22,"AND if personal data isobtained from a thirdparty",,he right to object to processing of their personal data is,,Yes | No,
+"",,,ommunicated to the data subject no later than the time of,,,
+"",.27.22,ND if personal data is,he first communication with the data subject and the,,,
+"",btained from a third,nformation is provided clearly and separately from any,,,,
+"",arty,ther information provided to the data subject.,Yes | No,,,
+3.27.23,"AND if personal data isobtained from a thirdparty","If disclosure to another recipient is envisaged, the fairprocessing information is provided, at the latest, before thedata is disclosed.","Yes | No |NotApplicable",,,
+"",ND if personal data is,"f disclosure to another recipient is envisaged, the fair",Yes | No |,,,
+"",.27.23,btained from a third,"rocessing information is provided, at the latest, before the",Not,,
+"",arty,ata is disclosed.,Applicable,,,
+"",,,Consent,,"alid consent is defined as ‘any freely given,",
+nswer this section if your product,"pecific, informed and unambiguous indication of",,,,,
+rocesses personal OR sensitive,"he data subject's wishes by which he or she, by a",,,,,
+"",,onsent,,,,
+ersonal data AND your,"tatement or by a clear affirmative action, signifies",,,,,
+"",,,,,,
+rganisation is a Controller and if,greement to the processing of personal data,,,,,
+he legal basis for processing,elating to him or her.’ You can find guidance on,,,,,
+ersonal data is consent,onsent on the ICO's website.,,,,,
+3.28.1,,,"onsent is freely given, specific for each separate purpose",,True | False,
+".28.1",True | False,,,,,
+"",,,,,,
+3.28.2,,,onsent is not a precondition of signing up to a service,,True | False,
+".28.2",True | False,,,,,
+"",,nless it is necessary for that service.,,,,
+3.28.3,,"Consent is requested separately from the terms andconditions.",True | False,,,
+"",onsent is requested separately from the terms and,,,,,
+".28.3",True | False,,,,,
+"",,,,,,
+"",,,,,,
+3.27.20
+".27.20"
+"AND if personal data isobtained from a thirdparty"
+ND if personal data is
+btained from a third
+arty
+"The categories of personal data (what types of personal datayou have obtained about the data subject)."
+he categories of personal data (what types of personal data
+ou have obtained about the data subject).
+Yes | No
+Yes | No
+""
+""
+3.27.21
+".27.21"
+"AND if personal data isobtained from a thirdparty"
+ND if personal data is
+btained from a third
+arty
+"The source the personal data originates from (if not the datasubject) and whether it came from publicly accessiblesources."
+he source the personal data originates from (if not the data
+ubject) and whether it came from publicly accessible
+ources.
+"Yes | No |NotApplicable"
+Yes | No |
+Not
+Applicable
+""
+""
+3.27.22
+".27.22"
+"AND if personal data isobtained from a thirdparty"
+ND if personal data is
+btained from a third
+arty
+Yes | No
+Yes | No
+""
+""
+3.27.23
+".27.23"
+"AND if personal data isobtained from a thirdparty"
+ND if personal data is
+btained from a third
+arty
+"If disclosure to another recipient is envisaged, the fairprocessing information is provided, at the latest, before thedata is disclosed."
+"f disclosure to another recipient is envisaged, the fair"
+"rocessing information is provided, at the latest, before the"
+ata is disclosed.
+"Yes | No |NotApplicable"
+Yes | No |
+Not
+Applicable
+""
+""
+Consent
+onsent
+""
+3.28.1
+".28.1"
+""
+""
+True | False
+True | False
+""
+""
+3.28.2
+".28.2"
+""
+""
+True | False
+True | False
+""
+""
+3.28.3
+".28.3"
+"Consent is requested separately from the terms andconditions."
+onsent is requested separately from the terms and
+""
+True | False
+True | False
+""
+""
+".28.4"
+"t the time consent is requested, the individual is provided"
+True | False
+""
+"",The individual can withdraw consent as easily as it was given,
+3.28.5,"(e.g. via the same electronic interface, an unsubscribe link;",True | False
+"",instructions in emails contained in all communications).,
+"",Consent (granular consent) is obtained separately for every,
+3.28.6,,True | False
+"","type of purpose foreseen, for example marketing.",
+"",,
+"",If a future additional purpose is envisaged after consent was,
+"",obtained and the new purpose is incompatible with the,
+3.28.7,,True | False
+"","original purpose, then additional consent will be obtained",
+"",before processing for the new purpose begins.,
+"",,"Yes, for the current consent only | Yes, for current and previous"
+3.28.8,Consent is recorded.,"consents | No, consent is not recorded"
+"",,
+"",You/your organisation can evidence that the individual gave,
+"",their valid consent to the processing (e.g. how and when,
+3.28.9,,True | False
+"",consent was obtained and the information provided to the,
+"",individual (data subject) at the time).,
+"",,"Yes, by an opt button or link online | Yes, by selecting from"
+"",,"equally prominent yes/no options | Yes, by responding to an"
+"",The individual is required to provide a clear affirmative,
+"",,email requesting consent |
+3.28.10,action to signify consent to the processing of personal data,
+"",,"Yes, by filling optional fields in a form | Yes, other |"
+"",for each purpose.,
+"",,"No, a clear affirmative action is not required"
+"",,
+3.28.11,You/your organisation does NOT use pre-ticked opt-in boxes.,True | False
+"",,
+3.28.12,You/your organisation does NOT use blank opt-out boxes.,True | False
+"",,
+3.28.13,You/your organisation does NOT use default settings.,True | False
+"",,
+"",You/your organisation confirms it does NOT use a blanket,
+3.28.14,,True | False
+"",acceptance of your terms and conditions.,
+"",,
+"",You/your organisation ensures that an individual who,
+"",refuses or withdraws consent can do so without detriment,
+3.28.15,,True | False
+"",to the service provided (e.g. an individual is not unfairly,
+"",penalised - though it is acceptable to offer additional,
+"","incentives to those who do consent, for example for",
+"",marketing purposes).,
+"",You/your organisation does NOT penalise individuals who,
+3.28.16,,True | False
+"",withdraw consent.,
+"",,
+"",,
+Answer this section if your product,,
+processes personal OR sensitive,Children's Personal Data,
+personal data AND your,,
+organisation is a Controller,,
+"",You/your organisation’s product are particularly:,
+3.29,• Aimed at children OR,True | False
+"",• Likely to be used by children,
+"",,
+Answer this section if your product,Children's Personal Data - Rights,
+processes personal OR sensitive,,
+personal data AND your,You/your organisation:,
+organisation is a Controller and if,,
+your product is likely to be used by,,
+children,,
+"",Design processes by which a child can exercise their data,
+3.29.1,"protection rights with the child in mind, and make them easy",True | False
+"",for children to access and understand.,
+"",Allow competent children to exercise their own data,
+3.29.2,,True | False
+"",protection rights.,
+"",,
+"",If your original processing was based on consent provided,
+3.29.3,"when the individual was a child, then you comply with",True | False
+"",requests for personal data to be erased whenever you can.,
+"","Design your processes so that, as far as possible, it is as easy",
+3.29.4,for a child to get their personal data erased as it was for,True | False
+"",them to provide it in the first place.,
+"",,
+Answer this section if your product,,
+processes personal OR sensitive,Children's Personal Data - General,
+personal data AND your,,
+organisation is a Controller and if,You/your organisation:,
+your product is likely to be used by,,
+children,,
+"",Complies with all the requirements of the UK/EU data,
+3.30.1,"protection legislation, not just those specifically relating to",True | False
+"",children and included in this checklist.,
+"",Designs your processing with children in mind from the,
+3.30.2,outset and uses a data protection by design and by default,True | False
+"",approach.,
+"",Makes sure that your processing is fair and complies with the,
+3.30.3,,True | False
+"",data protection principles.,
+"","As a matter of good practice, you use Data Protection Impact",
+3.30.4,Assessments (DPIAs) to help you assess and mitigate the,True | False
+"",risks to children.,
+"",If your processing is likely to result in a high risk to the rights,
+3.30.5,,True | False
+"","and freedom of children, then you always complete a DPIA.",
+"","As a matter of good practice, you consult with children as",
+3.30.6,,True | False
+"",appropriate when designing our processing.,
+"",,
+Answer this section if your product,,
+processes personal OR sensitive,Children's Personal Data - Fair Processing Information,
+personal data AND your,,
+organisation is a Controller and if,You/your organisation:,
+your product is likely to be used by,,
+children,,
+"","Provide privacy notices which are clear, and written in plain,",
+3.31.1,,True | False
+"",age-appropriate language.,
+"","Use child friendly ways of presenting privacy information,"
+3.31.2,"such as diagrams, cartoons, graphics and videos, dashboards, True | False"
+"","layered and just-in-time notices, icons and symbols."
+"",Explain to children why you require the personal data you
+3.31.3,"have asked for, and what you will do with it, in a way which True | False"
+"",they can understand.
+"","Explain the risks inherent in the processing, and how you"
+"","intend to safeguard against them, in a child friendly way, so"
+3.31.4,True | False
+"",that children (and their parents) understand the implications
+"",of sharing their personal data.
+"",Tell children what rights they have over their personal data
+3.31.5,True | False
+"",in language they can understand.
+"",
+"","As a matter of good practice, if relying upon parental"
+"",Yes | No |
+"",consent then you offer two different versions of your privacy
+3.31.6,Not
+"",notices; one aimed at the holder of parental responsibility
+"",Applicable
+"",and one aimed at the child.
+"",
+Answer this section if your product,
+processes personal OR sensitive,Children's Personal Data - Lawful Basis for Processing a Child’s Personal Data
+personal data AND your,
+organisation is a Controller and if,You/your organisation:
+your product is likely to be used by,
+children,
+"","If relying on consent, you will make sure that the child"
+"","understands what they are consenting to, and you do not"
+3.32.1,True | False
+"",exploit any imbalance in power in the relationship between
+"",you and the child.
+"","If relying on ‘necessary for the performance of a contract’,"
+3.32.2,you will consider the child’s competence to understand what True | False
+"","they are agreeing to, and to enter into a contract."
+"","If relying upon ‘legitimate interests’, you will take"
+3.32.3,responsibility for identifying the risks and consequences of True | False
+"","the processing, and put age appropriate safeguards in place."
+"",
+Answer this section if your product,
+processes personal OR sensitive,Children's Personal Data - Solely Automated Decision-Making (Including Profiling)
+personal data AND your,
+organisation is a Controller and if,You/your organisation:
+your product is likely to be used by,
+children,
+"",Do not usually use children’s personal data to make solely
+3.33.1,"automated decisions about them if these will have a legal, or True | False"
+"","a similarly significant, effect upon them."
+"",If you do use children’s personal data to make such
+"","decisions, then you make sure that one of the exceptions"
+3.33.2,"applies and that suitable, child appropriate measures are in True | False"
+"","place to safeguard the child’s rights, freedoms and legitimate"
+"",interests.
+"","In the context of behavioural advertising, when deciding"
+"",whether a solely automated decision has a similarly
+"","significant effect upon a child, you take into account: the True | False"
+3.33.3,choices and behaviours that you are seeking to influence; | Not
+"",the way in which these might affect the child; and the child’s Applicable
+"",increased vulnerability to this form of advertising; using
+"",wider evidence on these matters to support our assessment.
+"",True | False
+"",Stop any profiling of a child that is related to direct
+3.33.4,| Not
+"",marketing if they ask you to.
+"",Applicable
+"",
+Answer this section if your product,
+processes personal OR sensitive,Children's Personal Data - Marketing
+personal data AND your,
+organisation is a Controller and if,You/your organisation:
+your product is likely to be used by,
+children,
+"","When considering marketing to children, you take into"
+"",account their reduced ability to recognise and critically True | False | Not Applicable
+3.34.1,
+"",assess the purposes behind the processing and the potential
+"",consequences of providing their personal data.
+"",Take into account sector specific guidance on marketing to
+"",True | False | Not Applicable
+3.34.2,make sure that children’s personal data is not used in a way
+"",
+"",that might lead to their exploitation.
+"",Stop processing a child’s personal data for the purposes of True | False | Not Applicable
+3.34.3,
+"",direct marketing if they ask you to.
+"",
+"",Comply with the direct marketing requirements of the True | False | Not Applicable
+3.34.4,
+"",Privacy and Electronic Communications Regulations (PECR).
+"",
+"",
+Answer this section if your product,
+processes personal OR sensitive,"Children's Personal Data - Information Society Services (ISS) directly to a child, on the basis of consent"
+personal data AND your,
+organisation is a Controller and if,You/your organisation:
+your product is likely to be used by,
+children,
+"",If you decide not to offer your ISS (online service) directly to
+"","children, then you mitigate the risk of them gaining access, True | False | Not Applicable"
+3.35.1,
+"",using measures that are proportionate to the risks inherent
+"",in the processing.
+"","When offering ISS to UK children on the basis of consent, you"
+"",make reasonable efforts (taking into account the available
+"",True | False | Not Applicable
+3.35.2,technology and the risks inherent in the processing) to
+"",
+"",ensure that anyone who provides their own consent is at
+"",least 13 years old.
+"","When offering ISS to UK children on the basis of consent, you"
+"",obtain parental consent to the processing for children who
+"","are under the age of 13, and make reasonable efforts (taking True | False | Not Applicable"
+3.35.3,
+"",into account the available technology and risks inherent in
+"",the processing) to verify that the person providing consent
+"",holds parental responsibility for the child.
+"",
+Answer this section if your product,
+processes personal OR sensitive,Children's Personal Data - Age
+personal data AND your,
+organisation is a Controller and if,
+your product is likely to be used by,,
+children,,
+"",When targeting wider European (non UK) markets you,True | False | Not Applicable
+3.36.1,,
+"",comply with the age limits applicable in each member state.,
+"",,
+"",You regularly review available age verification and parental,
+"",,True | False | Not Applicable
+3.36.2,responsibility verification mechanisms to ensure you are,
+"",,
+"",using appropriate current technology.,
+"",You do NOT seek parental consent when offering online,True | False | Not Applicable
+3.36.3,,
+"",preventive or counselling services to a child.,
+"",,
+"",,
+If your product processes personal,,
+"",Cookies,
+data OR sensitive personal data,,
+AND is a Controller,,
+"","You/your organisation use cookies, web beacons or similar",
+3.37,,True | False
+"",technologies.,
+"",,
+"",,
+Answer this section if your product,,
+processes personal data OR,,
+sensitive personal data AND your,Cookies - Policy,
+organisation is a Controller and uses,,
+"cookies, web beacons or similar",,
+technologies,,
+3.38.1,You/your organisation provides users with a cookie policy.,True | False
+"",,
+"",The cookie policy explains that consent is being requested,
+3.38.2,for the storage and access of cookies in and from the users’,True | False
+"",terminal equipment.,
+"",The cookie policy ensures consent is valid by requiring a clear,
+3.38.3,affirmative action from the user (e.g. pre-ticked boxes or,True | False
+"",inactivity do not constitute valid consent).,
+"","The cookie policy fully explains the purpose, in plain",
+3.38.4,,True | False
+"","language, of each cookie type being used.",
+"",,
+Answer this section if your product,,
+processes personal data OR,,
+sensitive personal data AND your,Cookies - 'Strictly Necessary' Cookies,
+organisation is a Controller and uses,,
+"cookies, web beacons or similar",,
+technologies,,
+"",You/your organisation use ‘strictly necessary’ cookies,
+"",,True | False | Not Applicable
+3.38.5,(without which the end user would be unable to use the,
+"",,
+"",specific service explicitly requested).,
+"","Although consent is not required, is the end user made",True | False | Not Applicable
+3.38.6,,
+"",aware that 'strictly necessary’ cookies are being used?,
+"",,
+"",,
+Answer this section if your product,,
+processes personal data OR,,
+sensitive personal data AND your,Cookies - Consent for Non-Essential Cookies,
+organisation is a Controller and uses,,
+"cookies, web beacons or similar",,
+technologies,,
+"",,True | False
+"","Excluding 'strictly necessary' cookies, is consent obtained for",
+3.38.7,,| Not
+"",each separate cookie purpose?,
+"",,Applicable
+"",You/your organisation can evidence that the individual gave,
+"",,True | False
+"",their valid consent to the processing (e.g. how and when,
+3.38.8,,| Not
+"",consent was obtained and the information provided to the,
+"",,Applicable
+"",individual (data subject) at the time).,
+"",Consent can be withdrawn as easily as it was given (e.g. via,
+3.38.9,,True | False
+"",the same electronic interface).,
+"",,
+"",,First Party
+"",,A first party cookie can only be created and viewed by the
+"",,operator of a website a user is visiting. These cookies are often
+"",,used so that a website recognises the user and automatically
+"",,applies the user’s desired settings (e.g. which language to display).
+"",,Website owners may also use the data gathered for analytics or
+"",,their own online marketing.
+"",,Third Party
+"",,Third party web tracking refers to cookies (and other methods
+"",,"that perform the same function e.g. Flash cookie, Server log: Web"
+"",,"beacons, tracking pixels) that are generated by external sites and"
+Answer this section if your product,,track a user’s journey across different websites. This information
+processes personal data OR,Usage/Bug Reporting and Online Tracking,"may be used for analytics, but more commonly it is used for"
+sensitive personal data AND your,,targeted marketing (e.g. to direct and display advertisements to
+organisation is a Controller,,the individual as a potential customer).
+"",,"Under EU/UK Data Protection legislation, tracking may only take"
+"",,place if the individual has given their valid consent (e.g. the user
+"",,"has been made aware of any party that may collect, receive, or"
+"",,use the end users’ personal data as a consequence of your use of
+"",,a tracker. You must also provide users with prominent and easily
+"",,accessible information about the third party’s use of users’
+"",,personal data.
+"",,Tracking is not anonymous. A tracker may not have the
+"",,individual’s name but is able to identify the user (e.g. in order to
+"",,deliver targeted advertising). Consent is therefore required before
+"",,this personal data is collected.
+"",You collect usage or bug report data (e.g. Google/Adobe,
+3.39,,True | False
+"",Analytics).,
+AND if your organisation,,
+3.39.1 collects usage/bug report,It is collected with informed and valid consent of the user,True | False
+data,,
+AND if your organisation,It is collected using fully anonymised data (e.g. no personal,
+3.39.2 collects usage/bug report,"data, such as tracking data, is collected by you/your",True | False
+data,organisation or any third party),
+"",,
+"",,Controllers (and processors) of personal data are required to
+"",,designate (or recruit/engage) a Data Protection Officer DPO when
+"",,the organisation:
+Answer this section if your product,,
+processes personal data OR,Appointment of a Data Protection Officer,• carries out large scale processing of sensitive personal data (also
+sensitive personal data AND your,,known as special categories of data) e.g. health data
+organisation is a Controller,,• carries out large scale systematic monitoring of individuals (for
+"",,"example, online behaviour tracking) or"
+"",,• is a public authority (except for courts acting in their judicial
+"",,capacity)
+"",You/your organisation has a designated Data Protection,
+"",,True | False
+"",Officer who is formally tasked with ensuring that you/your,
+3.40,,| Not
+"","organisation is aware of, and complies with, its data",
+"",,Applicable
+"",protection responsibilities.,
+"",Comments and confirmation,
+"",Use the text box below if you need to clarify any of your,
+"",responses (please indicate which question(s) you are,
+3.41,referring to). If you believe none of your responses require,Free Text
+"","clarification, you must confirm this as the box cannot be left",
+"",blank.,
+Display,,,,
+"",Answer this question if...,Question,Response Option,Supporting Information
+ID,,,,
+"",,,1. Application for smartphone,
+"",,Select all the following components applicable to,,
+4.1,,,or tablet | 2. Medical Device |,
+"",,your product:,3.Website | 4. Wearable | 5.,
+"",,,Other,
+"",If your product is an application for,"Does your product access, process or store",,
+4.1.1,a smartphone or tablet,personal or sensitive personal data?,Yes | No,
+"",If your product is an application for,,,
+"",a smartphone or tablet AND,,,
+"","accesses, processes or stores",Is sensitive personal data persisted to the mobile,,
+4.1.2,personal or sensitive personal data,device?,Yes | No,
+"","If your product is a Medical Device,","Does your product access, process or store",,
+4.1.3,"Website, Wearable or Other",personal or sensitive data?,Yes | No,
+"",,,,OWASP Mobile Security Testing
+"",,,,Guide
+"",,,,
+"",,Has a code-level security assessment been,,OWASP Application Security
+4.2,,undertaken?,Yes | No,Verification Standard (ASVS)
+"",If a code-level security assessment,,,
+"",has been undertaken for your,,,
+4.2.1,product,Provide evidence of the assessment report.,File,
+"",If a code-level security assessment,,,Information on CREST
+"",has been undertaken for your,Has the security assessment been undertaken by,,accredited c  ompanies
+4.2.2,product,an external body?,Yes | No,
+Display,Answer this question,,Response,
+"",,Question,,Supporting Information
+ID,if...,,Option,
+"",,Does the colour contrast of the text on your native app,,
+"",,comply with WCAG 2.0 AA level requirements? All text in,,
+5.1,,your product must have a contrast ratio of at least 4.5 : 1.,Yes | No,Information on the WCAG 2.0 guidelines.
+"",,Did you follow the 6 key principles under the human-,,
+"",,centred design process that conforms to the ISO 9241-210,,Information on the ISO Standard. This is a
+5.2,,Standard?,Yes | No,paid-for document.
+"",,What phases did your human-centred design process go,,
+5.3,,"through? For example discovery, alpha, beta, go live.",Free Text,
+"",,What user demographics were defined at the outset of,,
+5.4,,your product's development?,Free Text,
+5.5,,What user research informed your user needs?,Free Text,
+"",,"List each user need your product addresses, and the",,
+5.6,,acceptance criteria for each need.,,
+"",,How many times were versions of your product tested,0 | 1 | 2 | 3 |,
+5.7,,with users?,4+,
+"",If versions of your,Please list the type(s) of research conducted. For example,,
+"",product were tested,"lab testing, remote testing, popup testing, questionnaires,",,
+5.7.1,with users,etc.,Free Text,
+"",,"Before release, was your product evaluated for usability"
+"",,and accessibility with a representative sample of the user
+5.8,,demographic? Yes | No
+If your product was,,Throughout the evaluation of early versions and pre-
+evaluated for usability,,"release versions, what changes were made to your product"
+and accessibility before,,in light of the user feedback? Please provide
+5.8.1 release,,examples/evidence. Free Text
+If your product was,,
+evaluated for usability,,"Post-release, how do you continue to collect feedback"
+and accessibility before,,from users and make changes to your product based on
+5.8.2 release,,this feedback? Free Text
+If your product was,,
+evaluated for usability,,
+and accessibility before,,What is your post-release schedule of improvements to
+5.8.3 release,,your product? Free Text
+"",,1. Native iOS or Android app | 2. Progressive web app | 3.
+"",,Website
+5.9,,What platform(s) does your product use?
+"",,
+If your product is a native iOS or,,Native App
+Android app,,
+If your product is a,,What device OS accessibility features does your product
+native iOS or Android,,"use? For example VoiceOver (iOS), Dynamic Type (iOS),"
+5.9.1 app,,TalkBack (Android) or Select To Speak (Android). Free Text
+"",,
+If your product is a progressive,,Progressive Web App
+web app,,
+If your product is a,,Does your product comply with the baseline checklist for Information on the progressive web app
+5.10.1 progressive web app,,"progressive web apps, as defined  b y Goog le? Yes | No checklist"
+If your product is a,,"List any items on this checklist, which your progressive"
+5.10.1.1 progressive web app,,web app does not meet.  Free Text
+"",If your product is a Have you conducted accessibility testing on your,,
+5.11,progressive web app progressive web app?,Yes | No,
+"",If your product is a,,
+"",progressive web app,,
+"","and accessibility testing Provide evidence of this testing, including outcomes and",,
+5.11.1,has been conducted any planned further changes to improve accessibility.,Free Text,
+Websites,,,
+"",If your product is a,,
+5.12.1,website Is your website responsive?,Yes | No,
+"",If your product is a Does your website accessibility conform to WCAG 2.1 level,,Information Web Content Accessibility
+5.12.2,website AA?,Yes | No,Gudelines 2.0
+"",If your product is a Does your website provide text equivalents for every non-,,
+5.12.3,website text element within the product?,Yes | No,
+"",If your product is a,,Information on how to write and accessibility
+5.12.4,website Does your website provide an accessibility statement?,Yes | No,statement
+"",If your product is a,,
+"",website and provides,,
+"",an accessibility,,Information on how to write and accessibility
+5.12.4.1,st  atement Provide a link to your accessibility statement.,Free Text,statement
+"",If your product is a Have you conducted accessibility testing on your web,,
+5.12.5,website service?,Yes | No,
+"",If your product is a,,
+"",website and if you have,,
+"",conducted accessibility,,
+"","testing on your web Provide evidence of this testing, including outcomes and",,
+5.12.5.1,service any planned further changes to improve accessibility.,File,
+"","Can your product be used with keyboard-only control, and",,
+"","If your product is a with assistive technologies, such as screen readers and",,
+5.12.6,website screen magnifiers?,Yes | No,
+Display,,,
+"",Answer this question if...,Question Response Option,Supporting Information
+ID,,,
+"",,Does your product expose any Application Programming Interfaces Yes | No | Not,
+6.1,,,
+"",,(APIs) or integration channels for other consumers? Applicable,
+"",Your product exposes,,
+"",,Does your API adhere to the Government Digital Services (GDS) Yes | No | Partially,Information on API technical
+6.1.1,any APIs for other,,
+"",,Open API Best Practices? | Not Applicable,and data standards
+"",consumers,,
+"",Your product exposes,,
+"",any APIs for other,,
+"",,"For specific areas where best practices are not followed, list the",
+6.1.2,consumers and 'Partially',Free Text,
+"",,rationale and relevant mitigations put in place.,
+"",adheres to GDS Open API,,
+"",best practices,,
+"",Your product exposes,,
+"",any APIs for other,,
+6.1.3,consumers and GDS,State the reasons and why they are not applicable. Free Text,
+"",Open API best practices,,
+"",are 'Not Applicable',,
+6.2,,Is your product capable of exporting data in a standard format? Yes | No,
+"",Your product does not,,
+6.2.1,export data in a standard,State the reasons and relevant mitigations if it does not. Free Text,
+"",format,,
+6.3,,,
+"",,"Is your product a wearable or device, or does it integrate with them? Yes | No",
+"",Your product is a,,
+"",,Provide evidence of how it complies with ISO/IEEE 11073 Personal,Access the ISO Standard. This
+6.3.1,wearable or device or,Free Text,
+"",,Health Data (PHD) Standards.,is a paid-for document
+"",integrates with them,,
+Display,,,,
+Answer this question if...,,Question,Response Option,Supporting Information
+ID,,,,
+"",,Are the source code and any configuration items for,,
+7.1,,your product version controlled with all changes,Yes | No,
+"",,audited?,,
+Your product version,,,,
+7.1.1 controlled with all changes,,Provide details of your version control processes.,Free Text,
+audited,,,,
+"",,Do you have accreditation to any industry wide testing,,Information on ISO standards.
+7.2,,,Yes | No,
+"",,"standards such as ISO 9001, ISO 29119 etc?",,These are paid-for standards.
+You have accreditation to,,,,
+"",,What testing accreditation(s) do you have or are in the,,
+7.2.1 any industry wide testing,,,Free Text,
+"",,process of acquiring (including completion dates)?,,
+standards,,,,
+7.3,,Do you do any testing?,Yes | No,
+"",,,1. Non-Functional |,
+"",,What types of testing are being executed for your,,
+7.3.1 You do any testing,,,2. Functional | 3.,
+"",,product?,,
+"",,,Regression,
+Answer this section if you do functional,,,,
+"",,Non-Functional or Functional testing,,
+or non-functional testing,,,,
+"",,Are all significant issues identified in all test phases,,
+7.3.2,,,Yes | No,
+"",,resolved prior to release?,,
+"",,Briefly describe all of your testing activities and provide,,
+7.3.3,,,Free Text and File,
+"",,documentation to support them.,,
+"",,
+Answer this section if you do regression,Regression testing,
+testing,,
+"",Briefly describe all of your testing activities and provide,
+7.3.4,,Free Text and File
+"",documentation to support them.,
+7.3.5 You do not do testing,Provide a reason why no testing is being executed.,Free Text
+"",Describe your processes for accepting and responding,
+7.4,to technical faults from end users  and provide,Free Text and File
+"",documentation to support this.,
+"",Do you have the capacity to rollback to previous,
+7.5,,Yes | No
+"",versions of your product as and when required?,
+You can rollback to previous,Provide a brief outline of your rollback process and,
+7.5.1,,Free Text and File
+versions of your product,provide documentation to support this.,
+"",Do you proactively monitor running of systems and,
+7.6,system components to automatically identify faults and,Yes | No
+"",technical issues?,
+You proactively monitor,,
+systems to automatically,,
+7.6.1,Describe your monitoring processes and procedures.,Free Text
+identify faults and technical,,
+issues,,
+"",Do you have a documented roadmap for the future,
+7.7,,Yes | No
+"",development of your product?,
+You have a documented,,
+"","Provide details of planned development, technical",
+7.7.1 roadmap for the future,,Free Text
+"",updates and potential release dates.,
+development of your product,,
+7.7.2,"If you have a documentedroadmap for the futuredevelopment of your product","Provide details of how you will ensure the continuedavailability of your product.",,
+"",f you have a documented,,,
+"",,rovide details of how you will ensure the continued,,
+".7.2",oadmap for the future,,,
+"",,vailability of your product.,,
+"",evelopment of your product,,,
+7.8,,Do you have a plan for decommissioning your product?,Yes | No,
+".8",,o you have a plan for decommissioning your product?,es | No,
+7.8.1,"You have a plan fordecomissioning your product","Describe your processes for decommissioning yourproduct and dealing with any retained identifiable data.",Free Text,
+"",ou have a plan for,escribe your processes for decommissioning your,,
+".8.1",ree Text,,,
+"",ecomissioning your produc,roduct and dealing with any retained identifiable data.,,
+7.9,,"Do you have a plan for dealing with any retainedidentifiable data in the event that an individual stopsusing your product? For example by uninstalling orunsubscribing.",Yes | No | N/A,
+"",,o you have a plan for dealing with any retained,,
+dentifiable data in the event that an individual stops,,,,
+".9",,es | No | N/A,,
+sing your product? For example by uninstalling or,,,,
+nsubscribing.,,,,
+7.7.2
+".7.2"
+"If you have a documentedroadmap for the futuredevelopment of your product"
+f you have a documented
+oadmap for the future
+evelopment of your product
+"Provide details of how you will ensure the continuedavailability of your product."
+rovide details of how you will ensure the continued
+vailability of your product.
+""
+""
+""
+""
+7.8
+".8"
+""
+""
+Do you have a plan for decommissioning your product?
+o you have a plan for decommissioning your product?
+Yes | No
+es | No
+""
+""
+7.8.1
+".8.1"
+"You have a plan fordecomissioning your product"
+ou have a plan for
+ecomissioning your produc
+"Describe your processes for decommissioning yourproduct and dealing with any retained identifiable data."
+escribe your processes for decommissioning your
+roduct and dealing with any retained identifiable data.
+Free Text
+ree Text
+""
+""
+7.9
+".9"
+""
+""
+"Do you have a plan for dealing with any retainedidentifiable data in the event that an individual stopsusing your product? For example by uninstalling orunsubscribing."
+o you have a plan for dealing with any retained
+dentifiable data in the event that an individual stops
+sing your product? For example by uninstalling or
+nsubscribing.
+Yes | No | N/A
+es | No | N/A
+""
+""
+".9.1"
+ou have a plan for dealing
+ith retained identifiable
+ata if an individual stops
+sing your product
+escribe your processes for dealing with any retained
+dentifiable data in the event that an individual stops
+sing your product?
+ree Text
+""
